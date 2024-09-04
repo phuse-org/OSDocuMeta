@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "PHUSE WG : Open-Source Metadata Documentation (OSDocuMeta)"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - minutes.qmd
+      - aboutus.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual

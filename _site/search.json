@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the PHUSE Open-Source Metadata Documentation Working Group Site",
+    "section": "",
+    "text": "Historically, the use of proprietary statistical programming languages entailed the inclusion of general statements within the Statistical Analysis Plan (SAP) regarding the software and version employed for generating analyses. However, with the increasing adoption of open-source statistical programming languages, there is a necessity to provide detailed metadata for each package used, as a general statement is no longer adequate.\n\n\n\nThis project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process."
+  },
+  {
+    "objectID": "minutes/minutes.html",
+    "href": "minutes/minutes.html",
+    "title": "Minutes",
+    "section": "",
+    "text": "Agenda :\n\nIntroduce ourselves and what we want to get out of this WG.\nDiscuss and decide how we want to start this off and pick a template document we want to work with first (e.g. ADRG).\nHow we want to track our work (e.g. github project board - create issues and self-assign to the work we feel comfortable doing)\nFrequency of our catch-ups to get status updates on work.\nDiscuss FDA quarterly meeting presentation :\n\nHope this time works for you. If not, please let me know. First action is to create a set of slides to present at FDA quarterly meeting : 16 October at 14:00 BST. I was thinking we can create quarto md slides.\nActions/Issues & Timelines :\n\nKO meeting 04Sep2024.\nFirst draft of slides due 13Sep2024 (or sooner).\nReview and Feedback due 20Sep2024.\nUpdate and finalize slides due 27Sep2024.\nPractice presentation due TBD (anytime between 4 & 6)\nPresent 16Oct2024"
+  },
+  {
+    "objectID": "minutes/minutes.html#sep2024",
+    "href": "minutes/minutes.html#sep2024",
+    "title": "Minutes",
+    "section": "",
+    "text": "Agenda :\n\nIntroduce ourselves and what we want to get out of this WG.\nDiscuss and decide how we want to start this off and pick a template document we want to work with first (e.g. ADRG).\nHow we want to track our work (e.g. github project board - create issues and self-assign to the work we feel comfortable doing)\nFrequency of our catch-ups to get status updates on work.\nDiscuss FDA quarterly meeting presentation :\n\nHope this time works for you. If not, please let me know. First action is to create a set of slides to present at FDA quarterly meeting : 16 October at 14:00 BST. I was thinking we can create quarto md slides.\nActions/Issues & Timelines :\n\nKO meeting 04Sep2024.\nFirst draft of slides due 13Sep2024 (or sooner).\nReview and Feedback due 20Sep2024.\nUpdate and finalize slides due 27Sep2024.\nPractice presentation due TBD (anytime between 4 & 6)\nPresent 16Oct2024"
+  },
+  {
+    "objectID": "minutes.html",
+    "href": "minutes.html",
+    "title": "Minutes",
+    "section": "",
+    "text": "Agenda :\n\nIntroduce ourselves and what we want to get out of this WG.\nDiscuss and decide how we want to start this off and pick a template document we want to work with first (e.g. ADRG).\nHow we want to track our work (e.g. github project board - create issues and self-assign to the work we feel comfortable doing)\nFrequency of our catch-ups to get status updates on work.\nDiscuss FDA quarterly meeting presentation :\n\nHope this time works for you. If not, please let me know. First action is to create a set of slides to present at FDA quarterly meeting : 16 October at 14:00 BST. I was thinking we can create quarto md slides.\nActions/Issues & Timelines :\n\nKO meeting 04Sep2024.\nFirst draft of slides due 13Sep2024 (or sooner).\nReview and Feedback due 20Sep2024.\nUpdate and finalize slides due 27Sep2024.\nPractice presentation due TBD (anytime between 4 & 6)\nPresent 16Oct2024"
+  },
+  {
+    "objectID": "minutes.html#sep2024",
+    "href": "minutes.html#sep2024",
+    "title": "Minutes",
+    "section": "",
+    "text": "Agenda :\n\nIntroduce ourselves and what we want to get out of this WG.\nDiscuss and decide how we want to start this off and pick a template document we want to work with first (e.g. ADRG).\nHow we want to track our work (e.g. github project board - create issues and self-assign to the work we feel comfortable doing)\nFrequency of our catch-ups to get status updates on work.\nDiscuss FDA quarterly meeting presentation :\n\nHope this time works for you. If not, please let me know. First action is to create a set of slides to present at FDA quarterly meeting : 16 October at 14:00 BST. I was thinking we can create quarto md slides.\nActions/Issues & Timelines :\n\nKO meeting 04Sep2024.\nFirst draft of slides due 13Sep2024 (or sooner).\nReview and Feedback due 20Sep2024.\nUpdate and finalize slides due 27Sep2024.\nPractice presentation due TBD (anytime between 4 & 6)\nPresent 16Oct2024"
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Welcome to the PHUSE Open-Source Metadata Documentation Working Group Site",
+    "section": "",
+    "text": "Historically, the use of proprietary statistical programming languages entailed the inclusion of general statements within the Statistical Analysis Plan (SAP) regarding the software and version employed for generating analyses. However, with the increasing adoption of open-source statistical programming languages, there is a necessity to provide detailed metadata for each package used, as a general statement is no longer adequate."
+  },
+  {
+    "objectID": "index.html#mission",
+    "href": "index.html#mission",
+    "title": "Welcome to the PHUSE Open-Source Metadata Documentation Working Group Site",
+    "section": "",
+    "text": "This project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process."
+  },
+  {
+    "objectID": "aboutus.html",
+    "href": "aboutus.html",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "aboutus.html#lovemore-gavaka",
+    "href": "aboutus.html#lovemore-gavaka",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "aboutus.html#joel-laxamana",
+    "href": "aboutus.html#joel-laxamana",
+    "title": "About Us",
+    "section": "Joel Laxamana",
+    "text": "Joel Laxamana\nadd mini-bio here"
+  },
+  {
+    "objectID": "aboutus.html#nicholas-masel",
+    "href": "aboutus.html#nicholas-masel",
+    "title": "About Us",
+    "section": "Nicholas Masel",
+    "text": "Nicholas Masel\nadd mini-bio here"
+  }
+]

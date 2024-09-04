@@ -32,7 +32,7 @@ Hope this time works for you. If not, please let me know. First action is to cre
         -   7.4 Proprietary R Packages (Joel has some code for this, in R, essentially using SessionInfo() and {renv})
         -   eCTD structure.
 -   With these listed updates we want to make, we can utilize metadata to help fill in this information in the ADRG (Let's list write out specifications as to where )
--   Challenge the file format delivered to the FDA, not only .pdf, but can we additionally submit .qmd files (or other file formats) as well so that the ADRG can be reproduced on the Agency side to help better click on code from the ADRG to help execute. Note : https://www.fda.gov/media/85816/download eCTD specifications say we can submit .qmd for analysis, but can we also submit it as a form of ADRG documentation.
+-   Challenge the file format delivered to the FDA, not only .pdf, but can we additionally submit .qmd files (or other file formats) as well so that the ADRG can be reproduced on the Agency side to help better click on code from the ADRG to help execute. Note : [eCTD specifications](https://www.fda.gov/media/85816/download) say we can submit .qmd for analysis, but can we also submit it as a form of ADRG documentation.
 -   Do we want to bring up the possibility of creating an open-source package for this to help automate the use of metadata in the ADRG documentation.
 
 3.  Review and Feedback due 20Sep2024.

@@ -1,0 +1,28 @@
+---
+title: "PHUSE Open-Source Metadata Documentation"
+subtitle : "Meeting Minutes"
+author: "Joel, Nick, Lovemore"
+format: html
+editor: visual
+---
+
+## 04Sep2024
+
+Agenda :
+
+1.  Introduce ourselves and what we want to get out of this WG.
+2.  Discuss and decide how we want to start this off and pick a template document we want to work with first (e.g. ADRG).
+3.  How we want to track our work (e.g. github project board - create issues and self-assign to the work we feel comfortable doing)
+4.  Frequency of our catch-ups to get status updates on work.
+5.  Discuss FDA quarterly meeting presentation :
+
+Hope this time works for you. If not, please let me know. First action is to create a set of slides to present at FDA quarterly meeting : 16 October at 14:00 BST. I was thinking we can create quarto md slides.
+
+Actions/Issues & Timelines :
+
+1.  KO meeting 04Sep2024.
+2.  First draft of slides due 13Sep2024 (or sooner).
+3.  Review and Feedback due 20Sep2024.
+4.  Update and finalize slides due 27Sep2024.
+5.  Practice presentation due TBD (anytime between 4 & 6)
+6.  Present 16Oct2024

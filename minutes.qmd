@@ -1,0 +1,87 @@
+---
+title: "Minutes"
+---
+
+## 04Sep2024
+
+#### Agenda :
+
+1.  Introduce ourselves and what we want to get out of this WG.
+2.  Discuss and decide how we want to start this off and pick a template document we want to work with first (e.g. ADRG).
+3.  How we want to track our work (e.g. github project board - create issues and self-assign to the work we feel comfortable doing)
+4.  Frequency of our catch-ups to get status updates on work.
+5.  Discuss FDA quarterly meeting presentation :
+
+Hope this time works for you. If not, please let me know. First action is to create a set of slides to present at FDA quarterly meeting : 16 October at 14:00 BST. I was thinking we can create quarto md slides.
+
+#### Actions/Issues & Timelines :
+
+1.  KO meeting 04Sep2024.
+2.  First draft of slides due 13Sep2024 (or sooner).
+
+-   Intro : List out the current ADRG template we have now and how we want to update the template to include open-source metadata - Lovemore
+-   Within the current ADRG from Pinnacle 21 vs an ADRG where Open-source submission was used, list out the differences and note these differecnes as the updates we want to make to the current ADRG template to be Open-Source friendly.
+    -   e.g., List out all of the tables in this ADRG https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf that we can automate and generate sourcing available metadata
+        -   1.2 Study Data Standards and Dictionary Inventory (Can this come from the TS SDTM domain?)
+        -   3.1 Core Variables (come from the define.xml specificaions)
+        -   4.2 Data Dependencies (may need to some code scraping to read through each ADaM program and identify any other ADaMs being sourced in to create the ADaM)
+        -   5.2 Analysis Datasets (read in all of the .xpts in the submission package to extract the metadata for each ADaM to fill in this table)
+        -   6.2 Issues Summary (extract report from P21)
+        -   7.2 ADaM Programs (read in all of the .xpts in the submission package to extract the list of ADaMs and it's label for each ADaM to fill in this table)
+        -   7.3 Analysis Output Programs (this one may be tricky as there are many study specific Selection Criteria to include)
+        -   7.4 Proprietary R Packages (Joel has some code for this, in R, essentially using SessionInfo() and {renv})
+        -   eCTD structure.
+-   With these listed updates we want to make, we can utilize metadata to help fill in this information in the ADRG (Let's list write out specifications as to where )
+-   Challenge the file format delivered to the FDA, not only .pdf, but can we additionally submit .qmd files (or other file formats) as well so that the ADRG can be reproduced on the Agency side to help better click on code from the ADRG to help execute. Note : https://www.fda.gov/media/85816/download eCTD specifications say we can submit .qmd for analysis, but can we also submit it as a form of ADRG documentation.
+-   Do we want to bring up the possibility of creating an open-source package for this to help automate the use of metadata in the ADRG documentation.
+
+3.  Review and Feedback due 20Sep2024.
+
+-   Things to think about :
+    -   We want this template to be able to support multiple open-source languages. Currently, R is the go-to in Clinical Trial submission now in the industry for open-source. Do we want to create an ADRG based on R as first go or do we want to add the complexity of having to think about multiple open-source programming languages? It would be good to keep the template as simple and user-friendly as possible. Have a think offline.
+
+4.  Update and finalize slides due 27Sep2024.
+5.  Practice presentation due TBD (anytime between 4 & 6)
+6.  Present 16Oct2024
+
+#### Other actions :
+
+-   Nicholas Masel to
+
+    -   find someone from CDISC as a POC for any questions we may have during this project.
+
+    -   add Steven H. from JnJ to this WG - Haesendonckx, Steven \[JRDBE\] [shaesen2\@ITS.JNJ.com](mailto:shaesen2@ITS.JNJ.com){.email}
+
+-   Hanming to
+
+    -   find out who from the FDA can get us invited to the next FDA quarterly meeting.
+
+    -   who will be the assigned FDA person(s) moving forward to collaborate with us on this project.
+
+-   Joel to create base .qmd slides for FDA meeting.
+
+-   All to contribute to the .qmd slides per the timelines above.
+
+-------- copy below and paste above, then update accordingly ---------
+
+# Template for upcoming meetings :
+
+## ddmmmyyyy
+
+#### Agenda :
+
+1.  item 1
+2.  item 2
+3.  etc...
+
+#### Actions/Issues & Timelines :
+
+1.  action/issue 1 & planned due date
+2.  action/issue 2 & planned due date
+3.  etc...
+
+#### Other Notes or Actions :
+
+-   add any other business here
+
+-   etc...

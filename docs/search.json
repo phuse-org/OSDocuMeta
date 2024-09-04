@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Welcome to the PHUSE Open-Source Metadata Documentation Working Group Site",
     "section": "",
-    "text": "Link to PHUSE Working Group Proposal, here.\n\n\nHistorically, the use of proprietary statistical programming languages entailed the inclusion of general statements within the Statistical Analysis Plan (SAP) regarding the software and version employed for generating analyses. However, with the increasing adoption of open-source statistical programming languages, there is a necessity to provide detailed metadata for each package used, as a general statement is no longer adequate.\n\n\n\nThis project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process."
+    "text": "Link to PHUSE Working Group Proposal, here.\n\n\nHistorically, the use of proprietary statistical programming languages entailed the inclusion of general statements within the Statistical Analysis Plan (SAP) regarding the software and version employed for generating analyses. However, with the increasing adoption of open-source statistical programming languages, there is a necessity to provide detailed metadata for each package used, as a general statement is no longer adequate.\n\n\n\nThis project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.\nGithub"
   },
   {
     "objectID": "index.html#background",
@@ -18,7 +18,7 @@
     "href": "index.html#mission",
     "title": "Welcome to the PHUSE Open-Source Metadata Documentation Working Group Site",
     "section": "",
-    "text": "This project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process."
+    "text": "This project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.\nGithub"
   },
   {
     "objectID": "minutes.html",
@@ -101,8 +101,8 @@
     "objectID": "references/osdocumeta_proposal_fda_qtrly.html#add-background-and-mission-statement---see-home-page-of-website.",
     "href": "references/osdocumeta_proposal_fda_qtrly.html#add-background-and-mission-statement---see-home-page-of-website.",
     "title": "ADRG Template Update Proposal : An Open-Source Edition",
-    "section": "Add background and mission statement - see Home page of website.",
-    "text": "Add background and mission statement - see Home page of website.\n\nBackground\nMission"
+    "section": "",
+    "text": "Background\nMission"
   },
   {
     "objectID": "references/osdocumeta_proposal_fda_qtrly.html#pics-of-us-and-2-sentences-about-each-of-us",
@@ -152,5 +152,12 @@
     "title": "ADRG Template Update Proposal : An Open-Source Edition",
     "section": "Do we want to bring up the possibility of creating an open-source package for this to help automate the use of metadata in the ADRG documentation.",
     "text": "Do we want to bring up the possibility of creating an open-source package for this to help automate the use of metadata in the ADRG documentation.\n\n{osdocumeta}"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "",
+    "text": "Background\nMission"
   }
 ]

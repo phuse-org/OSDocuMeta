@@ -14,4 +14,6 @@ Historically, the use of proprietary statistical programming languages entailed 
 
 This project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.
 
+[Github](https://phuse-org.github.io/OSDocuMeta/)
+
 ## 

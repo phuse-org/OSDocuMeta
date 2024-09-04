@@ -21,7 +21,7 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
 -   Intro : List out the current ADRG template we have now and how we want to update the template to include open-source metadata - Lovemore
 -   Within the current ADRG from Pinnacle 21 vs an ADRG where Open-source submission was used, list out the differences and note these differecnes as the updates we want to make to the current ADRG template to be Open-Source friendly.
-    -   e.g., List out all of the tables in this ADRG https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf that we can automate and generate sourcing available metadata
+    -   e.g., List out all of the tables in this ADRG, [here](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf), that we can automate and generate sourcing available metadata
         -   1.2 Study Data Standards and Dictionary Inventory (Can this come from the TS SDTM domain?)
         -   3.1 Core Variables (come from the define.xml specificaions)
         -   4.2 Data Dependencies (may need to some code scraping to read through each ADaM program and identify any other ADaMs being sourced in to create the ADaM)

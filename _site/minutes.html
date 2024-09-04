@@ -96,6 +96,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./minutes.html" aria-current="page"> 
 <span class="menu-text">Minutes</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./aboutus.html"> 
+<span class="menu-text">About Us</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -113,6 +117,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#sep2024" id="toc-sep2024" class="nav-link active" data-scroll-target="#sep2024">04Sep2024</a></li>
+  <li><a href="#template-for-upcoming-meetings" id="toc-template-for-upcoming-meetings" class="nav-link" data-scroll-target="#template-for-upcoming-meetings">Template for upcoming meetings :</a>
+  <ul class="collapse">
+  <li><a href="#ddmmmyyyy" id="toc-ddmmmyyyy" class="nav-link" data-scroll-target="#ddmmmyyyy">ddmmmyyyy</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -140,7 +148,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="sep2024" class="level2">
 <h2 class="anchored" data-anchor-id="sep2024">04Sep2024</h2>
-<p>Agenda :</p>
+<section id="agenda" class="level4">
+<h4 class="anchored" data-anchor-id="agenda">Agenda :</h4>
 <ol type="1">
 <li>Introduce ourselves and what we want to get out of this WG.</li>
 <li>Discuss and decide how we want to start this off and pick a template document we want to work with first (e.g.&nbsp;ADRG).</li>
@@ -149,17 +158,98 @@ ul.task-list li input[type="checkbox"] {
 <li>Discuss FDA quarterly meeting presentation :</li>
 </ol>
 <p>Hope this time works for you. If not, please let me know. First action is to create a set of slides to present at FDA quarterly meeting : 16 October at 14:00 BST. I was thinking we can create quarto md slides.</p>
-<p>Actions/Issues &amp; Timelines :</p>
+</section>
+<section id="actionsissues-timelines" class="level4">
+<h4 class="anchored" data-anchor-id="actionsissues-timelines">Actions/Issues &amp; Timelines :</h4>
 <ol type="1">
 <li>KO meeting 04Sep2024.</li>
 <li>First draft of slides due 13Sep2024 (or sooner).</li>
+</ol>
+<ul>
+<li>Intro : List out the current ADRG template we have now and how we want to update the template to include open-source metadata - Lovemore</li>
+<li>Within the current ADRG from Pinnacle 21 vs an ADRG where Open-source submission was used, list out the differences and note these differecnes as the updates we want to make to the current ADRG template to be Open-Source friendly.
+<ul>
+<li>e.g., List out all of the tables in this ADRG https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf that we can automate and generate sourcing available metadata
+<ul>
+<li>1.2 Study Data Standards and Dictionary Inventory (Can this come from the TS SDTM domain?)</li>
+<li>3.1 Core Variables (come from the define.xml specificaions)</li>
+<li>4.2 Data Dependencies (may need to some code scraping to read through each ADaM program and identify any other ADaMs being sourced in to create the ADaM)</li>
+<li>5.2 Analysis Datasets (read in all of the .xpts in the submission package to extract the metadata for each ADaM to fill in this table)</li>
+<li>6.2 Issues Summary (extract report from P21)</li>
+<li>7.2 ADaM Programs (read in all of the .xpts in the submission package to extract the list of ADaMs and it’s label for each ADaM to fill in this table)</li>
+<li>7.3 Analysis Output Programs (this one may be tricky as there are many study specific Selection Criteria to include)</li>
+<li>7.4 Proprietary R Packages (Joel has some code for this, in R, essentially using SessionInfo() and {renv})</li>
+<li>eCTD structure.</li>
+</ul></li>
+</ul></li>
+<li>With these listed updates we want to make, we can utilize metadata to help fill in this information in the ADRG (Let’s list write out specifications as to where )</li>
+<li>Challenge the file format delivered to the FDA, not only .pdf, but can we additionally submit .qmd files (or other file formats) as well so that the ADRG can be reproduced on the Agency side to help better click on code from the ADRG to help execute. Note : https://www.fda.gov/media/85816/download eCTD specifications say we can submit .qmd for analysis, but can we also submit it as a form of ADRG documentation.</li>
+<li>Do we want to bring up the possibility of creating an open-source package for this to help automate the use of metadata in the ADRG documentation.</li>
+</ul>
+<ol start="3" type="1">
 <li>Review and Feedback due 20Sep2024.</li>
+</ol>
+<ul>
+<li>Things to think about :
+<ul>
+<li>We want this template to be able to support multiple open-source languages. Currently, R is the go-to in Clinical Trial submission now in the industry for open-source. Do we want to create an ADRG based on R as first go or do we want to add the complexity of having to think about multiple open-source programming languages? It would be good to keep the template as simple and user-friendly as possible. Have a think offline.</li>
+</ul></li>
+</ul>
+<ol start="4" type="1">
 <li>Update and finalize slides due 27Sep2024.</li>
 <li>Practice presentation due TBD (anytime between 4 &amp; 6)</li>
 <li>Present 16Oct2024</li>
 </ol>
+</section>
+<section id="other-actions" class="level4">
+<h4 class="anchored" data-anchor-id="other-actions">Other actions :</h4>
+<ul>
+<li><p>Nicholas Masel to</p>
+<ul>
+<li><p>find someone from CDISC as a POC for any questions we may have during this project.</p></li>
+<li><p>add Steven H. from JnJ to this WG - Haesendonckx, Steven [JRDBE] <a href="mailto:shaesen2@ITS.JNJ.com" class="email">shaesen2@ITS.JNJ.com</a></p></li>
+</ul></li>
+<li><p>Hanming to</p>
+<ul>
+<li><p>find out who from the FDA can get us invited to the next FDA quarterly meeting.</p></li>
+<li><p>who will be the assigned FDA person(s) moving forward to collaborate with us on this project.</p></li>
+</ul></li>
+<li><p>Joel to create base .qmd slides for FDA meeting.</p></li>
+<li><p>All to contribute to the .qmd slides per the timelines above.</p></li>
+</ul>
+<p>——– copy below and paste above, then update accordingly ———</p>
+</section>
+</section>
+<section id="template-for-upcoming-meetings" class="level1">
+<h1>Template for upcoming meetings :</h1>
+<section id="ddmmmyyyy" class="level2">
+<h2 class="anchored" data-anchor-id="ddmmmyyyy">ddmmmyyyy</h2>
+<section id="agenda-1" class="level4">
+<h4 class="anchored" data-anchor-id="agenda-1">Agenda :</h4>
+<ol type="1">
+<li>item 1</li>
+<li>item 2</li>
+<li>etc…</li>
+</ol>
+</section>
+<section id="actionsissues-timelines-1" class="level4">
+<h4 class="anchored" data-anchor-id="actionsissues-timelines-1">Actions/Issues &amp; Timelines :</h4>
+<ol type="1">
+<li>action/issue 1 &amp; planned due date</li>
+<li>action/issue 2 &amp; planned due date</li>
+<li>etc…</li>
+</ol>
+</section>
+<section id="other-notes-or-actions" class="level4">
+<h4 class="anchored" data-anchor-id="other-notes-or-actions">Other Notes or Actions :</h4>
+<ul>
+<li><p>add any other business here</p></li>
+<li><p>etc…</p></li>
+</ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

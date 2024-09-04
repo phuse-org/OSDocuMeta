@@ -68,5 +68,89 @@
     "title": "About Us",
     "section": "Nicholas Masel",
     "text": "Nicholas Masel\nadd mini-bio here"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#getting-up",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#getting-up",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#breakfast",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#breakfast",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#dinner",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#dinner",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Dinner",
+    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#going-to-sleep",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#going-to-sleep",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#add-background-and-mission-statement---see-home-page-of-website.",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#add-background-and-mission-statement---see-home-page-of-website.",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Add background and mission statement - see Home page of website.",
+    "text": "Add background and mission statement - see Home page of website.\n\nBackground\nMission"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#pics-of-us-and-2-sentences-about-each-of-us",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#pics-of-us-and-2-sentences-about-each-of-us",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Pics of us and 2 sentences about each of us",
+    "text": "Pics of us and 2 sentences about each of us\n\nLovemore Gavaka (Co-Lead)\nJoel Laxamana (Co-Lead)\nNicholas Masel\nSteven Haesendonckx\n… add others\nChris Price (Sponsor)"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#share-the-current-adrg-template-we-have-now-and-how-we-want-to-update-the-template-to-include-open-source-metadata---lovemore",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#share-the-current-adrg-template-we-have-now-and-how-we-want-to-update-the-template-to-include-open-source-metadata---lovemore",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Share the current ADRG template we have now and how we want to update the template to include open-source metadata - Lovemore",
+    "text": "Share the current ADRG template we have now and how we want to update the template to include open-source metadata - Lovemore\n\nCurrent ADRG Template\nHow we want to update the template"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#current-adrg-from-pinnacle-21-vs-an-adrg-where-open-source-submission-was-used",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#current-adrg-from-pinnacle-21-vs-an-adrg-where-open-source-submission-was-used",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Current ADRG from Pinnacle 21 vs an ADRG where Open-source submission was used,",
+    "text": "Current ADRG from Pinnacle 21 vs an ADRG where Open-source submission was used,"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#list-out-the-differences-and-note-these-differecnes-as-the-updates-we-want-to-make-to-the-current-adrg-template-to-be-open-source-friendly.",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#list-out-the-differences-and-note-these-differecnes-as-the-updates-we-want-to-make-to-the-current-adrg-template-to-be-open-source-friendly.",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "list out the differences and note these differecnes as the updates we want to make to the current ADRG template to be Open-Source friendly.",
+    "text": "list out the differences and note these differecnes as the updates we want to make to the current ADRG template to be Open-Source friendly."
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#list-out-all-of-the-tables-in-this-adrg-here-that-we-can-automate-and-generate-sourcing-available-metadata",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#list-out-all-of-the-tables-in-this-adrg-here-that-we-can-automate-and-generate-sourcing-available-metadata",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "List out all of the tables in this ADRG, here, that we can automate and generate sourcing available metadata",
+    "text": "List out all of the tables in this ADRG, here, that we can automate and generate sourcing available metadata\n\n1.2 Study Data Standards and Dictionary Inventory (Can this come from the TS SDTM domain?)\n3.1 Core Variables (come from the define.xml specificaions) -4.2 Data Dependencies (may need to some code scraping to read through each ADaM program and identify any other ADaMs being sourced in to create the ADaM) -5.2 Analysis Datasets (read in all of the .xpts in the submission package to extract the metadata for each ADaM to fill in this table) -6.2 Issues Summary (extract report from P21) -7.2 ADaM Programs (read in all of the .xpts in the submission package to extract the list of ADaMs and it’s label for each ADaM to fill in this table) -7.3 Analysis Output Programs (this one may be tricky as there are many study specific Selection Criteria to include) -7.4 Proprietary R Packages (Joel has some code for this, in R, essentially using SessionInfo() and {renv}) eCTD structure.\nWith these listed updates we want to make, we can utilize metadata to help fill in this information in the ADRG"
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#challenge-the-file-format-delivered-to-the-fda-not-only-.pdf-but-can-we-additionally-submit-.qmd-files-or-other-file-formats-as-well-so-that-the-adrg-can-be-reproduced-on-the-agency-side-to-help-better-click-on-code-from-the-adrg-to-help-execute.-note-ectd-specifications-say-we-can-submit-.qmd-for-analysis-but-can-we-also-submit-it-as-a-form-of-adrg-documentation.",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#challenge-the-file-format-delivered-to-the-fda-not-only-.pdf-but-can-we-additionally-submit-.qmd-files-or-other-file-formats-as-well-so-that-the-adrg-can-be-reproduced-on-the-agency-side-to-help-better-click-on-code-from-the-adrg-to-help-execute.-note-ectd-specifications-say-we-can-submit-.qmd-for-analysis-but-can-we-also-submit-it-as-a-form-of-adrg-documentation.",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Challenge the file format delivered to the FDA, not only .pdf, but can we additionally submit .qmd files (or other file formats) as well so that the ADRG can be reproduced on the Agency side to help better click on code from the ADRG to help execute. Note : eCTD specifications say we can submit .qmd for analysis, but can we also submit it as a form of ADRG documentation.",
+    "text": "Challenge the file format delivered to the FDA, not only .pdf, but can we additionally submit .qmd files (or other file formats) as well so that the ADRG can be reproduced on the Agency side to help better click on code from the ADRG to help execute. Note : eCTD specifications say we can submit .qmd for analysis, but can we also submit it as a form of ADRG documentation."
+  },
+  {
+    "objectID": "references/osdocumeta_proposal_fda_qtrly.html#do-we-want-to-bring-up-the-possibility-of-creating-an-open-source-package-for-this-to-help-automate-the-use-of-metadata-in-the-adrg-documentation.",
+    "href": "references/osdocumeta_proposal_fda_qtrly.html#do-we-want-to-bring-up-the-possibility-of-creating-an-open-source-package-for-this-to-help-automate-the-use-of-metadata-in-the-adrg-documentation.",
+    "title": "ADRG Template Update Proposal : An Open-Source Edition",
+    "section": "Do we want to bring up the possibility of creating an open-source package for this to help automate the use of metadata in the ADRG documentation.",
+    "text": "Do we want to bring up the possibility of creating an open-source package for this to help automate the use of metadata in the ADRG documentation.\n\n{osdocumeta}"
   }
 ]

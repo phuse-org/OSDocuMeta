@@ -1,0 +1,84 @@
+---
+title: "Problem Statement"
+author: "OSDocuMeta Working Group"
+---
+
+## PHUSE Working Group Proposal - Mission
+
+This project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the **versions of statistical packages and procedures** is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.
+
+## Introduction and review of problem statement
+
+*Note: In the following discussion for Proprietary Statistical Programming Languages, SAS will be used as an example and for Open Source, R will be used as an example.*
+
+As per the [Study Data Technical Conformance Guide (version 5.7)](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/study-data-technical-conformance-guide-technical-specifications-document) section 4.1.2.10 on software Programs, Sponsors are required to provide the source code used to generate all ADaM datasets, tables, and figures linked to primary and secondary efficacy analyses. The source code should be submitted in single byte ASCII text format, with details of the specific software (version and operating system) specified in the ADRG.
+
+Section 2.3 of the Study Data Technical Conformance Guide (version 5.7) highlights the significance of the Analysis Data Reviewer’s Guide (ADRG) as a crucial component of a standards-compliant analysis data submission for clinical trials. The ADRG offers FDA reviewers essential context for analysis datasets and terminology within regulatory product submissions. While the guide does not specify a specific template, an example can be accessed at <https://advance.phuse.global/display/WEL/Deliverables.> It's important to note that the ADRG intentionally replicates key information from other submission documents (e.g., protocol, statistical analysis plan (SAP), clinical study report, define.xml) to provide FDA reviewers with a centralized reference for the analysis datasets. Additionally, some sponsors also outline the software used for analysis in the SAP.
+
+### Proprietary Statistical Programming Languages
+
+When using Proprietary Statistical Programming Languages such as SAS, specifying the SAS version is adequate. Each SAS version validates and includes all procedures and functions within that version, obviating the need to detail versions of individual functions/procedures. The specified SAS version is deemed comprehensive, enabling regulatory authorities to rerun the submitted programs. Additionally, any custom functions developed by the sponsor should also be submitted.
+
+**ADRG Example1: PhUSE ADRG Template Version**
+
+[PhUSE ADRG Template Version 2019-07-18](https://advance.phuse.global/display/WEL/Analysis+Data+Reviewer%27s+Guide+(ADRG)+Package) - section 7: Submission of Programs.
+
+supporting text: *All SAS programs for analysis datasets and primary and secondary efficacy results are submitted. They were all created on a SAS platform using version 9.3. The internal reference date used to create dates in ADaM datasets is January 1, 1960.*
+
+**ADRG Example1:**
+
+Section 7: Submission of Programs supporting text: *All programs for analysis datasets as well as primary safety and efficacy results are submitted as shown below. All programs were created on a SAS platform using 9.4.*
+
+### Open-Source software
+
+The emergence of Open-Source software brings new complexities. For instance, in R, while each version comes with base packages/functions, there can be distinct versions of non-base functions/packages. This presents two key issues:
+
+1.  Documenting the version of R and non-base packages used in the delivery (base R packages need not be specified as they are inherent to the R version). This also provides an opportunity to document custom functions, which is comparatively easier than in SAS.
+2.  Recreating the programming environment.
+
+Given that the submission using open source is still relatively new, it would greatly benefit the industry to have a common approach through industry guidance on the optimal way to submit this information.
+
+**ADRG Example1: R Submission Pilot 3**
+
+In the [R Submission Pilot 3 ADRG](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf), section 7 addresses challenge 1 as follows:
+
+*7.1 Description*: The sponsor has provided all programs for analysis results. They are all created on a Linux platform using R version 4.2.3.
+
+*7.4 Proprietary R Packages and 7.5 Open-source R Analysis Packages*
+
+Challenge 2 is covered in 9.1 Appendix 1: Pilot 3 Installation and Usage.
+
+**ADRG Example2: Novo Nordisk R submission**
+
+Novo Nordisk has furnished a separate document, [Instructions to programs in R](https://github.com/NNaikp/phuse-css-2023/blob/main/submission-files/instructions-to-programs-in-r.Rmd), containing details on Submission files, Software requirements, Recreation of the R environment, and running the programs.
+
+### Questions/Mission for the WG
+
+#### Main
+
+Regarding Challenge 1 and Challenge 2:
+
+-   Is the ADRG the appropriate document to include the version of R and associated packages?
+-   Should this information be documented in the SAP as well?
+-   Do we require a separate document to complement the ADRG, addressing Challenge 1 and 2 as illustrated in the Novo Nordisk example?
+
+#### Other
+
+***Situation***: As per the Study Data Technical Conformance Guide, the ADRG for clinical data should be named 'adrg.pdf' and submitted in PDF format.
+
+***Question***: Given that the document contains nonbinding recommendations, are regulatory authorities open to alternative submission formats such as Quarto/Rmd/md for document generation and accepting rendered documents in formats like html?
+
+***Situation***: Once challenges 1 and 2 have been addressed, the regulator will require analysis results metadata for all tables in the submission, available in the define.xml. This metadata includes essential information for recreating specific analysis results, presented in a standard format, encompassing the analysis dataset, selection criteria, primary variable, and model statements.
+
+***Question***: Is it within the purview of this group to tackle challenges 1 and 2 and devise methods to provide the analysis metadata (essentially creating a new ADRG template)?
+
+***Situation***: It is essential to review the requirements of other regulatory agencies regarding software and programs.
+
+***Question***: We should also verify the requirements of other agencies such as the European Medicines Agency (EMA), the Chinese National Medical Products Administration (NMPA), the Japanese Pharmaceuticals and Medical Devices Agency (PMDA), and so forth.
+
+### References
+
+1.  FDA Study Data Technical Conformance Guide (version 5.7): [FDA Study Data Technical Conformance Guide](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/study-data-technical-conformance-guide-technical-specifications-document)
+2.  Analysis Data Reviewer's Guide (ADRG) Package: [Analysis Data Reviewer's Guide (ADRG) Package](https://advance.phuse.global/display/WEL/Analysis+Data+Reviewer%27s+Guide+(ADRG)+Package)
+3.  R Consortium Pilot 3 ADRG: [R Consortium Pilot 3 ADRG](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf)
+4.  Instructions to Programs in R: [Instructions to Programs in R](https://github.com/NNaikp/phuse-css-2023/blob/main/submission-files/instructions-to-programs-in-r.Rmd)

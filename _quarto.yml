@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - minutes.qmd
+      - references/problem_statement.qmd
       - aboutus.qmd
 
 format:

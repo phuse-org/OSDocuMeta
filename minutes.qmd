@@ -62,6 +62,30 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
 -   All to contribute to the .qmd slides per the timelines above.
 
+## 18Sep2024
+
+#### Agenda :
+
+1.  Get google accounts from the team members to collaborate on google slides for FDA quarterly meeting presentation : [Enhancing Clinical Trials FDA Submission Documentation through the Power of Metadata - OSDocuMetaWG](https://docs.google.com/presentation/d/1LI8LmJDYTegKMLlJmVlH3iFEF9KO24gchKtM4X1DfG4/edit?usp=sharing)
+
+2.  We should connect with the PHUSE WG who created the ADRG templates initially.
+
+3.  We should connect with FDA, Paul and HyeSoo, YounKyeong to gain feedback on where they can see Open-Source documentation can go for FDA submissions.
+
+#### Actions/Issues & Timelines :
+
+1.  Ensure everyone has access to collaborate and edit the google slides by end of the week.
+
+2.  We need to draft these slides by the end of next week then send to team to review.
+
+3.  Finalize these slides by the end of the Month.
+
+4.  The slides have assignments on them so we know who is working on which content, but feel free to collaboarate on each others content as needed.
+
+5.  Joel to send email for bullet 3.
+
+6.  Lovemore to send email for bullet 2.
+
 -------- copy below and paste above, then update accordingly ---------
 
 # Template for upcoming meetings :

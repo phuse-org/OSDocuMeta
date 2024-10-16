@@ -86,6 +86,98 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
 6.  Lovemore to send email for bullet 2.
 
+## 16Oct2024
+
+\
+**Attendees:** Lovemore Gakava, Nicholas Masel, Steven Haesendonckx, Joel Laxamana\
+**Facilitator:** Joel Laxamana
+
+#### **Agenda:**
+
+1.  Feedback from team on ADRG Template Updates and Process - PHUSE/FDA Quarterly meeting presentation.
+
+    -   [Pre-recording](https://drive.google.com/file/d/1C3DNZaGuEiQYqKlocLPuNDgUoOVAGbpI/view?usp=drive_link)
+
+    -   [Slides](https://docs.google.com/presentation/d/102NiwqffXKVK5v83kc--MMdEnYsDIZJ4/edit?usp=drive_link&ouid=103991081896680964420&rtpof=true&sd=true)
+
+2.  Coordination and Feedback from Key Stakeholders
+
+3.  Future Meetings and Next Steps
+
+#### **Discussion Points:**
+
+1.  **Feedback on ADRG Template Updates and Process:**
+
+    -   **Feedback from Team Members:**
+
+        -   Presentation went well.
+
+        -   The team is awaiting feedback from a key colleague from Pfizer, Christine Rossin who has a stake in updating the ADRG.
+
+        -   The necessity of ensuring the ADRG updates align with the expectations of stakeholders. For our first delivery do we want to include everything we mentioned in our slides or piece-meal our work and deliver in iterative approaches with timelines for each milestone?
+
+    -   **External Feedback:**
+
+        -   Plan to check in with Mike Stackhouse to get his input after he reviews the meeting recording.
+
+        -   Need to get insights from an FDA contact (Nick's mention) if they were on this morning's PHUSE/FDA Quarterly call.
+
+2.  **Coordination and Feedback from Key Stakeholders:**
+
+    -   **David Epstein's Role:**
+
+        -   David Epstein, involved with ADRG template work in the past, might provide valuable input and help engage more contributors.
+
+        -   Communication with David planned post-meeting to gather and facilitate feedback, potentially via GitHub or alternative platforms for those without GitHub accounts.
+
+    -   **Future Communications:**
+
+        -   Follow-up emails post-meeting to ensure any unanswered questions are collected and addressed.
+
+        -   Nick will check for additional FDA members interested in the ADRG updates during the upcoming PHUSE meeting.
+
+    -   **Enhancements and Tools:**
+
+        -   Discussed creating a tool and an R package to bring in metadata effectively.
+
+        -   Importance of standardizing the ADRG template for future open-source submissions to drive consistency and efficiency in the industry.
+
+3.  **Future Meetings and Next Steps:**
+
+    -   **Internal Coordination:**
+
+        -   Plan to migrate ADRG quarto markdown file to the PHUSE git area to continue work on this.
+
+        -   Testing the reproduction of the ADRG with metadata approaches. See List of other Metadata Opportunities slide in presentation.
+
+    -   **Timeline and Deliverables:**
+
+        -   Aim to schedule the next working group kickoff by mid-November.
+
+        -   Assignments on updating ADRG to be determined.
+
+        -   Emphasis on clear planning and setting deliverable dates.
+
+    -   **Communication Plans:**
+
+        -   Regular updates and feedback sessions to ensure all members are aligned.
+
+        -   Initiatives to include new members from upcoming meetings and engagements.
+
+**Action Items:**
+
+1.  **Follow-Up with Key Contacts:**
+
+    -   Nicholas to follow up with Mike Stackhouse as well as others in the PHUSE meeting this coming Friday, 18Oct2024, regarding any further feedback or points to consider before we begin work.
+
+    -   Joel to contact David Epstein regarding additional member engagement and feedback collection methods from the audience in the FDA quarterly meeting this morning.
+
+2.  **Prepare for Next Meetings:**
+
+    -   Joel to prepare the ADRG markdown file for migration and further testing.
+
+    -   Schedule next working group meeting in November 2025 and ensure clear objectives and tasks are assigned.
+
 -------- copy below and paste above, then update accordingly ---------
 
 # Template for upcoming meetings :

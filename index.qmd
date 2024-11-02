@@ -4,8 +4,6 @@ title: ""
 
 # **Welcome to the PHUSE Open-Source Metadata Documentation Working Group Site**
 
-Link to PHUSE Working Group Proposal, [here](https://github.com/phuse-org/OSDocuMeta/blob/main/references/PHUSE_OSDocuMeta_WG_mission_statement.pdf).
-
 ## Background
 
 Historically, the use of proprietary statistical programming languages entailed the inclusion of general statements within the Statistical Analysis Plan (SAP) regarding the software and version employed for generating analyses. However, with the increasing adoption of open-source statistical programming languages, there is a necessity to provide detailed metadata for each package used, as a general statement is no longer adequate.
@@ -13,6 +11,17 @@ Historically, the use of proprietary statistical programming languages entailed 
 ## Mission
 
 This project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.
+
+## Proposal
+
+PHUSE Working Group Request
+
+![](/references/PHUSE_OSDocuMeta_WG_mission_statement.pdf){width=100% height=1000px}
+
+## Presentation
+PHUSE/FDA Quarterly meeting presentation. Presented on 16OCT2024.
+
+![](/references/Final - Enhancing Clinical Trials FDA Submission Documentation through the Power of Metadata - OSDocuMetaWG.pptx.pdf){width=100% height=1000px}
 
 [Github](https://phuse-org.github.io/OSDocuMeta/)
 

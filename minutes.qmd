@@ -4,6 +4,9 @@ title: "Minutes"
 
 ## 04Sep2024
 
+**Attendees:** Lovemore Gakava, Nicholas Masel, Steven Haesendonckx, Joel Laxamana, Hanming Tu\
+**Facilitator:** Joel Laxamana
+
 #### Agenda :
 
 1.  Introduce ourselves and what we want to get out of this WG.
@@ -14,7 +17,7 @@ title: "Minutes"
 
 Hope this time works for you. If not, please let me know. First action is to create a set of slides to present at FDA quarterly meeting : 16 October at 14:00 BST. I was thinking we can create quarto md slides.
 
-#### Actions/Issues & Timelines :
+#### Discussion/Issues/Actions :
 
 1.  KO meeting 04Sep2024.
 2.  First draft of slides due 13Sep2024 (or sooner).
@@ -40,11 +43,11 @@ Hope this time works for you. If not, please let me know. First action is to cre
 -   Things to think about :
     -   We want this template to be able to support multiple open-source languages. Currently, R is the go-to in Clinical Trial submission now in the industry for open-source. Do we want to create an ADRG based on R as first go or do we want to add the complexity of having to think about multiple open-source programming languages? It would be good to keep the template as simple and user-friendly as possible. Have a think offline.
 
+#### Actions:
+
 4.  Update and finalize slides due 27Sep2024.
 5.  Practice presentation due TBD (anytime between 4 & 6)
 6.  Present 16Oct2024
-
-#### Other actions :
 
 -   Nicholas Masel to
 
@@ -64,6 +67,9 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
 ## 18Sep2024
 
+**Attendees:** Lovemore Gakava, Nicholas Masel, Steven Haesendonckx, Joel Laxamana, Hanming Tu\
+**Facilitator:** Joel Laxamana
+
 #### Agenda :
 
 1.  Get google accounts from the team members to collaborate on google slides for FDA quarterly meeting presentation : [Enhancing Clinical Trials FDA Submission Documentation through the Power of Metadata - OSDocuMetaWG](https://docs.google.com/presentation/d/1LI8LmJDYTegKMLlJmVlH3iFEF9KO24gchKtM4X1DfG4/edit?usp=sharing)
@@ -72,7 +78,7 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
 3.  We should connect with FDA, Paul and HyeSoo, YounKyeong to gain feedback on where they can see Open-Source documentation can go for FDA submissions.
 
-#### Actions/Issues & Timelines :
+#### Discussion/Issues/Actions :
 
 1.  Ensure everyone has access to collaborate and edit the google slides by end of the week.
 
@@ -108,67 +114,67 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
 4.  Future Meetings and Next Steps
 
-#### **Discussion Points:**
+#### **Discussion/Issues/Actions :**
 
-1.  **Feedback on ADRG Template Updates and Process:**
+##### **Feedback on ADRG Template Updates and Process:**
 
-    -   **Feedback from Team Members:**
+-   **Feedback from Team Members:**
 
-        -   Presentation went well.
+    -   Presentation went well.
 
-        -   The team is awaiting feedback from a key colleague from Pfizer, Christine Rossin who has a stake in updating the ADRG.
+    -   The team is awaiting feedback from a key colleague from Pfizer, Christine Rossin who has a stake in updating the ADRG.
 
-        -   The necessity of ensuring the ADRG updates align with the expectations of stakeholders. For our first delivery do we want to include everything we mentioned in our slides or piece-meal our work and deliver in iterative approaches with timelines for each milestone?
+    -   The necessity of ensuring the ADRG updates align with the expectations of stakeholders. For our first delivery do we want to include everything we mentioned in our slides or piece-meal our work and deliver in iterative approaches with timelines for each milestone?
 
-    -   **External Feedback:**
+##### **External Feedback:**
 
-        -   Plan to check in with Mike Stackhouse to get his input after he reviews the meeting recording.
+-   Plan to check in with Mike Stackhouse to get his input after he reviews the meeting recording.
 
-        -   Need to get insights from an FDA contact (Nick's mention) if they were on this morning's PHUSE/FDA Quarterly call.
+-   Need to get insights from an FDA contact (Nick's mention) if they were on this morning's PHUSE/FDA Quarterly call.
 
-2.  **Coordination and Feedback from Key Stakeholders:**
+##### **Coordination and Feedback from Key Stakeholders:**
 
-    -   **David Epstein's Role:**
+-   **David Epstein's Role:**
 
-        -   David Epstein, involved with ADRG template work in the past, might provide valuable input and help engage more contributors.
+    -   David Epstein, involved with ADRG template work in the past, might provide valuable input and help engage more contributors.
 
-        -   Communication with David planned post-meeting to gather and facilitate feedback, potentially via GitHub or alternative platforms for those without GitHub accounts.
+-   Communication with David planned post-meeting to gather and facilitate feedback, potentially via GitHub or alternative platforms for those without GitHub accounts.
 
-    -   **Future Communications:**
+##### **Future Communications:**
 
-        -   Follow-up emails post-meeting to ensure any unanswered questions are collected and addressed.
+-   Follow-up emails post-meeting to ensure any unanswered questions are collected and addressed.
 
-        -   Nick will check for additional FDA members interested in the ADRG updates during the upcoming PHUSE meeting.
+-   Nick will check for additional FDA members interested in the ADRG updates during the upcoming PHUSE meeting.
 
-    -   **Enhancements and Tools:**
+##### **Enhancements and Tools:**
 
-        -   Discussed creating a tool and an R package to bring in metadata effectively.
+-   Discussed creating a tool and an R package to bring in metadata effectively.
 
-        -   Importance of standardizing the ADRG template for future open-source submissions to drive consistency and efficiency in the industry.
+-   Importance of standardizing the ADRG template for future open-source submissions to drive consistency and efficiency in the industry.
 
-3.  **Future Meetings and Next Steps:**
+##### **Future Meetings and Next Steps:**
 
-    -   **Internal Coordination:**
+-   **Internal Coordination:**
 
-        -   Plan to migrate ADRG quarto markdown file to the PHUSE git area to continue work on this.
+    -   Plan to migrate ADRG quarto markdown file to the PHUSE git area to continue work on this.
 
-        -   Testing the reproduction of the ADRG with metadata approaches. See List of other Metadata Opportunities slide in presentation.
+    -   Testing the reproduction of the ADRG with metadata approaches. See List of other Metadata Opportunities slide in presentation.
 
-    -   **Timeline and Deliverables:**
+-   **Timeline and Deliverables:**
 
-        -   Aim to schedule the next working group kickoff by mid-November.
+    -   Aim to schedule the next working group kickoff by mid-November.
 
-        -   Assignments on updating ADRG to be determined.
+    -   Assignments on updating ADRG to be determined.
 
-        -   Emphasis on clear planning and setting deliverable dates.
+    -   Emphasis on clear planning and setting deliverable dates.
 
-    -   **Communication Plans:**
+-   **Communication Plans:**
 
-        -   Regular updates and feedback sessions to ensure all members are aligned.
+    -   Regular updates and feedback sessions to ensure all members are aligned.
 
-        -   Initiatives to include new members from upcoming meetings and engagements.
+    -   Initiatives to include new members from upcoming meetings and engagements.
 
-**Action Items:**
+##### **Action Items:**
 
 1.  **Follow-Up with Key Contacts:**
 
@@ -182,26 +188,57 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
     -   Schedule next working group meeting in November 2025 and ensure clear objectives and tasks are assigned.
 
--------- copy below and paste above, then update accordingly ---------
+## 13Nov2024
 
-# Template for upcoming meetings :
+\
+**Attendees:** Lovemore Gakava, Nicholas Masel, Joel Laxamana, Eric Nantz, Sam Parmar\
+**Facilitator:** Joel Laxamana
 
-## ddmmmyyyy
+#### **Agenda:**
 
-#### Agenda :
+1.  House cleaning
+2.  Updates since FDA quartlery meeting presentation
+3.  ADRG discussion and steps to consider moving forward.
+4.  Actions
 
-1.  item 1
-2.  item 2
-3.  etc...
+#### Discussion/Issues/Actions
 
-#### Actions/Issues & Timelines :
+##### **House Cleaning:**
 
-1.  action/issue 1 & planned due date
-2.  action/issue 2 & planned due date
-3.  etc...
+1.  Website updated with quarterly presentations to the FDA.
 
-#### Other Notes or Actions :
+2.  Added last month’s minutes and actions.
 
--   add any other business here
+##### **Updates since FDA quarterly meeting:**
 
--   etc...
+-   No further feedback from the FDA quarterly meeting yet; efforts to reach out to David will continue.
+
+-   Christine Rossin will be contacted by Nick for assistance with ADRG review, including Sam P. in the correspondence.
+
+##### **ADRG Discussion and review:**
+
+-   Discussion with Eric and Sam on using Quarto to generate ADRG and sending it as an HTML file in the eSUB package.
+
+-   Need to support hybrid approaches for ADRG versioning (considering various languages, including SAS).
+
+-   Include Christine Rossin in future meetings to discuss ADRG maintenance.
+
+-   Contact vendors like P21 and CDISC core about the ADRG templates and discuss how the enhanced open-source ADRG will integrate. Christine might provide insights on how P21 sources templates from PHUSE WG.
+
+-   Eric and Sam have joined the team.
+
+##### **Actions:**
+
+-   Ask Sam to share FDA guidance on mandatory ADRG sections.
+
+-   Create specifications for sourcing metadata from the eCTD structure to generate the ADRG.
+
+-   Nick to contact Christine for the next meeting on 11 December 2024.
+
+<!-- -->
+
+-   Consider moving Pilot 3 `adrg.qmd` to the PHUSE working project repository.
+
+-   Begin programming functions to create metadata information for the ADRG, with reference to Slide 7 of the provided presentation.
+
+-   Templatize open-source instructions for unpacking and re-executing analysis from the eSUB package in eCTD structure.

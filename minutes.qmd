@@ -242,3 +242,105 @@ Hope this time works for you. If not, please let me know. First action is to cre
 -   Begin programming functions to create metadata information for the ADRG, with reference to Slide 7 of the provided presentation.
 
 -   Templatize open-source instructions for unpacking and re-executing analysis from the eSUB package in eCTD structure.
+
+## 27Nov2024
+
+#### **Agenda**
+
+-   House Cleaning
+
+-   Updates from actions since last meeting
+
+-   New Topics
+
+-   Actions.
+
+#### **House Cleaning**
+
+-   Minutes and actions from the last meeting added (follow-up).
+
+-   Q4 reports submitted by Lovemore ([link](https://drive.google.com/file/d/1468KYPejuBPo8AVlxmA7-I60oQq6ahB6/view?usp=drive_link)).
+
+-   New members added to the working group's [G-drive](https://drive.google.com/drive/folders/1MsSA2hHLdrqbjN-HvxWzLkhWoT9Rze9Y?usp=drive_link).
+
+    -   PHUSE WG does have a dedicated workspace to collaborate and save our Project WG files. Contact Alexandra Pearce ([link ](https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26817363/Communication+of+Version+Metadata+for+Open-Source+Languages)).
+
+#### **Updates since last meeting**
+
+-   FDA guidance on mandatory ADRG sections shared by Sam (details provided by Sam below).
+
+    ![](references/ADRG required sections Screenshot 2024-11-27 145157.png)
+
+-   Create specifications for sourcing metadata from the eCTD structure to generate the ADRG.
+
+    -   Joel drafted a template for specifications on sourcing metadata for the ADRG ([link](https://docs.google.com/document/d/1cxwenwSCa_Xh4dw-bqCcWVmYnjjGMgb3X3DGDCflktU/edit?usp=drive_link)).
+
+-   Nick to contact Christine for the next meeting
+
+    -   Christine was able to join today's meeting.
+
+    -   Continued conversations with her will be needed for input on the updated ADRG.
+
+-   Moving Pilot 3 adrg.qmd to the PHUSE working project repository
+
+    -   Paused as further discussions with P21, CDISC Core and ADRG PHUSE WG still need to be had to align steps for us to contribute.
+
+-   Programming functions for ADRG metadata creation.
+
+    -   Paused as further discussions with P21, CDISC Core and ADRG PHUSE WG still need to be had to align steps for us to contribute.
+
+-   Templatizing open-source instructions for unpacking and re-executing analysis
+
+    -   Paused as further discussions with P21, CDISC Core and ADRG PHUSE WG still need to be had to align steps for us to contribute.
+
+#### **New topics brought up with Christine R.**
+
+-   Collaboration with Christine Rossin on reviewing the ADRG:
+
+    -   Christine shared the current ADRG that is in review (unfortunatley public review has been closed, but we are asking for inclusion in the ADRG review).
+
+    -   We then shared our Project WG 'Mission Statement' and the RCRSWG Pilot 3 ADRG with Christine to review, where some feedback from her included :
+
+        -   Exclude eCTD directory structure.
+
+        -   ADRG is an m5 directive, no need to mention m1 folder.
+
+        -   P21 pre-populates some ADRG sections, but some require manual sponsor updates.
+
+        -   Collaborating with P21 to improve metadata provision for the ADRG.
+
+#### **Actions**  
+
+-   Identify sections P21 populates and doesn't populate in the ADRG.
+
+    -   Joel to review and plan for automation contribution.
+
+-   Determine how to contribute to automation for new ADRG versions. Needs discussion for supporting hybrid approaches (various languages).
+
+    -   Lovemore (and Sam P.) to get in contact with Christine R. We can still invite Christine to future meetings as needed.
+
+        -   We need to know what the specific changes we want to see updated in the ADRG for open-source submissions as well as the process for submitting updates.
+
+        -    We need to know Christine's preferred method for collaboration.
+
+        -   We want to understand the submission process for approval of the updated template.
+
+        -   We also want to know the distribution methods for the approved template for the public to use (e.g. Sponsor, Pinnacle 21, CDISC).
+
+-   Further potential support from other Novo colleagues
+
+    -   Lovemore to provide colleague's contact information for joining the WG.
+
+-   Contact Chris Price to find P21 and CDISC core contacts to see if we can get a meeting with them.
+
+    -   Nick to get in touch with Chris P.
+
+-   Complete metadata [programming specifications](https://docs.google.com/document/d/1cxwenwSCa_Xh4dw-bqCcWVmYnjjGMgb3X3DGDCflktU/edit?usp=drive_link) (date to be determined, but work on this can still begin to get our ideas out on 'paper').
+
+#### **Thoughts for next steps** 
+
+-   Decide on moving Pilot 3 adrg.qmd (further discussion needed).
+
+-   Templatize open-source unpacking/re-executing analysis instructions.
+
+-   Contact Alexandra Pearce regarding the PHUSE WG workspace (optional as current way of working may be fine, per Nick M).

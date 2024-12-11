@@ -348,3 +348,68 @@ Hope this time works for you. If not, please let me know. First action is to cre
 -   Templatize open-source unpacking/re-executing analysis instructions.
 
 -   Contact Alexandra Pearce regarding the PHUSE WG workspace (optional as current way of working may be fine, per Nick M).
+
+## 11Dec2024
+
+**Attendees:** Nicholas Masel, Sam Parmar\
+**Guest(s):**\
+**Facilitator:** Lovemore Gakava
+
+#### **Agenda**
+
+-   House Cleaning 
+
+-   Updates from actions since last meeting
+
+-   New Topics
+
+-   Actions.
+
+#### **House Cleaning**
+
+-   Welcome Cervan Girard
+
+-   Minutes and actions from the last meeting added (follow-up).
+
+#### **Updates since last meeting**
+
+- []  Identify sections P21 populates and doesn't populate in the ADRG.
+
+    -   Joel to review and plan for automation contribution.
+
+- []   Determine how to contribute to automation for new ADRG versions. Needs discussion for supporting hybrid approaches (various languages).
+
+    -   Lovemore (and Sam P.) to get in contact with Christine R. We can still invite Christine to future meetings as needed.
+
+        -   We need to know what the specific changes we want to see updated in the ADRG for open-source submissions as well as the process for submitting updates.
+
+        -    We need to know Christine's preferred method for collaboration.
+
+        -   We want to understand the submission process for approval of the updated template.
+
+        -   We also want to know the distribution methods for the approved template for the public to use (e.g. Sponsor, Pinnacle 21, CDISC).
+
+- []   Further potential support from other Novo colleagues
+
+    -   Lovemore to provide colleague's contact information for joining the WG.
+
+- []   Contact Chris Price to find P21 and CDISC core contacts to see if we can get a meeting with them.
+
+    -   Nick to get in touch with Chris P.
+
+- []  Complete metadata [programming specifications](https://docs.google.com/document/d/1cxwenwSCa_Xh4dw-bqCcWVmYnjjGMgb3X3DGDCflktU/edit?usp=drive_link) (date to be determined, but work on this can still begin to get our ideas out on 'paper').
+
+#### **Discussion Topics**
+
+- Confirm collaboration method with Christine R.
+
+- Develop initial draft of automation contribution strategy
+
+- Prepare preliminary metadata programming specifications
+
+-   Decide on moving Pilot 3 adrg.qmd (further discussion needed).
+
+-   Templatize open-source unpacking/re-executing analysis instructions.
+
+#### **Actions** 
+

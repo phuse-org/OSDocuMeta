@@ -427,7 +427,7 @@ Hope this time works for you. If not, please let me know. First action is to cre
     -   *Discussions:*
 
         -   ***OS computing environment:** The idea of having an OS computing environment was discussed but dismissed as not currently viable due to legal and independence concerns for regulatory authorities.*
-            -   ***Accumulus Synergy:** A similar initiative, Accumulus Synergy, was mentioned (Home - Accumulus Synergy). This platform provides a secure way for life sciences organizations and regulatory authorities to exchange information and collaborate.*
+            -   ***Accumulus Synergy:** A similar initiative, Accumulus Synergy, was mentioned ([Home - Accumulus Synergy](https://www.accumulus.org/)). This platform provides a secure way for life sciences organizations and regulatory authorities to exchange information and collaborate.*
             -   ***Scope:** It was decided that further exploration of these ideas is outside the current scope and can be revisited after the first deliverable.*
 
     -   *Action: Start on draft of an open-source unpacking/re-executing analysis instructions template. (when?)*

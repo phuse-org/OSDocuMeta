@@ -568,6 +568,8 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
         -   when: 22-Jan-2025
 
+        - Post meeting update: Joel has made a start - see document,  https://docs.google.com/document/d/16Pz4NkVP_yC-FsoykENZTaPcV5gDu3LN/edit?usp=sharing&ouid=103991081896680964420&rtpof=true&sd=true. Cervan to review.
+
     -   **Start drafting** a template for open-source unpacking/re-executing analysis instructions.
 
         -   who: Steven (we have volunteered you :-)) , LG & Cervan - provide NN example.

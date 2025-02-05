@@ -520,10 +520,13 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
 -   **PHUSE WG, RCSubWG & FDA : ADRG \@ Wed Dec 18, 2024 7:15am - 8am (PST) ([hyesoo.cho\@fda.hhs.gov](mailto:hyesoo.cho@fda.hhs.gov)) discussion:**
 
-    -   Feedback/comments?
-        -   
+    -   
+
+        ## Feedback/comments?
+
     -   **Action**:
-        -    pushing this topic to 22-Jan-2025 for team to discuss further.
+
+        -   pushing this topic to 22-Jan-2025 for team to discuss further.
         -   Upload document to Google drive for team to review.
             -   who: LG
             -   when: 15-Jan-2025
@@ -568,7 +571,7 @@ Hope this time works for you. If not, please let me know. First action is to cre
 
         -   when: 22-Jan-2025
 
-        - Post meeting update: Joel has made a start - see document,  https://docs.google.com/document/d/16Pz4NkVP_yC-FsoykENZTaPcV5gDu3LN/edit?usp=sharing&ouid=103991081896680964420&rtpof=true&sd=true. Cervan to review.
+        -   Post meeting update: Joel has made a start - see document, https://docs.google.com/document/d/16Pz4NkVP_yC-FsoykENZTaPcV5gDu3LN/edit?usp=sharing&ouid=103991081896680964420&rtpof=true&sd=true. Cervan to review.
 
     -   **Start drafting** a template for open-source unpacking/re-executing analysis instructions.
 
@@ -602,12 +605,98 @@ Christine joined the last 20 minutes of the meeting (thanks to Sam's invitation)
 
 Regarding Section 7 (Appendix: Instructions to Execute Analysis Programs in R):
 
--    Christine recommends moving this to a separate supporting document
+-   Christine recommends moving this to a separate supporting document
 
 -   The ADRG template should remain software-neutral
 
--    We should develop separate completion guidelines for different software (R, SAS, and potential future additions)
+-   We should develop separate completion guidelines for different software (R, SAS, and potential future additions)
 
 #### Next Steps
 
 We need to include Christine in upcoming meetings to determine who will take ownership of writing the R completion guideline and discuss further the content of the template and the R completion guideline.
+
+## 22Jan2025
+
+**Attendees:** Joel Laxamana, Nicholas Masel, Sam Parmar, Cervan Girard, Eric Nantz\
+**Guest(s):** \
+**Facilitator:** Lovemore Gakava
+
+#### **Agenda**
+
+-   House Cleaning
+
+-   Updates from actions since last meeting
+
+-   Discussion Topics and actions
+
+-   Next Steps
+
+#### **House Cleaning**
+
+-   Minutes and actions from the last meeting added (follow-up).
+
+#### **Updates since last meeting**
+
+-   CSS Breakout Session:
+
+    -   Approval for registration from LM granted for Cervan and Lovemore to attend the PHUSE/FDA CSS 2025 – Utrecht, the Netherlands
+
+-   PHUSE WG, RCSubWG & FDA : ADRG
+
+    -    Action: setup follow-up meeting with FDA(HyeSoo, Paul and YounKyeong) to have alignment with Christine's PHUSE ADRG group's effort.
+
+<!-- -->
+
+-   ADRG Development & Review
+
+    -   Confirmed that everyone now has access to the github repos
+
+#### **Discussion Topics:**
+
+#### Key Discussion Points
+
+**Qn**: Do regulatory agencies run the code that sponsors submit?
+
+**Discussion**: Based on teams experience sponsors submit readable and executable code.
+
+**Action**: Cervan and Lovemore to share the R submission by Novo
+
+#### Next Steps
+
+Start working on the specification for writing reproducible code for the ADRG sections.
+
+## 05Feb2025
+
+**Attendees:** Nicholas Masel, Sam Parmar, Cervan Girard, Eric Nantz\
+**Guest(s):** \
+**Facilitator:** Lovemore Gakava
+
+#### **Agenda**
+
+-   House Cleaning
+
+-   Updates from actions since last meeting
+
+-   Discussion Topics and actions
+
+-   Next Steps
+
+#### **House Cleaning**
+
+-   Minutes and actions from the last meeting added (follow-up).
+
+#### **Updates since last meeting**
+
+-   CSS Breakout Session:
+
+-   PHUSE WG, RCSubWG & FDA : ADRG
+
+#### **Discussion Topics:**
+
+#### Key Discussion Points
+
+Feedback from NN R submission
+
+Specification and code development
+
+#### Next Steps

@@ -618,7 +618,7 @@ We need to include Christine in upcoming meetings to determine who will take own
 ## 22Jan2025
 
 **Attendees:** Joel Laxamana, Nicholas Masel, Sam Parmar, Cervan Girard, Eric Nantz\
-**Guest(s):** \
+**Guest(s):**\
 **Facilitator:** Lovemore Gakava
 
 #### **Agenda**
@@ -643,7 +643,7 @@ We need to include Christine in upcoming meetings to determine who will take own
 
 -   PHUSE WG, RCSubWG & FDA : ADRG
 
-    -    Action: setup follow-up meeting with FDA(HyeSoo, Paul and YounKyeong) to have alignment with Christine's PHUSE ADRG group's effort.
+    -   Action: setup follow-up meeting with FDA(HyeSoo, Paul and YounKyeong) to have alignment with Christine's PHUSE ADRG group's effort.
 
 <!-- -->
 
@@ -659,7 +659,7 @@ We need to include Christine in upcoming meetings to determine who will take own
 
 **Discussion**: Based on teams experience sponsors submit readable and executable code.
 
-**Action**: Cervan and Lovemore to share the R submission by Novo
+**Action**: Cervan and Lovemore to share the R submission by Novo in the next meeting.
 
 #### Next Steps
 
@@ -667,8 +667,8 @@ Start working on the specification for writing reproducible code for the ADRG se
 
 ## 05Feb2025
 
-**Attendees:** Nicholas Masel, Sam Parmar, Cervan Girard, Eric Nantz\
-**Guest(s):** \
+**Attendees:** Sam Parmar, Cervan Girard, Eric Nantz\
+**Guest(s):** Christine Rossin (Guest from PHUSE ADRG WG)\
 **Facilitator:** Lovemore Gakava
 
 #### **Agenda**
@@ -689,14 +689,56 @@ Start working on the specification for writing reproducible code for the ADRG se
 
 -   CSS Breakout Session:
 
+    -   Cervan and Lovemore have registered for PHUSE/FDA CSS 2025 in Utrecht, the Netherlands.
+
 -   PHUSE WG, RCSubWG & FDA : ADRG
+
+    -   Meeting is on hold due to FDA reorganization impacting many parts of the agency.
+
+    -   Awaiting confirmation for when they will resume engagement.
 
 #### **Discussion Topics:**
 
 #### Key Discussion Points
 
-Feedback from NN R submission
+Discussion of NN R submission
 
-Specification and code development
+-   P21 ADRG template usage:
 
-#### Next Steps
+    -   The ADRG from P21 was not used.
+
+    -   A function was used to take conformance results and populate the ADRG template.
+
+    -   Functions were created to dynamically get information for some ADRG sections.
+
+-   Regulatory Feedback
+
+    -   FDA/PMDA and Korean regulatory authorities ran the code and provided feedback/questions.
+
+    -   In some cases, they queried discrepancies between their results and the submitted results.
+
+-   Environment Recreation:
+
+    -   Provided in the ADRG appendix.
+
+Christine's feedback:
+
+-   Agreement reached to write completion guidance document supporting the ADRG template.
+
+-   Encouragement to use the P21 template with pre-populated ADRG sections to reduce errors.
+
+-   Suggestion for alignment meeting with PHUSE ADRG WG and other groups (e.g., Estimands WG) working on ADRG sections.
+
+-   Provided a walkthrough of different ADRG sections.
+
+**Actions**
+
+1.  Start working on an R Analysis Data Reviewer's Guide Completion Guideline.
+
+    -   Future adaptation for any Open Source software.
+
+2.  Christine to organize a meeting with all groups working on updating ADRG sections.
+
+3.  Members to start uploading utility functions used to populate or generate information for ADRG sections.
+
+#### 

@@ -785,7 +785,7 @@ Christine's feedback:
 
 4.  Members uploading utility functions used to populate ADRG sections
 
-    **Update**: The repo `adrg-quarto` has been renamed `adrgr` - this repo will now be turned into an R package. Joel has made `issues` for the different sections of the ADRG.
+    **Update**: The repo `adrg-quarto` has been renamed `adrgrOS` - this repo will now be turned into an R package.we will need to move the *pilot3* and `renv` associated with it to a dev folder. Joel has made `issues` for the different sections of the ADRG.
 
     **Action**:
 

@@ -741,4 +741,72 @@ Christine's feedback:
 
 3.  Members to start uploading utility functions used to populate or generate information for ADRG sections.
 
+## 19Feb2025
+
+**Attendees:** Sam Parmar, Nicholas Masel, Joel Laxamana\
+**Guest(s):** Christine Rossin (Guest from PHUSE ADRG WG)\
+**Facilitator:** Lovemore Gakava
+
+#### **Agenda**
+
+-   House Cleaning
+
+-   Updates from actions since last meeting
+
+-   Discussion Topics and actions
+
+-   Next Steps
+
+#### **House Cleaning**
+
+-   Minutes and actions from the last meeting added (follow-up).
+
+#### **Updates since last meeting**
+
+-   PHUSE WG, RCSubWG & FDA : ADRG
+
+    -   We have received confirmation and list of dates of when they will be available for consultation.
+
+#### **Key Discussion Points and Actions**
+
+1.  PHUSE WG, RCSubWG & FDA : ADRG
+
+    **Action**: Joel has setup a meeting invitation which includes our group, FDA and the PHUSE ADRG WG: 2/27, Thursday.
+
+2.  R Analysis Data Reviewer's Guide Completion Guideline
+
+    -   [R for Clinical Study Reports and Submission](https://r4csr.org/submission-package.html) - discuss chapter 14 and 15
+
+        **Action**: Invite the authors of the book(Yilong Zhang, Nan Xiao, Keaven Anderson and Yalin Zhu) to participate in the group. Time to be determined.
+
+3.  Christine to organize a meeting with all groups working on updating ADRG sections and also provide draft ADRG guideline.
+
+    **Update**: Christine to have a discussion with the wider ADRG WG and will let us know of the next steps.
+
+4.  Members uploading utility functions used to populate ADRG sections
+
+    **Update**: The repo `adrg-quarto` has been renamed `adrgrOS` - this repo will now be turned into an R package.we will need to move the *pilot3* and `renv` associated with it to a dev folder. Joel has made `issues` for the different sections of the ADRG.
+
+    **Action**:
+
+    -   Setup the repository as an R package with workflows/actions. *(any volunteers?)*
+
+    -   Members to agree of process of working such as creating of issues, PR, coding standards etc
+
+    -   Members to self assign on issues and start creating the utility functions.
+
+5.  Prepare for CSS
+
+    -   start drafting the presentation material. The abstract had the following as objectives
+
+        -   Preview and provide input on the draft ADRG template designed for open-source statistical programming.
+
+        -   Discuss proposed automated approaches for metadata documentation
+
+        -   Explore preliminary solutions for hybrid submissions using both proprietary and open-source tools
+
+        -   Participate in shaping industry standards for statistical programming documentation by gathering community feedback.
+
+    -   **Action**: setup draft CSS presentation material. Assigned to LG.
+
 #### 

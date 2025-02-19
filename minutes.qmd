@@ -744,7 +744,7 @@ Christine's feedback:
 ## 19Feb2025
 
 **Attendees:** Sam Parmar, Eric Nantz\
-**Guest(s):** \
+**Guest(s):**\
 **Facilitator:**
 
 #### **Agenda**
@@ -773,9 +773,11 @@ Christine's feedback:
 
 1.  R Analysis Data Reviewer's Guide Completion Guideline
 
-2.  Christine to organize a meeting with all groups working on updating ADRG sections. and also provide draft ADRG guideline
+    [R for Clinical Study Reports and Submission](https://r4csr.org/submission-package.html) - discuss chapter 14 and 15
 
-3.  Members uploading utility fubnctions used to populate ADRG sections
+2.  Christine to organize a meeting with all groups working on updating ADRG sections and also provide draft ADRG guideline
+
+3.  Members uploading utility functions used to populate ADRG sections
 
 **Actions**
 

@@ -809,4 +809,105 @@ Christine's feedback:
 
     -   **Action**: setup draft CSS presentation material. Assigned to LG.
 
-#### 
+## 19Mar2025
+
+**Attendees:** Joel Laxamana, Lovemore, Lovemore Gakava, Nicholas Masel, Eric Nantz\
+**Guest(s):** N/A
+
+**Facilitator:** Joel Laxamana
+
+#### **Agenda**
+
+-   House Cleaning
+
+-   Updates from actions since last meeting
+
+-   Discussion Topics and actions
+
+-   Next Steps
+
+#### **House Cleaning**
+
+-   Minutes and actions from the last meeting added (follow-up).
+
+#### **Updates since last meeting**
+
+-   PHUSE WG, RCSubWG & FDA : ADRG
+
+    -   Agreement between all 3 entities to meet monthly until alignment on ADRG updates for open-source submissions are met.
+
+#### **Key Discussion Points and Actions**
+
+1.  Review of the email discussion between DVOST, Data Standards and RCRSWG-FDA
+
+2.  Ning's work on AI-ing ADRG
+
+3.  Work for ADRGOS Package
+
+4.  CSS agenda
+
+5.  Monthly meetings setup by Joel
+
+#### **Collaboration between DVOST, Data Standards and RCRSWG FDA colleagues.**
+
+-   Written public communication, by the agency, will remain limited until further notice.
+
+-   This is a subcommittee of our current working group (R consortium’s R submission working group) and meets jointly with Christine and PHUSE. We are not a separate working group, but a sub-committee composed of the 3 groups aformentioned.
+
+-   The proposed time (first Friday of each month from 1pm to 2pm, EST) will be set moving forward.
+
+#### **Work on "AI-ing" the ADRG**
+
+-   Open source is beneficial but our approach offers higher accuracy at this time.
+
+-   AI can assist as a code assistant but shouldn’t constitute the entire pipeline to generate the metadata needed in the ADRG.
+
+#### **Work for adrgOS Package**
+
+-   Continue creating functions based on current issues.
+
+-   By the end of the month (issues 6, 8, 10, 12, 14):
+
+    -   High likelihood (#12) that all internal R projects will use `renv`. Our function can utilize `renv` to populate the R package list with additional guidance for sponsors to include any further study-specific installation instructions.
+
+    -   Create branches for each issue to track active and inactive progress.
+
+    -   Dependencies/imports list for the package will be maintained manually by Joel
+
+    -   Setup the repository as an R package with workflows/actions. *(Lovemore and/or Eric)*
+
+    -   Members agreed on process of working
+
+        -   such as creating of issues and corresponding branches to work in
+
+        -   PR to dev branch first
+
+        -   once all functions drafted and working, we can do an initial merge to main for any further testing.
+
+        -   Members to self assign on issues and start creating the utility functions.
+
+#### **Continue CSS preparation**
+
+-   start drafting the presentation material. The abstract had the following as objectives
+
+-   Preview and provide input on the draft ADRG template designed for open-source statistical programming.
+
+-   Discuss proposed automated approaches for metadata documentation
+
+-   Explore preliminary solutions for hybrid submissions using both proprietary and open-source tools
+
+-   Participate in shaping industry standards for statistical programming documentation by gathering community feedback
+
+#### **Next Steps**
+
+-   **Nick M.** to create a development branch in adrgOS (completed)
+
+-   **Team** to start work on adrgOS Package
+
+-   **Nick M**. to create PR templates
+
+-   **Joel** to set up monthly meetings (completed)
+
+-   **Joel to Meet with Christine** at PHUSE US to get current draft ADRG for review (completed and email sent to the team).
+
+-   **LG** Setup draft CSS presentation material. Assigned to LG.

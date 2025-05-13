@@ -40,6 +40,15 @@ format:
 
 ------------------------------------------------------------------------
 
+### Recap: Introduction
+
+- Objective: Develop or enhance ADRG template for open-source submissions
+- Aim: Consistent metadata documentation
+- Benefits: Enhanced reproducibility & transparency
+- Evolution: Shift from SAS to R/Python in clinical trials
+
+------------------------------------------------------------------------
+
 ## II. Background and Context
 
 ::: notes
@@ -52,9 +61,9 @@ format:
 
 ### Purpose of Analysis Data Reviewer’s Guide (ADRG)
 
--   Provides FDA reviewers with context for analysis datasets and terminology.
+-   Provides Regulatory (e.g. FDA) reviewers with context for analysis datasets and terminology.
 
--   Supplements information presented within the data folder (e.g., define.xml).
+-   Supplements information presented within the data folder (e.g. define.xml).
 
 -   Includes a summary of ADaM and other submission documents:
 
@@ -107,9 +116,18 @@ Challenges
   
   - https://github.com/ari-stotle-max/phuse-css-2023/tree/main
 
--   Current ADRG template primarily designed around SAS paradigm
+-   show current (PHUSE ADRG WG - 2019) ADRG template update for R: explain why a general statement of version of R and platform is not enough.
+
 -   Need for updated approach that encompasses open-source practices
 :::
+
+------------------------------------------------------------------------
+
+### Recap: Background and Context
+
+- ADRG aids reviewers' understanding of datasets & terminology
+- Proprietary languages: version info in SAP & ADRG
+- Open-source challenges: dependencies, control, reproducibility
 
 ------------------------------------------------------------------------
 
@@ -141,7 +159,7 @@ Challenges
 
 ------------------------------------------------------------------------
 
-## IV. Draft Supplementary Guidelines for R Deliverables
+## IV. Action Plan for R Deliverables Based on Consultations
 
 ------------------------------------------------------------------------
 
@@ -161,7 +179,7 @@ Challenges
 ### Proposed Approach
 
 -   Create an ADRG R supplementary completion guideline
--   Create dedicated R package (adrg) for standardized documentation
+-   Create dedicated R package (ADRG) for standardized documentation
     -   Automate extraction of R environment metadata
     -   Generate standardized ADRG sections for R analyses
 -   Ensure compatibility with existing ADRG template
@@ -180,6 +198,14 @@ Challenges
 
 ::: notes
 :::
+
+------------------------------------------------------------------------
+
+### Recap: Draft Guidelines
+
+- Create a supplementary guideline for R deliverable
+- R package development for documentation
+- create a supporting document for reproducing the R environment
 
 ------------------------------------------------------------------------
 
@@ -234,6 +260,6 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 ## References {.smaller}
 
 -   [Pilot 3 ADRG](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf)
--   PHUSE ADRG Working Group. Analysis Data Reviewer's Guide (ADRG) Template. https://www.phuse.eu/working-groups/optimizing-the-use-of-data-standards
--   U.S. Food & Drug Administration (FDA). Study Data Technical Conformance Guide. https://www.fda.gov/
-  -   https://www.fda.gov/media/162867/download
+-   [PHUSE ADRG Working Group. Analysis Data Reviewer's Guide (ADRG) Template](https://www.phuse.eu/working-groups/optimizing-the-use-of-data-standards)
+-   [U.S. Food & Drug Administration (FDA)](https://www.fda.gov/)
+  -   [Study Data Technical Conformance Guide](https://www.fda.gov/media/162867/download)

@@ -21,6 +21,8 @@ format:
 
 ## I. Introduction
 
+------------------------------------------------------------------------
+
 ### Problem Statement & Objective {#sec-problem-statement--objective .small}
 
 -   The **objective** of this project is to develop a new template or enhance the Analysis Data Reviewer’s Guide (ADRG) for open-source submissions.
@@ -40,6 +42,12 @@ format:
 
 ## II. Background and Context
 
+::: notes
+-   Section II will be an open discussion/workshop\
+-   Presenters will show an example of an ADRG for a SAS reported study and an example of R reported study\
+-   Compare and contrast - discuss what information is needed for an R submission
+:::
+
 ------------------------------------------------------------------------
 
 ### Purpose of Analysis Data Reviewer’s Guide (ADRG)
@@ -54,17 +62,17 @@ format:
     -   Statistical Analysis Plan (SAP)
     -   Clinical Study Report
     -   Define.xml
-
+    
 ::: notes
--   Section 2 will be an open discussion/workshop\
--   Presenters will show an example of an ADRG for a SAS reported study and an example of R reported study\
--   Compare and contrast - discuss what information is needed for an R submission
 
-The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
+- The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
 
 -   An ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission.
-:::
+source: https://www.fda.gov/media/162867/download
 
+Action: Also open and show example ADRG (preferably the one from PHUSE ADRG WG - 2019), Protocol, SAP/RAP, Clinical Study Report and Define.xml
+
+:::
 ------------------------------------------------------------------------
 
 ### Documentation of versions of statistical packages and procedures
@@ -75,7 +83,7 @@ The ADRG provides FDA reviewers with context for analysis datasets and terminolo
 -   Detailed information has been added to the Analysis Data Reviewer’s Guide (ADRG). The ADRG has a section where the programming software version and functions are specified
 
 ::: notes
-Open an example of ADRG and highlight section where software related information is needed.
+Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highlight section where OS software related information is needed.
 :::
 
 ------------------------------------------------------------------------
@@ -92,7 +100,13 @@ Challenges
 -   Limited standardization in how R analyses are documented
 
 ::: notes
--   Open Current R-based submissions and compare to SAS reported study ADRG
+-   Open Current R-based submissions and compare to SAS reported study ADRG (preferably the one from PHUSE ADRG WG - 2019)
+  - https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf
+
+  - https://rpodcast.quarto.pub/pilot4-webassembly-adrg/#submission-of-programs
+  
+  - https://github.com/ari-stotle-max/phuse-css-2023/tree/main
+
 -   Current ADRG template primarily designed around SAS paradigm
 -   Need for updated approach that encompasses open-source practices
 :::
@@ -222,4 +236,4 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 -   [Pilot 3 ADRG](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf)
 -   PHUSE ADRG Working Group. Analysis Data Reviewer's Guide (ADRG) Template. https://www.phuse.eu/working-groups/optimizing-the-use-of-data-standards
 -   U.S. Food & Drug Administration (FDA). Study Data Technical Conformance Guide. https://www.fda.gov/
--   https://www.fda.gov/media/162867/download
+  -   https://www.fda.gov/media/162867/download

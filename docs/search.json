@@ -180,5 +180,61 @@
     "title": "Minutes",
     "section": "30Apr2025",
     "text": "30Apr2025\nAttendees: Joel Laxamana, Nicholas Masel, Eric Nantz, Sam Parmar, Piotr Pasza Storożenko\nGuest(s): N/A\nFacilitator: Lovemore Gakava\n\nSummary:\nThe discussion focused on current issues and collaborative efforts within the PHUSE metadata working group, highlighting the importance of open-source contributions in clinical trials. Joel Laxamana addressed the ongoing migration to new systems and the need for accurate documentation, while Lovemore Gakava and Piotr Pasza Storożenko expressed enthusiasm for collaboration. The team reviewed action items from the previous meeting, including responsibilities for compiling necessary packages and clarifying guidance documents.\nThe group delved into the specifics of the Analysis Data Reviewer Guide (ADRG), discussing the conversion of SAS code to TXT for pilot studies and the acceptable use of R syntax for submissions. They examined the distinctions between various sections of the ADRG, emphasizing the need for clarity in documentation. Piotr Pasza Storożenko and Eric Nantz agreed on the importance of including both package names and functions in the documentation, particularly for FDA reviewers who predominantly use Windows. The conversation also covered the management of system dependencies and the challenges posed by different operating systems.\nRegulatory submission practices were a key topic, with Nicholas Masel questioning the necessity of converting .R files to .txt formats. Eric Nantz clarified that .R files are compliant with ECTD specifications, addressing previous confusion. The team discussed the implications of using zip files for packaging submissions, noting that while some instances were accepted, regulatory discussions are ongoing.\nL Gakava encouraged the use of RStudio and R Markdown for documentation, while the team agreed on the importance of maintaining simple and accessible documentation practices. The meeting concluded with plans for future collaboration and contributions to open-source initiatives.\n\n\nAction Items:\n\nJoel Laxamana will make sure to put up the meeting minutes from last week, including the current meeting notes.\nJoel Laxamana will list out the other packages needed for the project and test functions to ensure they work correctly.\nEric Nantz will disable some actions in the project until the team is in a better position to start checking.\nLovemore Gakava will draw up the outline for the CSS presentation and share it with the team before the next meeting.\nLovemore Gakava will summarize the previous meeting with the FDA and discuss it in the next meeting.\n\nKey Questions:\n\nHow will the team ensure that the functions developed will meet the needs of both the ADRG and the R ADRG completion guideline package?\nHow will the team document the functions and packages used in the ADRG?\nWhat are the key takeaways from the previous meeting with the FDA?"
+  },
+  {
+    "objectID": "dev/phuse_css2025-adrg.html#sec-introducing-ourselves",
+    "href": "dev/phuse_css2025-adrg.html#sec-introducing-ourselves",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "The Team",
+    "text": "The Team\n\nMembers of the PHUSE Communication of Version Metadata Working Group\nR developers in clinical programming\nCollaborating with FDA and PHUSE ADRG Working Group\nOur mission: Improve reproducibility and transparency in clinical trial analysis"
+  },
+  {
+    "objectID": "dev/phuse_css2025-adrg.html#i.-introduction",
+    "href": "dev/phuse_css2025-adrg.html#i.-introduction",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "I. Introduction",
+    "text": "I. Introduction"
+  },
+  {
+    "objectID": "dev/phuse_css2025-adrg.html#ii.-background-and-context",
+    "href": "dev/phuse_css2025-adrg.html#ii.-background-and-context",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "II. Background and Context",
+    "text": "II. Background and Context\n\n\nSection II will be an open discussion/workshop\n\nPresenters will show an example of an ADRG for a SAS reported study and an example of R reported study\n\nCompare and contrast - discuss what information is needed for an R submission"
+  },
+  {
+    "objectID": "dev/phuse_css2025-adrg.html#iii.-collaboration-with-fda-and-phuse-adrg-wg",
+    "href": "dev/phuse_css2025-adrg.html#iii.-collaboration-with-fda-and-phuse-adrg-wg",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "III. Collaboration with FDA and PHUSE ADRG WG",
+    "text": "III. Collaboration with FDA and PHUSE ADRG WG"
+  },
+  {
+    "objectID": "dev/phuse_css2025-adrg.html#iv.-draft-supplementary-guidelines-for-r-deliverables",
+    "href": "dev/phuse_css2025-adrg.html#iv.-draft-supplementary-guidelines-for-r-deliverables",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "IV. Draft Supplementary Guidelines for R Deliverables",
+    "text": "IV. Draft Supplementary Guidelines for R Deliverables"
+  },
+  {
+    "objectID": "dev/phuse_css2025-adrg.html#v.-r-package-development",
+    "href": "dev/phuse_css2025-adrg.html#v.-r-package-development",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "V. R Package Development",
+    "text": "V. R Package Development"
+  },
+  {
+    "objectID": "dev/phuse_css2025-adrg.html#vi.next-steps-and-feedback",
+    "href": "dev/phuse_css2025-adrg.html#vi.next-steps-and-feedback",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "VI.Next Steps and Feedback",
+    "text": "VI.Next Steps and Feedback\n\nReview and Feedback :\n\nOSDocuMeta Minutes\nPHUSE WG\nDocumentation and Presentations\nPackage development\n\nCall for Input :\n\nEncourage thoughts and suggestions offline add a question here."
+  },
+  {
+    "objectID": "dev/phuse_css2025-adrg.html#references",
+    "href": "dev/phuse_css2025-adrg.html#references",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "References",
+    "text": "References\n\nPilot 3 ADRG\nPHUSE ADRG Working Group. Analysis Data Reviewer’s Guide (ADRG) Template. https://www.phuse.eu/working-groups/optimizing-the-use-of-data-standards\nU.S. Food & Drug Administration (FDA). Study Data Technical Conformance Guide. https://www.fda.gov/\nhttps://www.fda.gov/media/162867/download"
   }
 ]

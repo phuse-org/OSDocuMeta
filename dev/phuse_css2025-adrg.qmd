@@ -1,0 +1,225 @@
+---
+title: "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025"
+author: "PHUSE Communication of Version Metadata Working Group"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    code-line-numbers: false
+    css: custom.css
+    fontsize: 28pt
+---
+
+## The Team {#sec-introducing-ourselves}
+
+-   Members of the PHUSE Communication of Version Metadata Working Group
+-   R developers in clinical programming
+-   Collaborating with FDA and PHUSE ADRG Working Group
+-   Our mission: Improve reproducibility and transparency in clinical trial analysis
+
+------------------------------------------------------------------------
+
+## I. Introduction
+
+### Problem Statement & Objective {#sec-problem-statement--objective .small}
+
+-   The **objective** of this project is to develop a new template or enhance the Analysis Data Reviewer’s Guide (ADRG) for open-source submissions.
+-   The **aim** is to ensure consistent documentation of metadata pertaining to the versions of statistical packages and procedures, aligning with health authority expectations.
+-   The **standardized template** will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.
+-   **Benefits**: Improved reproducibility, transparency, and regulatory compliance
+
+------------------------------------------------------------------------
+
+### Evolution of Statistical Programming in Clinical Trials
+
+-   Transition from proprietary languages (SAS) to open-source (R, Python)
+-   Growing adoption of R in clinical trials
+-   Need for standardized documentation that accommodates both paradigms
+
+------------------------------------------------------------------------
+
+## II. Background and Context
+
+------------------------------------------------------------------------
+
+### Purpose of Analysis Data Reviewer’s Guide (ADRG)
+
+-   Provides FDA reviewers with context for analysis datasets and terminology.
+
+-   Supplements information presented within the data folder (e.g., define.xml).
+
+-   Includes a summary of ADaM and other submission documents:
+
+    -   Protocol
+    -   Statistical Analysis Plan (SAP)
+    -   Clinical Study Report
+    -   Define.xml
+
+::: notes
+-   Section 2 will be an open discussion/workshop\
+-   Presenters will show an example of an ADRG for a SAS reported study and an example of R reported study\
+-   Compare and contrast - discuss what information is needed for an R submission
+
+The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
+
+-   An ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission.
+:::
+
+------------------------------------------------------------------------
+
+### Documentation of versions of statistical packages and procedures
+
+#### Proprietary Statistical Programming Languages
+
+-   The version metadata of the statistical procedures/functions has been documented within the Statistical Analysis Plan with a general statement of software and version used (other companies may use other documentation)
+-   Detailed information has been added to the Analysis Data Reviewer’s Guide (ADRG). The ADRG has a section where the programming software version and functions are specified
+
+::: notes
+Open an example of ADRG and highlight section where software related information is needed.
+:::
+
+------------------------------------------------------------------------
+
+### Documentation of versions of statistical packages and procedures
+
+#### Open-Source software
+
+Challenges
+
+-   Package dependencies management
+-   Version control complexities
+-   Reproducibility concerns across environments
+-   Limited standardization in how R analyses are documented
+
+::: notes
+-   Open Current R-based submissions and compare to SAS reported study ADRG
+-   Current ADRG template primarily designed around SAS paradigm
+-   Need for updated approach that encompasses open-source practices
+:::
+
+------------------------------------------------------------------------
+
+## III. Collaboration with FDA and PHUSE ADRG WG
+
+------------------------------------------------------------------------
+
+### Stakeholder Engagement
+
+-   Ongoing discussions with FDA reviewers
+-   Collaboration with PHUSE ADRG Working Group
+-   Industry input from R users in pharma companies
+-   Gathering diverse perspectives on requirements
+
+::: notes
+:::
+
+------------------------------------------------------------------------
+
+### Key Findings from Consultations
+
+-   Need for systematic documentation of R packages and versions
+-   Importance of environment reproducibility
+-   Gaps in current ADRG template for R-specific metadata
+-   Desire for automated solutions to reduce manual documentation burden
+
+::: notes
+:::
+
+------------------------------------------------------------------------
+
+## IV. Draft Supplementary Guidelines for R Deliverables
+
+------------------------------------------------------------------------
+
+### Key ADRG Sections Requiring Updates
+
+-   Section 7: Submissions of Programs
+    -   ADaM Programs
+    -   Analysis Output Programs
+    -   Macro Programs
+-   New section: R Environment Specifications
+
+::: notes
+:::
+
+------------------------------------------------------------------------
+
+### Proposed Approach
+
+-   Create an ADRG R supplementary completion guideline
+-   Create dedicated R package (adrg) for standardized documentation
+    -   Automate extraction of R environment metadata
+    -   Generate standardized ADRG sections for R analyses
+-   Ensure compatibility with existing ADRG template
+
+::: notes
+:::
+
+------------------------------------------------------------------------
+
+### Ensuring Reproducibility
+
+-   Environment snapshot creation
+-   Package dependency tracking (renv integration)
+-   Docker container specifications (when applicable)
+-   Platform independence considerations
+
+::: notes
+:::
+
+------------------------------------------------------------------------
+
+## V. R Package Development
+
+------------------------------------------------------------------------
+
+### Core Features of the adrg Package
+
+::: {.smaller}
+-   1.2 Study Data Standards and Dictionary Inventory
+    -   Potential source: TS SDTM metadata
+-   3.1 Core Variables
+    -   Source: define.xml specifications
+-   4.2 Data Dependencies
+    -   Code scraping for ADaM programs.
+-   5.2 Analysis Datasets
+    -   Metadata extraction from .xpts
+-   6.2 Issues Summary
+    -   Report extraction from Pinnacle 21
+-   7.2 ADaM Programs
+    -   Metadata extraction from .xpts
+-   7.3 Analysis Output Programs
+    -   Read in folder that contains selected outputs
+-   7.4 & 7.5 R Packages
+    -   Code utilizing SessionInfo() and {renv}
+-   Export in multiple formats (Word, PDF, HTML)
+
+:::
+
+::: notes
+Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
+:::
+
+------------------------------------------------------------------------
+
+## VI.Next Steps and Feedback
+
+-   Review and Feedback :
+
+    -   [OSDocuMeta Minutes](https://github.com/phuse-org/OSDocuMeta)
+    -   [PHUSE WG](https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804419/Data+Visualisation+Open+Source+Technology)
+    -   [Documentation and Presentations](https://drive.google.com/drive/folders/1MsSA2hHLdrqbjN-HvxWzLkhWoT9Rze9Y)
+    -   [Package development](https://github.com/phuse-org/adrgOS)
+
+-   Call for Input :
+
+    -   Encourage thoughts and suggestions offline [add a question here](https://github.com/phuse-org/OSDocuMeta/issues/new/choose).
+
+------------------------------------------------------------------------
+
+## References {.smaller}
+
+-   [Pilot 3 ADRG](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf)
+-   PHUSE ADRG Working Group. Analysis Data Reviewer's Guide (ADRG) Template. https://www.phuse.eu/working-groups/optimizing-the-use-of-data-standards
+-   U.S. Food & Drug Administration (FDA). Study Data Technical Conformance Guide. https://www.fda.gov/
+-   https://www.fda.gov/media/162867/download

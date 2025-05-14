@@ -253,7 +253,7 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 
 ------------------------------------------------------------------------
 
-## VI.Next Steps and Feedback
+## VI. Next Steps and Feedback
 
 -   Review and Feedback :
 
@@ -268,7 +268,7 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 
 ------------------------------------------------------------------------
 
-## References {.smaller}
+## References
 
 -   [Pilot 3 ADRG](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf)
 -   [PHUSE ADRG Working Group. Analysis Data Reviewer's Guide (ADRG) Template](https://www.phuse.eu/working-groups/optimizing-the-use-of-data-standards)

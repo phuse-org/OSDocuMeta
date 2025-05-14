@@ -13,8 +13,8 @@ format:
 ## The Team {#sec-introducing-ourselves}
 
 -   Members of the PHUSE Communication of Version Metadata Working Group
-    -   Joel Laxamana (Co-Lead - Roche/Genentech)
-    -   Lovemore Gakava (Co-Lead - Novo Nordisk)
+    -   Joel Laxamana (Co-Lead : Roche/Genentech)
+    -   Lovemore Gakava (Co-Lead : Novo Nordisk)
     -   Cervan Girard (Novo Nordisk)
     -   Eric Nantz (Eli Lilly)
     -   Nicholas Masel (Johnson & Johnson)

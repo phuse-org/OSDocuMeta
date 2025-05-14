@@ -31,11 +31,11 @@ format:
 ::: fragment
 Problem:
 
-Proprietary (SAS) versus Opensource Langage (R, Python etc...)
+While documentation practices and reproducibility are well-established for proprietary packages such as SAS, there is a need to establish consistent documentation standards and reproducibility in open-source (R, Python, etc.) statistical programming environments.
 :::
 
 :::: fragment
-Objective:
+Goal:
 
 ::: incremental
 -   The **objective** of this project is to develop a new template or enhance the Analysis Data Reviewer’s Guide (ADRG) for open-source submissions.
@@ -219,7 +219,6 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Open-source challenges: dependencies, control, reproducibility
 :::
 
-
 # Q & A
 
 # III. Collaboration with FDA and PHUSE ADRG WG
@@ -244,7 +243,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Need for systematic documentation of R packages and versions
 -   Importance of environment reproducibility
 -   Gaps in current ADRG template for R-specific metadata
-    - See the current complition guidline
+    -   See the current complition guidline
 -   Desire for automated solutions to reduce manual documentation burden
 :::
 

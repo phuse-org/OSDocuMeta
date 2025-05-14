@@ -42,10 +42,10 @@ format:
 
 ### Recap: Introduction
 
-- Objective: Develop or enhance ADRG template for open-source submissions
-- Aim: Consistent metadata documentation
-- Benefits: Enhanced reproducibility & transparency
-- Evolution: Shift from SAS to R/Python in clinical trials
+-   Objective: Develop or enhance ADRG template for open-source submissions
+-   Aim: Consistent metadata documentation
+-   Benefits: Enhanced reproducibility & transparency
+-   Evolution: Shift from SAS to R/Python in clinical trials
 
 *Now lets to proceed to discuss Background and Context*
 
@@ -66,26 +66,31 @@ format:
 -   Provides Regulatory (e.g. FDA) reviewers with context for analysis datasets and terminology.
 
 -   Supplements information presented within the data folder (e.g. define.xml).
-  
+
 -   Includes a summary of ADaM and other submission documents:
 
     -   Protocol
     -   Statistical Analysis Plan (SAP)
     -   Clinical Study Report
     -   Define.xml
-    
-  *lets show an example of an ADRG*
-  
+
+*lets show an example of an ADRG*
+
 ::: notes
+-   The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
 
-- The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
-
--   An ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission.
-source: https://www.fda.gov/media/162867/download
+-   An ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission. source: [STUDY DATA
+TECHNICAL CONFORMANCE GUIDE] (https://www.fda.gov/media/162867/download)
 
 Action: Also open and show example ADRG (preferably the one from PHUSE ADRG WG - 2019) - show screenshots from the Protocol, SAP/RAP, Clinical Study Report and Define.xml and the connection to the ADRG.
 
+https://advance.hub.phuse.global/wiki/x/tAGZAQ
+https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804660/Analysis+Data+Reviewer+s+Guide+ADRG+Package
+
+For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdiscpilot01.pdf 
+
 :::
+
 ------------------------------------------------------------------------
 
 ### Documentation of versions of statistical packages and procedures
@@ -116,11 +121,12 @@ Challenges
 
 ::: notes
 -   Open Current R-based submissions and compare to SAS reported study ADRG (preferably the one from PHUSE ADRG WG - 2019)
-  - https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf
 
-  - https://rpodcast.quarto.pub/pilot4-webassembly-adrg/#submission-of-programs
-  
-  - https://github.com/ari-stotle-max/phuse-css-2023/tree/main
+-   https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf
+
+-   https://rpodcast.quarto.pub/pilot4-webassembly-adrg/#submission-of-programs
+
+-   https://github.com/ari-stotle-max/phuse-css-2023/tree/main
 
 -   show current (PHUSE ADRG WG - 2019) ADRG template update for R: explain why a general statement of version of R and platform is not enough.
 
@@ -131,9 +137,9 @@ Challenges
 
 ### Recap: Background and Context
 
-- ADRG aids reviewers' understanding of datasets & terminology
-- Proprietary languages: version info in SAP & ADRG
-- Open-source challenges: dependencies, control, reproducibility
+-   ADRG aids reviewers' understanding of datasets & terminology
+-   Proprietary languages: version info in SAP & ADRG
+-   Open-source challenges: dependencies, control, reproducibility
 
 ------------------------------------------------------------------------
 
@@ -209,9 +215,9 @@ Challenges
 
 ### Recap: Draft Guidelines
 
-- Create a supplementary guideline for R deliverable
-- R package development for documentation
-- create a supporting document for reproducing the R environment
+-   Create a supplementary guideline for R deliverable
+-   R package development for documentation
+-   create a supporting document for reproducing the R environment
 
 ------------------------------------------------------------------------
 
@@ -221,7 +227,7 @@ Challenges
 
 ### Core Features of the adrg Package
 
-::: {.smaller}
+::: smaller
 -   1.2 Study Data Standards and Dictionary Inventory
     -   Potential source: TS SDTM metadata
 -   3.1 Core Variables
@@ -239,7 +245,6 @@ Challenges
 -   7.4 & 7.5 R Packages
     -   Code utilizing SessionInfo() and {renv}
 -   Export in multiple formats (Word, PDF, HTML)
-
 :::
 
 ::: notes
@@ -268,4 +273,4 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 -   [Pilot 3 ADRG](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf)
 -   [PHUSE ADRG Working Group. Analysis Data Reviewer's Guide (ADRG) Template](https://www.phuse.eu/working-groups/optimizing-the-use-of-data-standards)
 -   [U.S. Food & Drug Administration (FDA)](https://www.fda.gov/)
-  -   [Study Data Technical Conformance Guide](https://www.fda.gov/media/162867/download)
+-   [Study Data Technical Conformance Guide](https://www.fda.gov/media/162867/download)

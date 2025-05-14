@@ -30,12 +30,22 @@ find something else for the team
 
 ## Problem Statement & Objective {#sec-problem-statement--objective .small}
 
+::: fragment
+Problem:
+
+SAS versus Opensource Langage (R, Python etc...)
+:::
+
+:::: fragment
+Objective:
+
 ::: incremental
 -   The **objective** of this project is to develop a new template or enhance the Analysis Data Reviewer’s Guide (ADRG) for open-source submissions.
 -   The **aim** is to ensure consistent documentation of metadata pertaining to the versions of statistical packages and procedures, aligning with health authority expectations.
 -   The **standardized template** will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.
 -   **Benefits**: Improved reproducibility, transparency, and regulatory compliance
 :::
+::::
 
 ## Evolution of Statistical Programming in Clinical Trials
 
@@ -70,8 +80,14 @@ find something else for the team
 
 ## Purpose of Analysis Data Reviewer’s Guide (ADRG) {.smaller}
 
-:::: fragment
-::: incremental
+::::: columns
+::: {.column .fragment}
+Definition:
+
+> The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
+:::
+
+::: {.column .fragment .incremental}
 -   Provides Regulatory (e.g. FDA) reviewers with context for analysis datasets and terminology.
 
 -   Supplements information presented within the data folder (e.g. define.xml).
@@ -83,10 +99,11 @@ find something else for the team
     -   Clinical Study Report
     -   Define.xml
 :::
-::::
+:::::
 
 ## ADRG Overview {.smaller}
 
+::: fragment
 The ADRG has seven required sections:
 
 -   Introduction
@@ -108,12 +125,15 @@ The ADRG also has two optional sections:
 -   Appendix (for other documentation that would be helpful to a reviewer)
 
 -   Legacy Data Conversion Plan & Report Appendix
+:::
 
 ::: fragment
 ***Lets show an example of an ADRG***
 :::
 
 ::: notes
+-   Show example of the ADRG template
+
 -   The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
 
 -   An ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission. source: \[STUDY DATA TECHNICAL CONFORMANCE GUIDE\] (https://www.fda.gov/media/162867/download)
@@ -201,6 +221,9 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Open-source challenges: dependencies, control, reproducibility
 :::
 
+
+# Q & A
+
 # III. Collaboration with FDA and PHUSE ADRG WG
 
 ## Stakeholder Engagement
@@ -223,6 +246,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Need for systematic documentation of R packages and versions
 -   Importance of environment reproducibility
 -   Gaps in current ADRG template for R-specific metadata
+    - See the current complition guidline
 -   Desire for automated solutions to reduce manual documentation burden
 :::
 
@@ -287,7 +311,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 
 ## Core Features of the adrg Package
 
-::: {style="font-size: 0.5em;"}
+::: {style="font-size: 0.8em;"}
 -   1.2 Study Data Standards and Dictionary Inventory
     -   Potential source: TS SDTM metadata
 -   3.1 Core Variables
@@ -315,7 +339,7 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 
 ## VI. Next Steps and Feedback
 
--   Review and Feedback :
+-   Core work:
 
     -   [OSDocuMeta Minutes](https://github.com/phuse-org/OSDocuMeta)
     -   [PHUSE WG](https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804419/Data+Visualisation+Open+Source+Technology)

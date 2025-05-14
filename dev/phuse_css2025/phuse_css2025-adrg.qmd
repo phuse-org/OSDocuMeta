@@ -22,16 +22,16 @@ format:
     -   Sam Parmar (Pfizer)
     -   Steven Haesendonckx (Johnson & Johnson)
     -   Piotr Pasza Storożenko (Appsilon)
--   Collaborating with FDA and PHUSE ADRG Working Group
+    -   Collaborating with R Consortium Submissions WG and PHUSE Data Standards group
 
 # I. Introduction
 
-## Problem Statement & Objective {#sec-problem-statement--objective .small}
+## Motivation & Objective 
 
 ::: fragment
-Problem:
+Motivation:
 
-While documentation practices and reproducibility are well-established for proprietary packages such as SAS, there is a need to establish consistent documentation standards and reproducibility in open-source (R, Python, etc.) statistical programming environments.
+While documentation practices and reproducibility are well-established for proprietary software such as SAS, there is a need to establish consistent documentation standards and reproducibility in open-source (R, Python, etc.) statistical programming environments.
 :::
 
 :::: fragment
@@ -48,7 +48,7 @@ Goal:
 ## Evolution of Statistical Programming in Clinical Trials
 
 ::: incremental
--   Transition from proprietary languages (SAS) to open-source (R, Python)
+-   Transition from proprietary software (SAS) to open-source
 -   Growing adoption of R in clinical trials
 -   Need for standardized documentation that accommodates both paradigms
 :::
@@ -57,10 +57,10 @@ Goal:
 
 :::: fragment
 ::: incremental
--   Objective: Develop or enhance ADRG template for open-source submissions
+-   Objective: Contribute to the enhancement of the ADRG template for open-source submissions
 -   Aim: Consistent metadata documentation
 -   Benefits: Enhanced reproducibility & transparency
--   Evolution: Shift from SAS to R/Python in clinical trials
+-   Evolution: Shift from proprietary to open-source in clinical trials
 :::
 ::::
 
@@ -221,13 +221,13 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 
 # Q & A
 
-# III. Collaboration with FDA and PHUSE ADRG WG
+# III. Collaboration with RConsortium and PHUSE ADRG WG
 
 ## Stakeholder Engagement
 
 ::: incremental
--   Ongoing discussions with FDA reviewers
--   Collaboration with PHUSE ADRG Working Group
+-   Ongoing discussions with R Consortium Submissions WG
+-   Collaboration with PHUSE Data Standards group
 -   Industry input from R users in pharma companies
 -   Gathering diverse perspectives on requirements
 :::
@@ -243,7 +243,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Need for systematic documentation of R packages and versions
 -   Importance of environment reproducibility
 -   Gaps in current ADRG template for R-specific metadata
-    -   See the current complition guidline
+    -   See the current completion guideline
 -   Desire for automated solutions to reduce manual documentation burden
 :::
 
@@ -339,7 +339,7 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 -   Core work:
 
     -   [OSDocuMeta Minutes](https://github.com/phuse-org/OSDocuMeta)
-    -   [PHUSE WG](https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804419/Data+Visualisation+Open+Source+Technology)
+    -   [Communication of Version Metadata for Open-Source Languages](https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804419/Data+Visualisation+Open+Source+Technology)
     -   [Documentation and Presentations](https://drive.google.com/drive/folders/1MsSA2hHLdrqbjN-HvxWzLkhWoT9Rze9Y)
     -   [Package development](https://github.com/phuse-org/adrgOS)
 
@@ -352,6 +352,7 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 ## References
 
 -   [Pilot 3 ADRG](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf)
--   [PHUSE ADRG Working Group. Analysis Data Reviewer's Guide (ADRG) Template](https://www.phuse.eu/working-groups/optimizing-the-use-of-data-standards)
+-   [Analysis Data Reviewer's Guide (ADRG) Package](https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804660/Analysis+Data+Reviewer+s+Guide+ADRG+Package)
 -   [U.S. Food & Drug Administration (FDA)](https://www.fda.gov/)
 -   [Study Data Technical Conformance Guide](https://www.fda.gov/media/162867/download)
+-   [PMDA New Drug Review with Electronic Data](https://www.pmda.go.jp/english/review-services/reviews/0002.html)

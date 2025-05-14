@@ -13,7 +13,7 @@ format:
 
 ## The Team {#sec-introducing-ourselves}
 
-find something else for the team  
+find something else for the team
 
 -   Members of the PHUSE Communication of Version Metadata Working Group
     -   Joel Laxamana (Co-Lead : Roche/Genentech)
@@ -26,10 +26,7 @@ find something else for the team
     -   Piotr Pasza Storożenko (Appsilon)
 -   Collaborating with FDA and PHUSE ADRG Working Group
 
-
-
 # I. Introduction
-
 
 ## Problem Statement & Objective {#sec-problem-statement--objective .small}
 
@@ -40,7 +37,6 @@ find something else for the team
 -   **Benefits**: Improved reproducibility, transparency, and regulatory compliance
 :::
 
-
 ## Evolution of Statistical Programming in Clinical Trials
 
 ::: incremental
@@ -49,22 +45,20 @@ find something else for the team
 -   Need for standardized documentation that accommodates both paradigms
 :::
 
-
 ## Recap: Introduction
 
-::: fragment
-::: incremental 
+:::: fragment
+::: incremental
 -   Objective: Develop or enhance ADRG template for open-source submissions
 -   Aim: Consistent metadata documentation
 -   Benefits: Enhanced reproducibility & transparency
 -   Evolution: Shift from SAS to R/Python in clinical trials
 :::
-:::
+::::
 
 ::: fragment
 ***Now lets to proceed to discuss Background and Context***
 :::
-
 
 # II. Background and Context
 
@@ -74,10 +68,9 @@ find something else for the team
 -   Compare and contrast - discuss what information is needed for an R submission
 :::
 
-
 ## Purpose of Analysis Data Reviewer’s Guide (ADRG) {.smaller}
 
-::: fragment
+:::: fragment
 ::: incremental
 -   Provides Regulatory (e.g. FDA) reviewers with context for analysis datasets and terminology.
 
@@ -90,7 +83,31 @@ find something else for the team
     -   Clinical Study Report
     -   Define.xml
 :::
-:::
+::::
+
+## ADRG Overview {.smaller}
+
+The ADRG has seven required sections:
+
+-   Introduction
+
+-   Protocol Description
+
+-   Analysis Considerations Related to Multiple Analysis Datasets
+
+-   Analysis Data Creation and Processing Issues
+
+-   Analysis Dataset Descriptions
+
+-   Data Conformance Summary
+
+-   Submissions of Programs
+
+The ADRG also has two optional sections:
+
+-   Appendix (for other documentation that would be helpful to a reviewer)
+
+-   Legacy Data Conversion Plan & Report Appendix
 
 ::: fragment
 ***Lets show an example of an ADRG***
@@ -101,6 +118,8 @@ find something else for the team
 
 -   An ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission. source: \[STUDY DATA TECHNICAL CONFORMANCE GUIDE\] (https://www.fda.gov/media/162867/download)
 
+-   ADRG_Completion_Guidelines_v1.2
+
 Action: Also open and show example ADRG (preferably the one from PHUSE ADRG WG - 2019) - show screenshots from the Protocol, SAP/RAP, Clinical Study Report and Define.xml and the connection to the ADRG.
 
 https://advance.hub.phuse.global/wiki/x/tAGZAQ https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804660/Analysis+Data+Reviewer+s+Guide+ADRG+Package
@@ -108,67 +127,57 @@ https://advance.hub.phuse.global/wiki/x/tAGZAQ https://advance.hub.phuse.global/
 For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdiscpilot01.pdf
 :::
 
-
-
 ## Documentation of versions of statistical packages and procedures
 
-</br>
-</br>
-</br>
+</br> </br> </br>
 
-:::{.columns}
+::::: columns
+::: {.column .fragment}
+### Proprietary
 
-:::{.column .fragment}
-### Proprietary 
-- SAS
-- SPSS
-- Tibco Spotfire
+-   SAS
+-   SPSS
+-   Tibco Spotfire
 :::
 
-:::{.column .fragment}
+::: {.column .fragment}
 ### Open-Source
-- R
-- Julia
-- Python
-:::
 
-
+-   R
+-   Julia
+-   Python
 :::
+:::::
 
 ## Proprietary Statistical Programming Languages
 
-::: fragment
+:::: fragment
 ::: incremental
 -   The version metadata of the statistical procedures/functions has been documented within the Statistical Analysis Plan with a general statement of software and version used (other companies may use other documentation)
 -   Detailed information has been added to the Analysis Data Reviewer’s Guide (ADRG). The ADRG has a section where the programming software version and functions are specified
 :::
-:::
+::::
 
 ::: fragment
 *Let us have a look at an example*
 :::
 
-
 ::: notes
 Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highlight section where OS software related information is needed. Focus on section 7.
 :::
 
-
-
 ## Open-Source Languages
 
-::: fragment
+:::: fragment
 ### Challenges
 
 ::: incremental
-
 -   Package dependencies management
 -   Version control complexities
 -   Reproducibility concerns across environments
 -   Limited standardization in how R analyses are documented
-
 :::
-:::
+::::
 
 ::: notes
 -   Open Current R-based submissions and compare to SAS reported study ADRG (preferably the one from PHUSE ADRG WG - 2019)
@@ -184,7 +193,6 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Need for updated approach that encompasses open-source practices
 :::
 
-
 ## Recap: Background and Context
 
 ::: incremental
@@ -193,10 +201,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Open-source challenges: dependencies, control, reproducibility
 :::
 
-
-
 # III. Collaboration with FDA and PHUSE ADRG WG
-
 
 ## Stakeholder Engagement
 
@@ -224,10 +229,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 ::: notes
 :::
 
-
-
 # IV. Action Plan for R Deliverables Based on Consultations
-
 
 ## Key ADRG Sections Requiring Updates
 
@@ -260,6 +262,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 ------------------------------------------------------------------------
 
 ### Ensuring Reproducibility
+
 ::: incremental
 -   Environment snapshot creation
 -   Package dependency tracking (renv integration)
@@ -280,12 +283,9 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   create a supporting document for reproducing the R environment
 :::
 
-
-
 # V. R Package Development
 
-
-## Core Features of the adrg Package 
+## Core Features of the adrg Package
 
 ::: {style="font-size: 0.5em;"}
 -   1.2 Study Data Standards and Dictionary Inventory

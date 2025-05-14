@@ -13,8 +13,6 @@ format:
 
 ## The Team {#sec-introducing-ourselves}
 
-find something else for the team
-
 -   Members of the PHUSE Communication of Version Metadata Working Group
     -   Joel Laxamana (Co-Lead : Roche/Genentech)
     -   Lovemore Gakava (Co-Lead : Novo Nordisk)
@@ -33,7 +31,7 @@ find something else for the team
 ::: fragment
 Problem:
 
-SAS versus Opensource Langage (R, Python etc...)
+Proprietary (SAS) versus Opensource Langage (R, Python etc...)
 :::
 
 :::: fragment

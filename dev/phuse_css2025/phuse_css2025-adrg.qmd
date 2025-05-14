@@ -13,7 +13,14 @@ format:
 ## The Team {#sec-introducing-ourselves}
 
 -   Members of the PHUSE Communication of Version Metadata Working Group
--   R developers in clinical programming
+    -   Joel Laxamana (Co-Lead - Roche/Genentech)
+    -   Lovemore Gakava (Co-Lead - Novo Nordisk)
+    -   Cervan Girard (Novo Nordisk)
+    -   Eric Nantz (Eli Lilly)
+    -   Nicholas Masel (Johnson & Johnson)
+    -   Sam Parmar (Pfizer)
+    -   Steven Haesendonckx (Johnson & Johnson)
+    -   Piotr Pasza Storożenko (Appsilon)
 -   Collaborating with FDA and PHUSE ADRG Working Group
 -   Our mission: Improve reproducibility and transparency in clinical trial analysis
 
@@ -79,16 +86,13 @@ format:
 ::: notes
 -   The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
 
--   An ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission. source: [STUDY DATA
-TECHNICAL CONFORMANCE GUIDE] (https://www.fda.gov/media/162867/download)
+-   An ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission. source: \[STUDY DATA TECHNICAL CONFORMANCE GUIDE\] (https://www.fda.gov/media/162867/download)
 
 Action: Also open and show example ADRG (preferably the one from PHUSE ADRG WG - 2019) - show screenshots from the Protocol, SAP/RAP, Clinical Study Report and Define.xml and the connection to the ADRG.
 
-https://advance.hub.phuse.global/wiki/x/tAGZAQ
-https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804660/Analysis+Data+Reviewer+s+Guide+ADRG+Package
+https://advance.hub.phuse.global/wiki/x/tAGZAQ https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804660/Analysis+Data+Reviewer+s+Guide+ADRG+Package
 
-For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdiscpilot01.pdf 
-
+For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdiscpilot01.pdf
 :::
 
 ------------------------------------------------------------------------

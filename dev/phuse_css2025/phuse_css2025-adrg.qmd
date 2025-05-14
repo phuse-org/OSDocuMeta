@@ -3,14 +3,17 @@ title: "Modernizing Documentation Standards for Open-Source Statistical Programm
 author: "PHUSE Communication of Version Metadata Working Group"
 format:
   revealjs:
-    theme: simple
+    theme: 
+        - default
+        - custom.scss
+    self-contained: true
     slide-number: true
     code-line-numbers: false
-    css: custom.css
-    fontsize: 28pt
 ---
 
 ## The Team {#sec-introducing-ourselves}
+
+find something else for the team  
 
 -   Members of the PHUSE Communication of Version Metadata Working Group
     -   Joel Laxamana (Co-Lead : Roche/Genentech)
@@ -22,43 +25,48 @@ format:
     -   Steven Haesendonckx (Johnson & Johnson)
     -   Piotr Pasza Storożenko (Appsilon)
 -   Collaborating with FDA and PHUSE ADRG Working Group
--   Our mission: Improve reproducibility and transparency in clinical trial analysis
 
-------------------------------------------------------------------------
 
-## I. Introduction
 
-------------------------------------------------------------------------
+# I. Introduction
 
-### Problem Statement & Objective {#sec-problem-statement--objective .small}
 
+## Problem Statement & Objective {#sec-problem-statement--objective .small}
+
+::: incremental
 -   The **objective** of this project is to develop a new template or enhance the Analysis Data Reviewer’s Guide (ADRG) for open-source submissions.
 -   The **aim** is to ensure consistent documentation of metadata pertaining to the versions of statistical packages and procedures, aligning with health authority expectations.
 -   The **standardized template** will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.
 -   **Benefits**: Improved reproducibility, transparency, and regulatory compliance
+:::
 
-------------------------------------------------------------------------
 
-### Evolution of Statistical Programming in Clinical Trials
+## Evolution of Statistical Programming in Clinical Trials
 
+::: incremental
 -   Transition from proprietary languages (SAS) to open-source (R, Python)
 -   Growing adoption of R in clinical trials
 -   Need for standardized documentation that accommodates both paradigms
+:::
 
-------------------------------------------------------------------------
 
-### Recap: Introduction
+## Recap: Introduction
 
+::: fragment
+::: incremental 
 -   Objective: Develop or enhance ADRG template for open-source submissions
 -   Aim: Consistent metadata documentation
 -   Benefits: Enhanced reproducibility & transparency
 -   Evolution: Shift from SAS to R/Python in clinical trials
+:::
+:::
 
-*Now lets to proceed to discuss Background and Context*
+::: fragment
+***Now lets to proceed to discuss Background and Context***
+:::
 
-------------------------------------------------------------------------
 
-## II. Background and Context
+# II. Background and Context
 
 ::: notes
 -   Section II will be an open discussion/workshop\
@@ -66,10 +74,11 @@ format:
 -   Compare and contrast - discuss what information is needed for an R submission
 :::
 
-------------------------------------------------------------------------
 
-### Purpose of Analysis Data Reviewer’s Guide (ADRG)
+## Purpose of Analysis Data Reviewer’s Guide (ADRG) {.smaller}
 
+::: fragment
+::: incremental
 -   Provides Regulatory (e.g. FDA) reviewers with context for analysis datasets and terminology.
 
 -   Supplements information presented within the data folder (e.g. define.xml).
@@ -80,8 +89,12 @@ format:
     -   Statistical Analysis Plan (SAP)
     -   Clinical Study Report
     -   Define.xml
+:::
+:::
 
-*lets show an example of an ADRG*
+::: fragment
+***Lets show an example of an ADRG***
+:::
 
 ::: notes
 -   The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
@@ -95,33 +108,67 @@ https://advance.hub.phuse.global/wiki/x/tAGZAQ https://advance.hub.phuse.global/
 For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdiscpilot01.pdf
 :::
 
-------------------------------------------------------------------------
 
-### Documentation of versions of statistical packages and procedures
 
-#### Proprietary Statistical Programming Languages
+## Documentation of versions of statistical packages and procedures
 
+</br>
+</br>
+</br>
+
+:::{.columns}
+
+:::{.column .fragment}
+### Proprietary 
+- SAS
+- SPSS
+- Tibco Spotfire
+:::
+
+:::{.column .fragment}
+### Open-Source
+- R
+- Julia
+- Python
+:::
+
+
+:::
+
+## Proprietary Statistical Programming Languages
+
+::: fragment
+::: incremental
 -   The version metadata of the statistical procedures/functions has been documented within the Statistical Analysis Plan with a general statement of software and version used (other companies may use other documentation)
 -   Detailed information has been added to the Analysis Data Reviewer’s Guide (ADRG). The ADRG has a section where the programming software version and functions are specified
+:::
+:::
 
+::: fragment
 *Let us have a look at an example*
+:::
+
 
 ::: notes
 Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highlight section where OS software related information is needed. Focus on section 7.
 :::
 
-------------------------------------------------------------------------
 
-### Documentation of versions of statistical packages and procedures
 
-#### Open-Source software
+## Open-Source Languages
 
-Challenges
+::: fragment
+### Challenges
+
+::: incremental
 
 -   Package dependencies management
 -   Version control complexities
 -   Reproducibility concerns across environments
 -   Limited standardization in how R analyses are documented
+
+:::
+:::
 
 ::: notes
 -   Open Current R-based submissions and compare to SAS reported study ADRG (preferably the one from PHUSE ADRG WG - 2019)
@@ -137,26 +184,28 @@ Challenges
 -   Need for updated approach that encompasses open-source practices
 :::
 
-------------------------------------------------------------------------
 
-### Recap: Background and Context
+## Recap: Background and Context
 
+::: incremental
 -   ADRG aids reviewers' understanding of datasets & terminology
 -   Proprietary languages: version info in SAP & ADRG
 -   Open-source challenges: dependencies, control, reproducibility
+:::
 
-------------------------------------------------------------------------
 
-## III. Collaboration with FDA and PHUSE ADRG WG
 
-------------------------------------------------------------------------
+# III. Collaboration with FDA and PHUSE ADRG WG
 
-### Stakeholder Engagement
 
+## Stakeholder Engagement
+
+::: incremental
 -   Ongoing discussions with FDA reviewers
 -   Collaboration with PHUSE ADRG Working Group
 -   Industry input from R users in pharma companies
 -   Gathering diverse perspectives on requirements
+:::
 
 ::: notes
 :::
@@ -165,27 +214,30 @@ Challenges
 
 ### Key Findings from Consultations
 
+::: incremental
 -   Need for systematic documentation of R packages and versions
 -   Importance of environment reproducibility
 -   Gaps in current ADRG template for R-specific metadata
 -   Desire for automated solutions to reduce manual documentation burden
+:::
 
 ::: notes
 :::
 
-------------------------------------------------------------------------
 
-## IV. Action Plan for R Deliverables Based on Consultations
 
-------------------------------------------------------------------------
+# IV. Action Plan for R Deliverables Based on Consultations
 
-### Key ADRG Sections Requiring Updates
 
+## Key ADRG Sections Requiring Updates
+
+::: incremental
 -   Section 7: Submissions of Programs
     -   ADaM Programs
     -   Analysis Output Programs
     -   Macro Programs
 -   New section: R Environment Specifications
+:::
 
 ::: notes
 :::
@@ -194,11 +246,13 @@ Challenges
 
 ### Proposed Approach
 
+::: incremental
 -   Create an ADRG R supplementary completion guideline
 -   Create dedicated R package (ADRG) for standardized documentation
     -   Automate extraction of R environment metadata
     -   Generate standardized ADRG sections for R analyses
 -   Ensure compatibility with existing ADRG template
+:::
 
 ::: notes
 :::
@@ -206,11 +260,12 @@ Challenges
 ------------------------------------------------------------------------
 
 ### Ensuring Reproducibility
-
+::: incremental
 -   Environment snapshot creation
 -   Package dependency tracking (renv integration)
 -   Docker container specifications (when applicable)
 -   Platform independence considerations
+:::
 
 ::: notes
 :::
@@ -219,19 +274,20 @@ Challenges
 
 ### Recap: Draft Guidelines
 
+::: incremental
 -   Create a supplementary guideline for R deliverable
 -   R package development for documentation
 -   create a supporting document for reproducing the R environment
+:::
 
-------------------------------------------------------------------------
 
-## V. R Package Development
 
-------------------------------------------------------------------------
+# V. R Package Development
 
-### Core Features of the adrg Package
 
-::: smaller
+## Core Features of the adrg Package 
+
+::: {style="font-size: 0.5em;"}
 -   1.2 Study Data Standards and Dictionary Inventory
     -   Potential source: TS SDTM metadata
 -   3.1 Core Variables

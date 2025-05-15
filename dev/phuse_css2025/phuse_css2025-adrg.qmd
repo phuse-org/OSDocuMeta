@@ -26,7 +26,7 @@ format:
 
 # I. Introduction
 
-## Motivation & Objective 
+## Motivation & Goal 
 
 ::: fragment
 Motivation:
@@ -38,9 +38,9 @@ While documentation practices and reproducibility are well-established for propr
 Goal:
 
 ::: incremental
--   The **objective** of this project is to develop a new template or enhance the Analysis Data Reviewer’s Guide (ADRG) for open-source submissions.
+-   The **objective** of this project is to develop a new template or enhance the existing Analysis Data Reviewer’s Guide (ADRG) for open-source submissions.
 -   The **aim** is to ensure consistent documentation of metadata pertaining to the versions of statistical packages and procedures, aligning with health authority expectations.
--   The **standardized template** will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.
+-   The **standardized template** will streamline the submission of clinical study to health authorities as part of the regulatory review process.
 -   **Benefits**: Improved reproducibility, transparency, and regulatory compliance
 :::
 ::::
@@ -49,8 +49,8 @@ Goal:
 
 ::: incremental
 -   Transition from proprietary software (SAS) to open-source
--   Growing adoption of R in clinical trials
--   Need for standardized documentation that accommodates both paradigms
+-   Growing adoption of open-source langages (R, python...) in clinical trials
+-   Need for standardized documentation that accommodates all paradigms
 :::
 
 ## Recap: Introduction
@@ -86,7 +86,7 @@ Definition:
 :::
 
 ::: {.column .fragment .incremental}
--   Provides Regulatory (e.g. FDA) reviewers with context for analysis datasets and terminology.
+-   Provides Regulatory reviewers with context for analysis datasets and terminology.
 
 -   Supplements information presented within the data folder (e.g. define.xml).
 
@@ -145,13 +145,13 @@ https://advance.hub.phuse.global/wiki/x/tAGZAQ https://advance.hub.phuse.global/
 For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdiscpilot01.pdf
 :::
 
-## Documentation of versions of statistical packages and procedures
+## From proprietary software to open-source language
 
 </br> </br> </br>
 
 ::::: columns
 ::: {.column .fragment}
-### Proprietary
+### Proprietary software
 
 -   SAS
 -   SPSS
@@ -159,7 +159,7 @@ For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdi
 :::
 
 ::: {.column .fragment}
-### Open-Source
+### Open-Source language
 
 -   R
 -   Julia
@@ -167,7 +167,7 @@ For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdi
 :::
 :::::
 
-## Proprietary Statistical Programming Languages
+## Proprietary Statistical Programming Software
 
 :::: fragment
 ::: incremental
@@ -197,6 +197,10 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 ::::
 
+::: fragment
+*Let us have a look at examples*
+:::
+
 ::: notes
 -   Open Current R-based submissions and compare to SAS reported study ADRG (preferably the one from PHUSE ADRG WG - 2019)
 
@@ -215,8 +219,8 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 
 ::: incremental
 -   ADRG aids reviewers' understanding of datasets & terminology
--   Proprietary languages: version info in SAP & ADRG
--   Open-source challenges: dependencies, control, reproducibility
+-   Proprietary software: version info in SAP & ADRG
+-   Open-source languages challenges: dependencies, control, reproducibility
 :::
 
 # Q & A
@@ -235,15 +239,14 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 ::: notes
 :::
 
-------------------------------------------------------------------------
 
-### Key Findings from Consultations
+## Key Findings from Consultations
 
 ::: incremental
 -   Need for systematic documentation of R packages and versions
 -   Importance of environment reproducibility
--   Gaps in current ADRG template for R-specific metadata
-    -   See the current completion guideline
+-   Gaps in existing ADRG template for R-specific metadata
+    -   See the existing completion guideline
 -   Desire for automated solutions to reduce manual documentation burden
 :::
 
@@ -265,9 +268,8 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 ::: notes
 :::
 
-------------------------------------------------------------------------
 
-### Proposed Approach
+## Proposed Approach
 
 ::: incremental
 -   Create an ADRG R supplementary completion guideline
@@ -278,15 +280,17 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
+- don't forget to talk about ADRG LLM current work
 :::
 
-------------------------------------------------------------------------
 
-### Ensuring Reproducibility
+## Ensuring Reproducibility
 
 ::: incremental
 -   Environment snapshot creation
--   Package dependency tracking (renv integration)
+    -   Package dependency tracking (renv integration)
+    -   R version
+    -   IDE used (Rstudio, Vscode, etc...)
 -   Docker container specifications (when applicable)
 -   Platform independence considerations
 :::
@@ -294,14 +298,15 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 ::: notes
 :::
 
-------------------------------------------------------------------------
 
-### Recap: Draft Guidelines
+
+## Recap: Draft Guidelines
 
 ::: incremental
 -   Create a supplementary guideline for R deliverable
--   R package development for documentation
--   create a supporting document for reproducing the R environment
+-   R package development for sections in the ADRG
+-   Create a supporting document for reproducing the R environment
+
 :::
 
 # V. R Package Development
@@ -332,7 +337,6 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 :::
 
-------------------------------------------------------------------------
 
 ## VI. Next Steps and Feedback
 
@@ -347,7 +351,6 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 
     -   Encourage thoughts and suggestions offline [add a question here](https://github.com/phuse-org/OSDocuMeta/issues/new/choose).
 
-------------------------------------------------------------------------
 
 ## References
 

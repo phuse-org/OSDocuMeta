@@ -24,6 +24,10 @@ format:
     -   Piotr Pasza Storożenko (Appsilon)
     -   Collaborating with R Consortium Submissions WG and PHUSE Data Standards group
 
+::: notes
+-   LG
+::: 
+
 # I. Introduction
 
 ## Motivation & Goal 
@@ -44,6 +48,10 @@ Goal:
 -   **Benefits**: Improved reproducibility, transparency, and regulatory compliance
 :::
 ::::
+
+::: notes
+-   CG
+::: 
 
 ## Evolution of Statistical Programming in Clinical Trials
 
@@ -68,9 +76,14 @@ Goal:
 ***Now lets to proceed to discuss Background and Context***
 :::
 
+::: notes
+-   CG
+::: 
+
 # II. Background and Context
 
 ::: notes
+-   LG
 -   Section II will be an open discussion/workshop\
 -   Presenters will show an example of an ADRG for a SAS reported study and an example of R reported study\
 -   Compare and contrast - discuss what information is needed for an R submission
@@ -98,6 +111,10 @@ Definition:
     -   Define.xml
 :::
 :::::
+
+::: notes
+-   CG
+::: 
 
 ## ADRG Overview {.smaller}
 
@@ -130,6 +147,8 @@ The ADRG also has two optional sections:
 :::
 
 ::: notes
+- LG
+
 -   Show example of the ADRG template
 
 -   The ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.
@@ -167,6 +186,10 @@ For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdi
 :::
 :::::
 
+::: notes
+-   CG
+::: 
+
 ## Proprietary Statistical Programming Software
 
 :::: fragment
@@ -181,6 +204,8 @@ For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdi
 :::
 
 ::: notes
+CG
+
 Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highlight section where OS software related information is needed. Focus on section 7.
 :::
 
@@ -190,8 +215,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 ### Challenges
 
 ::: incremental
--   Package dependencies management
--   Version control complexities
+-   Language and Packages Versions control complexities
 -   Reproducibility concerns across environments
 -   Limited standardization in how R analyses are documented
 :::
@@ -202,6 +226,8 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
+
+- LG
 -   Open Current R-based submissions and compare to SAS reported study ADRG (preferably the one from PHUSE ADRG WG - 2019)
 
 -   https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf
@@ -223,9 +249,17 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Open-source languages challenges: dependencies, control, reproducibility
 :::
 
+::: notes
+-   LG
+::: 
+
 # Q & A
 
 # III. Collaboration with RConsortium and PHUSE ADRG WG
+
+::: notes
+-   LG
+::: 
 
 ## Stakeholder Engagement
 
@@ -237,8 +271,8 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
-:::
-
+-   LG
+::: 
 
 ## Key Findings from Consultations
 
@@ -251,6 +285,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
+- LG
 :::
 
 # IV. Action Plan for R Deliverables Based on Consultations
@@ -266,6 +301,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
+- CG
 :::
 
 
@@ -280,6 +316,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
+- CG
 - don't forget to talk about ADRG LLM current work
 :::
 
@@ -296,6 +333,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
+- CG
 :::
 
 
@@ -308,6 +346,10 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Create a supporting document for reproducing the R environment
 
 :::
+
+::: notes
+-   CG
+::: 
 
 # V. R Package Development
 
@@ -338,6 +380,10 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 :::
 
 
+::: notes
+-   CG
+::: 
+
 ## VI. Next Steps and Feedback
 
 -   Core work:
@@ -352,6 +398,13 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
     -   Encourage thoughts and suggestions offline [add a question here](https://github.com/phuse-org/OSDocuMeta/issues/new/choose).
 
 
+::: notes
+-   LG
+::: 
+
+
+# Questions and Feedbacks
+
 ## References
 
 -   [Pilot 3 ADRG](https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf)
@@ -359,3 +412,9 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 -   [U.S. Food & Drug Administration (FDA)](https://www.fda.gov/)
 -   [Study Data Technical Conformance Guide](https://www.fda.gov/media/162867/download)
 -   [PMDA New Drug Review with Electronic Data](https://www.pmda.go.jp/english/review-services/reviews/0002.html)
+-   [R Consortium R Submission Working Group](https://rconsortium.github.io/submissions-wg/)
+
+::: notes
+-   LG
+
+::: 

@@ -974,8 +974,44 @@ L Gakava encouraged the use of RStudio and R Markdown for documentation, while t
 -   Lovemore Gakava will draw up the outline for the CSS presentation and share it with the team before the next meeting.
 -   Lovemore Gakava will summarize the previous meeting with the FDA and discuss it in the next meeting.
 
-Key Questions:
+#### Key Questions:
 
 -   How will the team ensure that the functions developed will meet the needs of both the ADRG and the R ADRG completion guideline package?
 -   How will the team document the functions and packages used in the ADRG?
 -   What are the key takeaways from the previous meeting with the FDA?
+
+## 14May2025
+
+**Attendees:** Joel Laxamana, Sam Parmar, Lovemore Gakava **Absent:** Nicholas Masel, Eric Nantz, Piotr Pasza Storożenko\
+**Guest(s):** N/A
+
+**Facilitator:** Lovemore Gakava
+
+#### Summary:
+
+The discussion focused on the completion of action items from previous meetings, including the implementation of AI for meeting minutes and the testing of dependency packages. The upcoming CSS presentation was highlighted, with expectations of around 60 attendees, including representatives from PMDA and EMA. The aim is to present their current plans and gather feedback from these regulatory authorities. Lovemore Gakava mentioned the creation of a development folder to organize presentation materials for improved efficiency in future sessions.
+
+The appropriateness of naming the FDA in documentation was addressed, with Joel Laxamana suggesting that they refer to the FDA as members of the R Consortium to avoid direct attribution. The team agreed to present their collaboration with the R Consortium while omitting explicit mentions of the FDA. Gakava outlined the group's objectives, including the development of a standardized template to enhance submission processes. The conversation also touched on transitioning from proprietary software to open-source alternatives, with a focus on language consistency and the benefits of using Quarto.
+
+The meeting included discussions on stakeholder engagement and feedback collection to inform the action plan for ARRA deliverables. Key findings emphasized the need for environmental reproducibility and automated solutions to alleviate manual documentation burdens. Gakava is set to revise the slide deck based on feedback, with plans to distribute it via email.
+
+The group also addressed technical challenges related to QMD file rendering and the management of uncommitted files. Overall, the team expressed optimism about their direction and the potential for future progress, while acknowledging the need for offline discussions to enhance collaboration.
+
+#### Action Items:
+
+-   Joel Laxamana will continue testing the inclusion of dependency packages in addition to the parent packages.
+
+-   Lovemore Gakava will change the phrasing in the presentation to avoid directly naming the FDA and instead refer to the R Consortium.
+
+-   Lovemore Gakava will create a video recording to demonstrate some functions of the R package for the upcoming presentation.
+
+-   Lovemore Gakava will update the slide deck based on the comments received during the meeting.
+
+#### Key Questions:
+
+-   What are the specific challenges faced when transitioning from proprietary software to open-source software?
+    -   Proposed answer: The challenges include package dependencies management, version control complexities, and reproducibility concerns across environments.
+-   How will feedback from regulatory authorities be collected during the presentation?
+    -   Proposed answer: Feedback will be gathered through open questions during the presentation.
+-   Should the presentation include a live demo or a video recording of the functions?
+    -   Proposed answer: A video recording is preferred to avoid technical issues during the presentation.

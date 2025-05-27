@@ -1,0 +1,48 @@
+---
+title: "Session Feedback Summary: PHUSE CSS 2025 ADRG Presentation"
+author: "PHUSE Communication of Version Metadata Working Group"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+## Overview
+
+The session sparked insightful discussions among the audience, including representatives from EMA, pharmaceutical companies, and service providers. Below is a summary of the key discussions, insights, and actions.
+
+## Key Discussions and Insights
+
+### EMA Collaboration
+
+-   EMA expressed openness to collaborative efforts and suggested providing a representative for our group.
+-   **Action:** Decide when to reach out to EMA to initiate discussions.
+
+### Software Documentation Approaches
+
+-   Other companies use a detailed specification document for analysis and software details, while keeping the SAP generic. Other companies include this information in the SAP.
+-   **Action:** Continue our approach of including metadata in the ADRG, as this aligns with current practices.
+
+### Feedback on ADRG Sections Across Regulators
+
+-   EMA requested insights into the varying importance of ADRG sections to regulatory authorities.
+-   Regulators such as Japan PMDA, US FDA, and China NMPA require different Pinnacle 21 validation engines ([Pinnacle 21 blog](https://www.pinnacle21.com/blog/p21-releases-new-pmda-fda-nmpa-validation-engines)), which will influence the conformance results section.
+
+### Additional Highlights
+
+-   **EMA Involvement:** EMA should clearly understand the benefits and value-add of their participation in our efforts.
+-   **Open-Source Discussions:** Productive discussions occurred around development methodologies, maintenance strategies, and unit testing frameworks in open-source environments.
+-   Clarification was made on the distinction between proprietary software solutions and open-source programming languages.
+-   Strong consensus emerged on the need for standardized file formats and processes across the pharmaceutical industry.
+
+### Priorities in Open Source
+
+-   While an R package would be helpful, focusing on clear guidelines and standards is more critical at this stage.
+-   ADRG's role in open-source workflows appears even more critical than in traditional setups and requires clarification.
+
+## Actions
+
+-   Finalize stable ADRG draft documents (clarification needed on which documents: template, completion guideline, and example) and engage EMA for collaboration.
+-   Maintain our approach to metadata documentation in ADRG.
+-   Assess regulatory authority-specific ADRG requirements for conformance and validation tools.
+-   Prioritize standardization efforts before exploring specific tools (e.g., R packages) for open-source environments.

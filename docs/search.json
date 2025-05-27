@@ -236,5 +236,33 @@
     "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
     "section": "References",
     "text": "References\n\nPilot 3 ADRG\nPHUSE ADRG Working Group. Analysis Data Reviewer’s Guide (ADRG) Template. https://www.phuse.eu/working-groups/optimizing-the-use-of-data-standards\nU.S. Food & Drug Administration (FDA). Study Data Technical Conformance Guide. https://www.fda.gov/\nhttps://www.fda.gov/media/162867/download"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-session-feedback.html",
+    "href": "dev/phuse_css2025/phuse_css2025-session-feedback.html",
+    "title": "Session Feedback Summary: PHUSE CSS 2025 ADRG Presentation",
+    "section": "",
+    "text": "The session sparked insightful discussions among the audience, including representatives from EMA, pharmaceutical companies, and service providers. Below is a summary of the key discussions, insights, and actions."
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-session-feedback.html#overview",
+    "href": "dev/phuse_css2025/phuse_css2025-session-feedback.html#overview",
+    "title": "Session Feedback Summary: PHUSE CSS 2025 ADRG Presentation",
+    "section": "",
+    "text": "The session sparked insightful discussions among the audience, including representatives from EMA, pharmaceutical companies, and service providers. Below is a summary of the key discussions, insights, and actions."
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-session-feedback.html#key-discussions-and-insights",
+    "href": "dev/phuse_css2025/phuse_css2025-session-feedback.html#key-discussions-and-insights",
+    "title": "Session Feedback Summary: PHUSE CSS 2025 ADRG Presentation",
+    "section": "Key Discussions and Insights",
+    "text": "Key Discussions and Insights\n\nEMA Collaboration\n\nEMA expressed openness to collaborative efforts and suggested providing a representative for our group.\nAction: Decide when to reach out to EMA to initiate discussions.\n\n\n\nSoftware Documentation Approaches\n\nOther companies use a detailed specification document for analysis and software details, while keeping the SAP generic. Other companies include this information in the SAP.\nAction: Continue our approach of including metadata in the ADRG, as this aligns with current practices.\n\n\n\nFeedback on ADRG Sections Across Regulators\n\nEMA requested insights into the varying importance of ADRG sections to regulatory authorities.\nRegulators such as Japan PMDA, US FDA, and China NMPA require different Pinnacle 21 validation engines (Pinnacle 21 blog), which will influence the conformance results section.\n\n\n\nAdditional Highlights\n\nEMA Involvement: EMA should clearly understand the benefits and value-add of their participation in our efforts.\nOpen-Source Discussions: Productive discussions occurred around development methodologies, maintenance strategies, and unit testing frameworks in open-source environments.\nClarification was made on the distinction between proprietary software solutions and open-source programming languages.\nStrong consensus emerged on the need for standardized file formats and processes across the pharmaceutical industry.\n\n\n\nPriorities in Open Source\n\nWhile an R package would be helpful, focusing on clear guidelines and standards is more critical at this stage.\nADRG’s role in open-source workflows appears even more critical than in traditional setups and requires clarification."
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-session-feedback.html#actions",
+    "href": "dev/phuse_css2025/phuse_css2025-session-feedback.html#actions",
+    "title": "Session Feedback Summary: PHUSE CSS 2025 ADRG Presentation",
+    "section": "Actions",
+    "text": "Actions\n\nFinalize stable ADRG draft documents (clarification needed on which documents: template, completion guideline, and example) and engage EMA for collaboration.\nMaintain our approach to metadata documentation in ADRG.\nAssess regulatory authority-specific ADRG requirements for conformance and validation tools.\nPrioritize standardization efforts before exploring specific tools (e.g., R packages) for open-source environments."
   }
 ]

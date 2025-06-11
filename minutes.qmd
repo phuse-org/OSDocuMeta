@@ -1015,3 +1015,57 @@ The group also addressed technical challenges related to QMD file rendering and 
     -   Proposed answer: Feedback will be gathered through open questions during the presentation.
 -   Should the presentation include a live demo or a video recording of the functions?
     -   Proposed answer: A video recording is preferred to avoid technical issues during the presentation.
+
+## 28May2025
+
+**Attendees:** Joel Laxamana, Lovemore Gakava, Nicholas Masel, Eric Nantz **Absent:** Sam Parmar, Piotr Pasza Storożenko, Steven H.\
+**Guest(s):** N/A
+
+**Facilitator:** Lovemore Gakava
+
+#### Summary:
+
+The discussion centered on the progress and challenges related to the ADRG content and its alignment with regulatory expectations. L Gakava recounted positive interactions at the EU CSS session, highlighting the interest from the EMA and the need for regulatory bodies to harmonize their expectations. Joel Laxamana emphasized the importance of creating tools and providing examples to establish standards for ADRG content. The group also discussed the necessity of guidance documents and templates to facilitate the ADRG process, while addressing concerns regarding the use of open-source platforms for regulatory purposes, particularly in light of the FDA's apprehensions about bias.
+
+Further discussions included the feedback received from the EMA and the absence of FDA representatives, with Eric Nantz expressing optimism about the alignment of requirements between the two agencies. Nicholas Masel stressed the urgency of identifying any differences due to ongoing trials involving multiple submissions. The team also explored the potential use of LLMs for ADRG generation and the progress of the pilot project, with Nantz detailing infrastructure challenges and upcoming revisions. The meeting concluded with plans to reconvene in two weeks to continue collaboration on ADRG and SDRG initiatives, with a focus on enhancing processes and ensuring alignment across regulatory bodies.
+
+#### Action Items:
+
+-   L Gakava will reach out to Frank Petavi from EMA when the team is ready to get input on draft documents.
+
+-   Joel Laxamana will ensure Christine joins the next meeting to discuss feedback from Paul, Hyesoo, and Youn.
+
+-   L Gakava will set up a meeting with the person responsible for automating the generation of SDRNG to gather feedback on their process.
+
+-   Eric Nantz will finalize the ADRGs for Pilot 4 and prepare for the revised transfer on June 13th.
+
+#### Key Questions:
+
+-   How can the team ensure alignment between different regulatory authorities regarding the ADRG?\
+    \*\* Proposed answer: The team can facilitate discussions between regulatory authorities to ensure alignment.
+
+## 11Jun2025
+
+Meeting Cancelled
+
+#### Summary email:
+
+Hi, all.
+
+Lovemore and I decided that we can cancel today's meeting and provide updates through email (Lovemore if you are able to remove today's meeting event from our calendars that would be good).
+
+At this time, you may have seen an email from me taking the latest ADRG in public review from Christine Rossin's PHUSE Data Standards group, and I've updated this version with input from the R Consortium RSWG sub-committee HyeSoo, Youn and Paul, with examples of the information we would want to see for a R Submission. The updated version is available for all of us to review if you have any further feedback on it, before we send it back to Christine.
+
+In other news, unfortunatley, Pasza Storozenko , will have to transition off of our PHUSE project due to other priorities. Though he did contribute to a potential ask from the RCRSWG on listing out functions and the packages these functions come from. See here : <https://github.com/phuse-org/adrgOS/issues/12#issuecomment-2917047864> Thanks, Pasza!
+
+As always, other actions are still available for assignment here : <https://github.com/phuse-org/adrgOS/issues>
+
+Lovemore is still working on the ADSL core variables and I will be updating PR <https://github.com/phuse-org/adrgOS/pull/20> given feedback about also adding the first tier dependency packages from parent packages we present in the ADRG.
+
+Once we finalize the R submission ADRG example, through the PHUSE Data Standards gorup, we'll have a better idea of what our adrgOS package needs to deliver and can also begin writing our ADRG completion guides for an R submission. This will then help deliver our remit of having an updated ADRG template for open-source submission, a completion guide focusing on R Submission, including an ADRG example for a R Submisison.
+
+Let me know if you have any further questions or anything else to discuss in our future meetings.
+
+Thanks.
+
+Joel and Lovemore.

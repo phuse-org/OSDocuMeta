@@ -1077,8 +1077,31 @@ Joel and Lovemore.
 
 **Facilitator:** Lovemore Gakava, Joel Laxamana
 
-#### Summary: To Be Added
+#### Summary: 
 
-#### Action Items:  To Be Added
+The discussion centered on the complexities of core variables from ADSL, with L Gakava highlighting the need for a clear distinction between common and unique variables across different ADaM domains. He proposed creating a comprehensive table to assist sponsors in understanding which ADSL variables are essential for their specific trials. Joel Laxamana supported this by suggesting that all ADSL variables be included as core variables across all atoms, which would streamline the process. They agreed on the importance of documenting this functionality in the R completion guide to enhance clarity for sponsors.
 
-#### Key Questions:  To Be Added
+Updates to the ADRG template were reviewed, particularly Section 7, which addresses the submission of programs for analysis data sets. Joel Laxamana incorporated feedback from colleagues, including Eric Nantz, who stressed the importance of documenting CPU architecture for reproducibility. They discussed the balance between general platform statements and specific details in a table format, ultimately agreeing on the current structure while allowing for future enhancements. Additionally, L Gakava and Joel Laxamana explored the functionalities of LogRx and Well, focusing on script execution and data storage, while addressing the challenges of standardizing output titles and the potential need for a metadata system.
+
+The team also examined the extraction of metadata for SAS and R programs, with Joel suggesting that package manuals could sufficiently describe functions, reducing the need for additional metadata. They discussed website formatting issues and the need for automation in the publishing process. L Gakava introduced a data generation tool capable of creating CRF protocols, SAPs, and SAS code from templates, which impressed Eric Nantz and Joel Laxamana. They recognized the tool's potential to enhance the onboarding process for newcomers in the industry and expressed a desire to connect with its developer for further collaboration.
+
+#### Action Items:
+
+-   Lovemore Gakava will prepare a list of core variables from ADSL by the end of the week for review.
+-   Joel Laxamana will share the updated ADRG template with the group for review.
+    -   Post meeting note : R Consortium member, HyeSoo has responded with feedback from their end regarding the ADRG updates. It is now on our group to review and add any further comments before sending to Christine R.
+    -   <https://drive.google.com/file/d/1Fq_VtUBU2ZhEY21vj2G9llqTIoN2PdbC/view?usp=drive_link>
+    -   <https://docs.google.com/document/d/19ajxtpvbkD9KzcPT9f-NvdILnugK1idq/edit?usp=drive_link&ouid=103991081896680964420&rtpof=true&sd=true>
+-   Lovemore Gakava will explore the functionality of LogRx and its implementation for future discussions.
+-   Eric Nantz will investigate the formatting issue on the website and provide feedback.
+    -   Post meeting note : that after including these meeting minutes, Joel has fixed the css issues and website now formatting ok.
+
+#### Key Questions: 
+
+-   What is the best way to handle core variables that are not common across all domains and the core variables from ADSL?
+
+    -   **Proposed answer:** The handling of core variables should consider the specific variables that appear in each domain.
+
+-   What is the standard practice for including ADSL variables that are not needed for all atoms?
+
+    -   **Proposed answer:** The inclusion of ADSL variables is often specific to the trial being conducted.

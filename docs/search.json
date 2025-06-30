@@ -201,5 +201,12 @@
     "title": "Minutes",
     "section": "11Jun2025",
     "text": "11Jun2025\nMeeting Cancelled\n\nSummary email:\nHi, all.\nLovemore and I decided that we can cancel today’s meeting and provide updates through email (Lovemore if you are able to remove today’s meeting event from our calendars that would be good).\nAt this time, you may have seen an email from me taking the latest ADRG in public review from Christine Rossin’s PHUSE Data Standards group, and I’ve updated this version with input from the R Consortium RSWG sub-committee HyeSoo, Youn and Paul, with examples of the information we would want to see for a R Submission. The updated version is available for all of us to review if you have any further feedback on it, before we send it back to Christine.\nIn other news, unfortunatley, Pasza Storozenko , will have to transition off of our PHUSE project due to other priorities. Though he did contribute to a potential ask from the RCRSWG on listing out functions and the packages these functions come from. See here : https://github.com/phuse-org/adrgOS/issues/12#issuecomment-2917047864 Thanks, Pasza!\nAs always, other actions are still available for assignment here : https://github.com/phuse-org/adrgOS/issues\nLovemore is still working on the ADSL core variables and I will be updating PR https://github.com/phuse-org/adrgOS/pull/20 given feedback about also adding the first tier dependency packages from parent packages we present in the ADRG.\nOnce we finalize the R submission ADRG example, through the PHUSE Data Standards gorup, we’ll have a better idea of what our adrgOS package needs to deliver and can also begin writing our ADRG completion guides for an R submission. This will then help deliver our remit of having an updated ADRG template for open-source submission, a completion guide focusing on R Submission, including an ADRG example for a R Submisison.\nLet me know if you have any further questions or anything else to discuss in our future meetings.\nThanks.\nJoel and Lovemore."
+  },
+  {
+    "objectID": "minutes.html#jun2025-1",
+    "href": "minutes.html#jun2025-1",
+    "title": "Minutes",
+    "section": "25Jun2025",
+    "text": "25Jun2025\nAttendees: Joel Laxamana, Lovemore Gakava, Eric Nantz Absent: Sam Parmar, Piotr Pasza Storożenko, Steven H., Nicholas Masel\nGuest(s): N/A\nFacilitator: Lovemore Gakava, Joel Laxamana\n\nSummary: To Be Added\n\n\nAction Items: To Be Added\n\n\nKey Questions: To Be Added"
   }
 ]

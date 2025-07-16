@@ -974,8 +974,134 @@ L Gakava encouraged the use of RStudio and R Markdown for documentation, while t
 -   Lovemore Gakava will draw up the outline for the CSS presentation and share it with the team before the next meeting.
 -   Lovemore Gakava will summarize the previous meeting with the FDA and discuss it in the next meeting.
 
-Key Questions:
+#### Key Questions:
 
 -   How will the team ensure that the functions developed will meet the needs of both the ADRG and the R ADRG completion guideline package?
 -   How will the team document the functions and packages used in the ADRG?
 -   What are the key takeaways from the previous meeting with the FDA?
+
+## 14May2025
+
+**Attendees:** Joel Laxamana, Sam Parmar, Lovemore Gakava **Absent:** Nicholas Masel, Eric Nantz, Piotr Pasza Storożenko\
+**Guest(s):** N/A
+
+**Facilitator:** Lovemore Gakava
+
+#### Summary:
+
+The discussion focused on the completion of action items from previous meetings, including the implementation of AI for meeting minutes and the testing of dependency packages. The upcoming CSS presentation was highlighted, with expectations of around 60 attendees, including representatives from PMDA and EMA. The aim is to present their current plans and gather feedback from these regulatory authorities. Lovemore Gakava mentioned the creation of a development folder to organize presentation materials for improved efficiency in future sessions.
+
+The appropriateness of naming the FDA in documentation was addressed, with Joel Laxamana suggesting that they refer to the FDA as members of the R Consortium to avoid direct attribution. The team agreed to present their collaboration with the R Consortium while omitting explicit mentions of the FDA. Gakava outlined the group's objectives, including the development of a standardized template to enhance submission processes. The conversation also touched on transitioning from proprietary software to open-source alternatives, with a focus on language consistency and the benefits of using Quarto.
+
+The meeting included discussions on stakeholder engagement and feedback collection to inform the action plan for ARRA deliverables. Key findings emphasized the need for environmental reproducibility and automated solutions to alleviate manual documentation burdens. Gakava is set to revise the slide deck based on feedback, with plans to distribute it via email.
+
+The group also addressed technical challenges related to QMD file rendering and the management of uncommitted files. Overall, the team expressed optimism about their direction and the potential for future progress, while acknowledging the need for offline discussions to enhance collaboration.
+
+#### Action Items:
+
+-   Joel Laxamana will continue testing the inclusion of dependency packages in addition to the parent packages.
+
+-   Lovemore Gakava will change the phrasing in the presentation to avoid directly naming the FDA and instead refer to the R Consortium.
+
+-   Lovemore Gakava will create a video recording to demonstrate some functions of the R package for the upcoming presentation.
+
+-   Lovemore Gakava will update the slide deck based on the comments received during the meeting.
+
+#### Key Questions:
+
+-   What are the specific challenges faced when transitioning from proprietary software to open-source software?
+    -   Proposed answer: The challenges include package dependencies management, version control complexities, and reproducibility concerns across environments.
+-   How will feedback from regulatory authorities be collected during the presentation?
+    -   Proposed answer: Feedback will be gathered through open questions during the presentation.
+-   Should the presentation include a live demo or a video recording of the functions?
+    -   Proposed answer: A video recording is preferred to avoid technical issues during the presentation.
+
+## 28May2025
+
+**Attendees:** Joel Laxamana, Lovemore Gakava, Nicholas Masel, Eric Nantz **Absent:** Sam Parmar, Piotr Pasza Storożenko, Steven H.\
+**Guest(s):** N/A
+
+**Facilitator:** Lovemore Gakava
+
+#### Summary:
+
+The discussion centered on the progress and challenges related to the ADRG content and its alignment with regulatory expectations. L Gakava recounted positive interactions at the EU CSS session, highlighting the interest from the EMA and the need for regulatory bodies to harmonize their expectations. Joel Laxamana emphasized the importance of creating tools and providing examples to establish standards for ADRG content. The group also discussed the necessity of guidance documents and templates to facilitate the ADRG process, while addressing concerns regarding the use of open-source platforms for regulatory purposes, particularly in light of the FDA's apprehensions about bias.
+
+Further discussions included the feedback received from the EMA and the absence of FDA representatives, with Eric Nantz expressing optimism about the alignment of requirements between the two agencies. Nicholas Masel stressed the urgency of identifying any differences due to ongoing trials involving multiple submissions. The team also explored the potential use of LLMs for ADRG generation and the progress of the pilot project, with Nantz detailing infrastructure challenges and upcoming revisions. The meeting concluded with plans to reconvene in two weeks to continue collaboration on ADRG and SDRG initiatives, with a focus on enhancing processes and ensuring alignment across regulatory bodies.
+
+#### Action Items:
+
+-   L Gakava will reach out to Frank Petavi from EMA when the team is ready to get input on draft documents.
+
+-   Joel Laxamana will ensure Christine joins the next meeting to discuss feedback from Paul, Hyesoo, and Youn.
+
+-   L Gakava will set up a meeting with the person responsible for automating the generation of SDRNG to gather feedback on their process.
+
+-   Eric Nantz will finalize the ADRGs for Pilot 4 and prepare for the revised transfer on June 13th.
+
+#### Key Questions:
+
+-   How can the team ensure alignment between different regulatory authorities regarding the ADRG?\
+    \*\* Proposed answer: The team can facilitate discussions between regulatory authorities to ensure alignment.
+
+## 11Jun2025
+
+Meeting Cancelled
+
+#### Summary email:
+
+Hi, all.
+
+Lovemore and I decided that we can cancel today's meeting and provide updates through email (Lovemore if you are able to remove today's meeting event from our calendars that would be good).
+
+At this time, you may have seen an email from me taking the latest ADRG in public review from Christine Rossin's PHUSE Data Standards group, and I've updated this version with input from the R Consortium RSWG sub-committee HyeSoo, Youn and Paul, with examples of the information we would want to see for a R Submission. The updated version is available for all of us to review if you have any further feedback on it, before we send it back to Christine.
+
+In other news, unfortunatley, Pasza Storozenko , will have to transition off of our PHUSE project due to other priorities. Though he did contribute to a potential ask from the RCRSWG on listing out functions and the packages these functions come from. See here : <https://github.com/phuse-org/adrgOS/issues/12#issuecomment-2917047864> Thanks, Pasza!
+
+As always, other actions are still available for assignment here : <https://github.com/phuse-org/adrgOS/issues>
+
+Lovemore is still working on the ADSL core variables and I will be updating PR <https://github.com/phuse-org/adrgOS/pull/20> given feedback about also adding the first tier dependency packages from parent packages we present in the ADRG.
+
+Once we finalize the R submission ADRG example, through the PHUSE Data Standards gorup, we'll have a better idea of what our adrgOS package needs to deliver and can also begin writing our ADRG completion guides for an R submission. This will then help deliver our remit of having an updated ADRG template for open-source submission, a completion guide focusing on R Submission, including an ADRG example for a R Submisison.
+
+Let me know if you have any further questions or anything else to discuss in our future meetings.
+
+Thanks.
+
+Joel and Lovemore.
+
+## 25Jun2025
+
+**Attendees:** Joel Laxamana, Lovemore Gakava, Eric Nantz **Absent:** Sam Parmar, Piotr Pasza Storożenko, Steven H., Nicholas Masel\
+**Guest(s):** N/A
+
+**Facilitator:** Lovemore Gakava, Joel Laxamana
+
+#### Summary: 
+
+The discussion centered on the complexities of core variables from ADSL, with L Gakava highlighting the need for a clear distinction between common and unique variables across different ADaM domains. He proposed creating a comprehensive table to assist sponsors in understanding which ADSL variables are essential for their specific trials. Joel Laxamana supported this by suggesting that all ADSL variables be included as core variables across all atoms, which would streamline the process. They agreed on the importance of documenting this functionality in the R completion guide to enhance clarity for sponsors.
+
+Updates to the ADRG template were reviewed, particularly Section 7, which addresses the submission of programs for analysis data sets. Joel Laxamana incorporated feedback from colleagues, including Eric Nantz, who stressed the importance of documenting CPU architecture for reproducibility. They discussed the balance between general platform statements and specific details in a table format, ultimately agreeing on the current structure while allowing for future enhancements. Additionally, L Gakava and Joel Laxamana explored the functionalities of LogRx and Well, focusing on script execution and data storage, while addressing the challenges of standardizing output titles and the potential need for a metadata system.
+
+The team also examined the extraction of metadata for SAS and R programs, with Joel suggesting that package manuals could sufficiently describe functions, reducing the need for additional metadata. They discussed website formatting issues and the need for automation in the publishing process. L Gakava introduced a data generation tool capable of creating CRF protocols, SAPs, and SAS code from templates, which impressed Eric Nantz and Joel Laxamana. They recognized the tool's potential to enhance the onboarding process for newcomers in the industry and expressed a desire to connect with its developer for further collaboration.
+
+#### Action Items:
+
+-   Lovemore Gakava will prepare a list of core variables from ADSL by the end of the week for review.
+-   Joel Laxamana will share the updated ADRG template with the group for review.
+    -   Post meeting note : R Consortium member, HyeSoo has responded with feedback from their end regarding the ADRG updates. It is now on our group to review and add any further comments before sending to Christine R.
+    -   <https://drive.google.com/file/d/1Fq_VtUBU2ZhEY21vj2G9llqTIoN2PdbC/view?usp=drive_link>
+    -   <https://docs.google.com/document/d/19ajxtpvbkD9KzcPT9f-NvdILnugK1idq/edit?usp=drive_link&ouid=103991081896680964420&rtpof=true&sd=true>
+-   Lovemore Gakava will explore the functionality of LogRx and its implementation for future discussions.
+-   Eric Nantz will investigate the formatting issue on the website and provide feedback.
+    -   Post meeting note : that after including these meeting minutes, Joel has fixed the css issues and website now formatting ok.
+
+#### Key Questions: 
+
+-   What is the best way to handle core variables that are not common across all domains and the core variables from ADSL?
+
+    -   **Proposed answer:** The handling of core variables should consider the specific variables that appear in each domain.
+
+-   What is the standard practice for including ADSL variables that are not needed for all atoms?
+
+    -   **Proposed answer:** The inclusion of ADSL variables is often specific to the trial being conducted.

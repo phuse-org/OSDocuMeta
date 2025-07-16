@@ -18,7 +18,7 @@ PHUSE Working Group Request
 
 ![](/references/PHUSE_OSDocuMeta_WG_mission_statement.pdf){width="100%" height="1000px"}
 
-## Presentation
+## Presentations
 
 ### Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025
 

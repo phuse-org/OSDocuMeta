@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Welcome to the PHUSE Open-Source Metadata Documentation Working Group Site",
     "section": "",
-    "text": "Historically, the use of proprietary statistical programming languages entailed the inclusion of general statements within the Statistical Analysis Plan (SAP) regarding the software and version employed for generating analyses. However, with the increasing adoption of open-source statistical programming languages, there is a necessity to provide detailed metadata for each package used, as a general statement is no longer adequate.\n\n\n\nThis project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.\n\n\n\nPHUSE Working Group Request\n\n\n\n\nPHUSE/FDA Quarterly meeting presentation. Presented on 16OCT2024.\n\nGithub"
+    "text": "Historically, the use of proprietary statistical programming languages entailed the inclusion of general statements within the Statistical Analysis Plan (SAP) regarding the software and version employed for generating analyses. However, with the increasing adoption of open-source statistical programming languages, there is a necessity to provide detailed metadata for each package used, as a general statement is no longer adequate.\n\n\n\nThis project aims to develop a new template, or enhance an existing one such as the Study Data Standardization Plan (SDSP) or Analysis Data Reviewer’s Guide (ADRG), to ensure that metadata pertaining to the versions of statistical packages and procedures is consistently documented in alignment with health authority expectations. This standardized template will streamline the submission of clinical study metadata to health authorities as part of the regulatory review process.\n\n\n\nPHUSE Working Group Request\n\n\n\n\n\n\n\n\n\n\n\n\nGithub"
   },
   {
     "objectID": "index.html#background",
@@ -53,7 +53,7 @@
     "href": "index.html#presentation",
     "title": "Welcome to the PHUSE Open-Source Metadata Documentation Working Group Site",
     "section": "",
-    "text": "PHUSE/FDA Quarterly meeting presentation. Presented on 16OCT2024.\n\nGithub"
+    "text": "Github"
   },
   {
     "objectID": "aboutus.html",
@@ -208,5 +208,278 @@
     "title": "Minutes",
     "section": "25Jun2025",
     "text": "25Jun2025\nAttendees: Joel Laxamana, Lovemore Gakava, Eric Nantz Absent: Sam Parmar, Piotr Pasza Storożenko, Steven H., Nicholas Masel\nGuest(s): N/A\nFacilitator: Lovemore Gakava, Joel Laxamana\n\nSummary:\nThe discussion centered on the complexities of core variables from ADSL, with L Gakava highlighting the need for a clear distinction between common and unique variables across different ADaM domains. He proposed creating a comprehensive table to assist sponsors in understanding which ADSL variables are essential for their specific trials. Joel Laxamana supported this by suggesting that all ADSL variables be included as core variables across all atoms, which would streamline the process. They agreed on the importance of documenting this functionality in the R completion guide to enhance clarity for sponsors.\nUpdates to the ADRG template were reviewed, particularly Section 7, which addresses the submission of programs for analysis data sets. Joel Laxamana incorporated feedback from colleagues, including Eric Nantz, who stressed the importance of documenting CPU architecture for reproducibility. They discussed the balance between general platform statements and specific details in a table format, ultimately agreeing on the current structure while allowing for future enhancements. Additionally, L Gakava and Joel Laxamana explored the functionalities of LogRx and Well, focusing on script execution and data storage, while addressing the challenges of standardizing output titles and the potential need for a metadata system.\nThe team also examined the extraction of metadata for SAS and R programs, with Joel suggesting that package manuals could sufficiently describe functions, reducing the need for additional metadata. They discussed website formatting issues and the need for automation in the publishing process. L Gakava introduced a data generation tool capable of creating CRF protocols, SAPs, and SAS code from templates, which impressed Eric Nantz and Joel Laxamana. They recognized the tool’s potential to enhance the onboarding process for newcomers in the industry and expressed a desire to connect with its developer for further collaboration.\n\n\nAction Items:\n\nLovemore Gakava will prepare a list of core variables from ADSL by the end of the week for review.\nJoel Laxamana will share the updated ADRG template with the group for review.\n\nPost meeting note : R Consortium member, HyeSoo has responded with feedback from their end regarding the ADRG updates. It is now on our group to review and add any further comments before sending to Christine R.\nhttps://drive.google.com/file/d/1Fq_VtUBU2ZhEY21vj2G9llqTIoN2PdbC/view?usp=drive_link\nhttps://docs.google.com/document/d/19ajxtpvbkD9KzcPT9f-NvdILnugK1idq/edit?usp=drive_link&ouid=103991081896680964420&rtpof=true&sd=true\n\nLovemore Gakava will explore the functionality of LogRx and its implementation for future discussions.\nEric Nantz will investigate the formatting issue on the website and provide feedback.\n\nPost meeting note : that after including these meeting minutes, Joel has fixed the css issues and website now formatting ok.\n\n\n\n\nKey Questions:\n\nWhat is the best way to handle core variables that are not common across all domains and the core variables from ADSL?\n\nProposed answer: The handling of core variables should consider the specific variables that appear in each domain.\n\nWhat is the standard practice for including ADSL variables that are not needed for all atoms?\n\nProposed answer: The inclusion of ADSL variables is often specific to the trial being conducted."
+  },
+  {
+    "objectID": "index.html#sec-introducing-ourselves",
+    "href": "index.html#sec-introducing-ourselves",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "",
+    "text": "Members of the PHUSE Communication of Version Metadata Working Group\n\nJoel Laxamana (Co-Lead : Roche/Genentech)\nLovemore Gakava (Co-Lead : Novo Nordisk)\nCervan Girard (Novo Nordisk)\nEric Nantz (Eli Lilly)\nNicholas Masel (Johnson & Johnson)\nSam Parmar (Pfizer)\nSteven Haesendonckx (Johnson & Johnson)\nPiotr Pasza Storożenko (Appsilon)\nCollaborating with R Consortium Submissions WG and PHUSE Data Standards group\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "index.html#motivation-goal",
+    "href": "index.html#motivation-goal",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Motivation & Goal",
+    "text": "Motivation & Goal\n\nMotivation:\nWhile documentation practices and reproducibility are well-established for proprietary software such as SAS, there is a need to establish consistent documentation standards and reproducibility in open-source (R, Python, etc.) statistical programming environments.\n\n\nGoal:\n\n\nThe objective of this project is to develop a new template or enhance the existing Analysis Data Reviewer’s Guide (ADRG) for open-source submissions.\nThe aim is to ensure consistent documentation of metadata pertaining to the versions of statistical packages and procedures, aligning with health authority expectations.\nThe standardized template will streamline the submission of clinical study to health authorities as part of the regulatory review process.\nBenefits: Improved reproducibility, transparency, and regulatory compliance\n\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "index.html#evolution-of-statistical-programming-in-clinical-trials",
+    "href": "index.html#evolution-of-statistical-programming-in-clinical-trials",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Evolution of Statistical Programming in Clinical Trials",
+    "text": "Evolution of Statistical Programming in Clinical Trials\n\n\nTransition from proprietary software (SAS) to open-source\nGrowing adoption of open-source langages (R, python…) in clinical trials\nNeed for standardized documentation that accommodates all paradigms"
+  },
+  {
+    "objectID": "index.html#recap-introduction",
+    "href": "index.html#recap-introduction",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Recap: Introduction",
+    "text": "Recap: Introduction\n\n\n\nObjective: Contribute to the enhancement of the ADRG template for open-source submissions\nAim: Consistent metadata documentation\nBenefits: Enhanced reproducibility & transparency\nEvolution: Shift from proprietary to open-source in clinical trials\n\n\n\n\nNow lets to proceed to discuss Background and Context\n\n\n\nCG"
+  },
+  {
+    "objectID": "index.html#purpose-of-analysis-data-reviewers-guide-adrg",
+    "href": "index.html#purpose-of-analysis-data-reviewers-guide-adrg",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Purpose of Analysis Data Reviewer’s Guide (ADRG)",
+    "text": "Purpose of Analysis Data Reviewer’s Guide (ADRG)\n\n\nDefinition:\n\nThe ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.\n\n\n\nProvides Regulatory reviewers with context for analysis datasets and terminology.\nSupplements information presented within the data folder (e.g. define.xml).\nIncludes a summary of ADaM and other submission documents:\n\nProtocol\nStatistical Analysis Plan (SAP)\nClinical Study Report\nDefine.xml\n\n\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "index.html#adrg-overview",
+    "href": "index.html#adrg-overview",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "ADRG Overview",
+    "text": "ADRG Overview\n\nThe ADRG has seven required sections:\n\nIntroduction\nProtocol Description\nAnalysis Considerations Related to Multiple Analysis Datasets\nAnalysis Data Creation and Processing Issues\nAnalysis Dataset Descriptions\nData Conformance Summary\nSubmissions of Programs\n\nThe ADRG also has two optional sections:\n\nAppendix (for other documentation that would be helpful to a reviewer)\nLegacy Data Conversion Plan & Report Appendix\n\n\n\nLets show an example of an ADRG\n\n\n\nLG\nShow example of the ADRG template\nThe ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.\nAn ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission. source: [STUDY DATA TECHNICAL CONFORMANCE GUIDE] (https://www.fda.gov/media/162867/download)\nADRG_Completion_Guidelines_v1.2\n\nAction: Also open and show example ADRG (preferably the one from PHUSE ADRG WG - 2019) - show screenshots from the Protocol, SAP/RAP, Clinical Study Report and Define.xml and the connection to the ADRG.\nhttps://advance.hub.phuse.global/wiki/x/tAGZAQ https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804660/Analysis+Data+Reviewer+s+Guide+ADRG+Package\nFor PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdiscpilot01.pdf"
+  },
+  {
+    "objectID": "index.html#from-proprietary-software-to-open-source-language",
+    "href": "index.html#from-proprietary-software-to-open-source-language",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "From proprietary software to open-source language",
+    "text": "From proprietary software to open-source language\n  \n\n\n\nProprietary software\n\nSAS\nSPSS\nTibco Spotfire\n\n\n\n\nOpen-Source language\n\nR\nJulia\nPython\n\n\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "index.html#proprietary-statistical-programming-software",
+    "href": "index.html#proprietary-statistical-programming-software",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Proprietary Statistical Programming Software",
+    "text": "Proprietary Statistical Programming Software\n\n\n\nThe version metadata of the statistical procedures/functions has been documented within the Statistical Analysis Plan with a general statement of software and version used (other companies may use other documentation)\nDetailed information has been added to the Analysis Data Reviewer’s Guide (ADRG). The ADRG has a section where the programming software version and functions are specified\n\n\n\n\nLet us have a look at an example\n\n\nCG\nOpen an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highlight section where OS software related information is needed. Focus on section 7."
+  },
+  {
+    "objectID": "index.html#open-source-languages",
+    "href": "index.html#open-source-languages",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Open-Source Languages",
+    "text": "Open-Source Languages\n\n\nChallenges\n\n\nLanguage and Packages Versions control complexities\nReproducibility concerns across environments\nLimited standardization in how R analyses are documented\n\n\n\n\n\nLet us have a look at examples\n\n\n\nLG\nOpen Current R-based submissions and compare to SAS reported study ADRG (preferably the one from PHUSE ADRG WG - 2019)\nhttps://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf\nhttps://rpodcast.quarto.pub/pilot4-webassembly-adrg/#submission-of-programs\nhttps://github.com/ari-stotle-max/phuse-css-2023/tree/main\nshow current (PHUSE ADRG WG - 2019) ADRG template update for R: explain why a general statement of version of R and platform is not enough.\nNeed for updated approach that encompasses open-source practices"
+  },
+  {
+    "objectID": "index.html#recap-background-and-context",
+    "href": "index.html#recap-background-and-context",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Recap: Background and Context",
+    "text": "Recap: Background and Context\n\n\nADRG aids reviewers’ understanding of datasets & terminology\nProprietary software: version info in SAP & ADRG\nOpen-source languages challenges: dependencies, control, reproducibility\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "index.html#stakeholder-engagement",
+    "href": "index.html#stakeholder-engagement",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Stakeholder Engagement",
+    "text": "Stakeholder Engagement\n\n\nOngoing discussions with R Consortium Submissions WG\nCollaboration with PHUSE Data Standards group\nIndustry input from R users in pharma companies\nGathering diverse perspectives on requirements\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "index.html#key-findings-from-consultations",
+    "href": "index.html#key-findings-from-consultations",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Key Findings from Consultations",
+    "text": "Key Findings from Consultations\n\n\nNeed for systematic documentation of R packages and versions\nImportance of environment reproducibility\nGaps in existing ADRG template for R-specific metadata\n\nSee the existing completion guideline\n\nDesire for automated solutions to reduce manual documentation burden\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "index.html#key-adrg-sections-requiring-updates",
+    "href": "index.html#key-adrg-sections-requiring-updates",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Key ADRG Sections Requiring Updates",
+    "text": "Key ADRG Sections Requiring Updates\n\n\nSection 7: Submissions of Programs\n\nADaM Programs\nAnalysis Output Programs\nMacro Programs\n\nNew section: R Environment Specifications\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "index.html#proposed-approach",
+    "href": "index.html#proposed-approach",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Proposed Approach",
+    "text": "Proposed Approach\n\n\nCreate an ADRG R supplementary completion guideline\nCreate dedicated R package (ADRG) for standardized documentation\n\nAutomate extraction of R environment metadata\nGenerate standardized ADRG sections for R analyses\n\nEnsure compatibility with existing ADRG template\n\n\n\n\nCG\ndon’t forget to talk about ADRG LLM current work"
+  },
+  {
+    "objectID": "index.html#ensuring-reproducibility",
+    "href": "index.html#ensuring-reproducibility",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Ensuring Reproducibility",
+    "text": "Ensuring Reproducibility\n\n\nEnvironment snapshot creation\n\nPackage dependency tracking (renv integration)\nR version\nIDE used (Rstudio, Vscode, etc…)\n\nDocker container specifications (when applicable)\nPlatform independence considerations\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "index.html#recap-draft-guidelines",
+    "href": "index.html#recap-draft-guidelines",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Recap: Draft Guidelines",
+    "text": "Recap: Draft Guidelines\n\n\nCreate a supplementary guideline for R deliverable\nR package development for sections in the ADRG\nCreate a supporting document for reproducing the R environment\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "index.html#core-features-of-the-adrg-package",
+    "href": "index.html#core-features-of-the-adrg-package",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Core Features of the adrg Package",
+    "text": "Core Features of the adrg Package\n\n\n1.2 Study Data Standards and Dictionary Inventory\n\nPotential source: TS SDTM metadata\n\n3.1 Core Variables\n\nSource: define.xml specifications\n\n4.2 Data Dependencies\n\nCode scraping for ADaM programs.\n\n5.2 Analysis Datasets\n\nMetadata extraction from .xpts\n\n6.2 Issues Summary\n\nReport extraction from Pinnacle 21\n\n7.2 ADaM Programs\n\nMetadata extraction from .xpts\n\n7.3 Analysis Output Programs\n\nRead in folder that contains selected outputs\n\n7.4 & 7.5 R Packages\n\nCode utilizing SessionInfo() and {renv}\n\nExport in multiple formats (Word, PDF, HTML)\n\n\n\nTables in the Current ADRG for Automation - from the Pilot 3 ADRG\n\n\n\nCG"
+  },
+  {
+    "objectID": "index.html#vi.-next-steps-and-feedback",
+    "href": "index.html#vi.-next-steps-and-feedback",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "VI. Next Steps and Feedback",
+    "text": "VI. Next Steps and Feedback\n\nCore work:\n\nOSDocuMeta Minutes\nCommunication of Version Metadata for Open-Source Languages\nDocumentation and Presentations\nPackage development\n\nCall for Input :\n\nEncourage thoughts and suggestions offline add a question here.\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "References",
+    "text": "References\n\nPilot 3 ADRG\nAnalysis Data Reviewer’s Guide (ADRG) Package\nU.S. Food & Drug Administration (FDA)\nStudy Data Technical Conformance Guide\nPMDA New Drug Review with Electronic Data\nR Consortium R Submission Working Group\n\n\n\nLG\n\n\nPHUSE/FDA Quarterly meeting presentation. Presented on 16OCT2024.\n\nGithub"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "",
+    "text": "Members of the PHUSE Communication of Version Metadata Working Group\n\nJoel Laxamana (Co-Lead : Roche/Genentech)\nLovemore Gakava (Co-Lead : Novo Nordisk)\nCervan Girard (Novo Nordisk)\nEric Nantz (Eli Lilly)\nNicholas Masel (Johnson & Johnson)\nSam Parmar (Pfizer)\nSteven Haesendonckx (Johnson & Johnson)\nPiotr Pasza Storożenko (Appsilon)\nCollaborating with R Consortium Submissions WG and PHUSE Data Standards group\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#sec-introducing-ourselves",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#sec-introducing-ourselves",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "The Team",
+    "text": "The Team\n\nMembers of the PHUSE Communication of Version Metadata Working Group\n\nJoel Laxamana (Co-Lead : Roche/Genentech)\nLovemore Gakava (Co-Lead : Novo Nordisk)\nCervan Girard (Novo Nordisk)\nEric Nantz (Eli Lilly)\nNicholas Masel (Johnson & Johnson)\nSam Parmar (Pfizer)\nSteven Haesendonckx (Johnson & Johnson)\nPiotr Pasza Storożenko (Appsilon)\nCollaborating with R Consortium Submissions WG and PHUSE Data Standards group\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#motivation-goal",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#motivation-goal",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Motivation & Goal",
+    "text": "Motivation & Goal\n\nMotivation:\nWhile documentation practices and reproducibility are well-established for proprietary software such as SAS, there is a need to establish consistent documentation standards and reproducibility in open-source (R, Python, etc.) statistical programming environments.\n\n\nGoal:\n\n\nThe objective of this project is to develop a new template or enhance the existing Analysis Data Reviewer’s Guide (ADRG) for open-source submissions.\nThe aim is to ensure consistent documentation of metadata pertaining to the versions of statistical packages and procedures, aligning with health authority expectations.\nThe standardized template will streamline the submission of clinical study to health authorities as part of the regulatory review process.\nBenefits: Improved reproducibility, transparency, and regulatory compliance\n\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#evolution-of-statistical-programming-in-clinical-trials",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#evolution-of-statistical-programming-in-clinical-trials",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Evolution of Statistical Programming in Clinical Trials",
+    "text": "Evolution of Statistical Programming in Clinical Trials\n\n\nTransition from proprietary software (SAS) to open-source\nGrowing adoption of open-source langages (R, python…) in clinical trials\nNeed for standardized documentation that accommodates all paradigms"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#recap-introduction",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#recap-introduction",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Recap: Introduction",
+    "text": "Recap: Introduction\n\n\n\nObjective: Contribute to the enhancement of the ADRG template for open-source submissions\nAim: Consistent metadata documentation\nBenefits: Enhanced reproducibility & transparency\nEvolution: Shift from proprietary to open-source in clinical trials\n\n\n\n\nNow lets to proceed to discuss Background and Context\n\n\n\nCG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#purpose-of-analysis-data-reviewers-guide-adrg",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#purpose-of-analysis-data-reviewers-guide-adrg",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Purpose of Analysis Data Reviewer’s Guide (ADRG)",
+    "text": "Purpose of Analysis Data Reviewer’s Guide (ADRG)\n\n\nDefinition:\n\nThe ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.\n\n\n\nProvides Regulatory reviewers with context for analysis datasets and terminology.\nSupplements information presented within the data folder (e.g. define.xml).\nIncludes a summary of ADaM and other submission documents:\n\nProtocol\nStatistical Analysis Plan (SAP)\nClinical Study Report\nDefine.xml\n\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#adrg-overview",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#adrg-overview",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "ADRG Overview",
+    "text": "ADRG Overview\n\nThe ADRG has seven required sections:\n\nIntroduction\nProtocol Description\nAnalysis Considerations Related to Multiple Analysis Datasets\nAnalysis Data Creation and Processing Issues\nAnalysis Dataset Descriptions\nData Conformance Summary\nSubmissions of Programs\n\nThe ADRG also has two optional sections:\n\nAppendix (for other documentation that would be helpful to a reviewer)\nLegacy Data Conversion Plan & Report Appendix\n\n\n\nLets show an example of an ADRG\n\n\n\nLG\nShow example of the ADRG template\nThe ADRG provides FDA reviewers with context for analysis datasets and terminology, received as part of a regulatory product submission, additional to what is presented within the data folder (i.e., define.xml). The ADRG also provides a summary of ADaM other submission documentation (e.g., the protocol, statistical analysis plan (SAP), clinical study report, define.xml) in order to provide FDA reviewers with a single point of orientation to the analysis datasets. It should be noted that the submission of an ADRG does not eliminate the requirement to submit a complete and informative define.xml file corresponding to the analysis datasets.\nAn ADRG for clinical data should be called an ADRG and the document should be a PDF file ‘adrg.pdf’ upon submission. source: [STUDY DATA TECHNICAL CONFORMANCE GUIDE] (https://www.fda.gov/media/162867/download)\nADRG_Completion_Guidelines_v1.2\n\nAction: Also open and show example ADRG (preferably the one from PHUSE ADRG WG - 2019) - show screenshots from the Protocol, SAP/RAP, Clinical Study Report and Define.xml and the connection to the ADRG.\nhttps://advance.hub.phuse.global/wiki/x/tAGZAQ https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804660/Analysis+Data+Reviewer+s+Guide+ADRG+Package\nFor PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdiscpilot01.pdf"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#from-proprietary-software-to-open-source-language",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#from-proprietary-software-to-open-source-language",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "From proprietary software to open-source language",
+    "text": "From proprietary software to open-source language\n  \n\n\n\nProprietary software\n\nSAS\nSPSS\nTibco Spotfire\n\n\n\nOpen-Source language\n\nR\nJulia\nPython\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#proprietary-statistical-programming-software",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#proprietary-statistical-programming-software",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Proprietary Statistical Programming Software",
+    "text": "Proprietary Statistical Programming Software\n\n\n\nThe version metadata of the statistical procedures/functions has been documented within the Statistical Analysis Plan with a general statement of software and version used (other companies may use other documentation)\nDetailed information has been added to the Analysis Data Reviewer’s Guide (ADRG). The ADRG has a section where the programming software version and functions are specified\n\n\n\n\nLet us have a look at an example\n\n\nCG\nOpen an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highlight section where OS software related information is needed. Focus on section 7."
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#open-source-languages",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#open-source-languages",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Open-Source Languages",
+    "text": "Open-Source Languages\n\n\nChallenges\n\n\nLanguage and Packages Versions control complexities\nReproducibility concerns across environments\nLimited standardization in how R analyses are documented\n\n\n\n\nLet us have a look at examples\n\n\n\nLG\nOpen Current R-based submissions and compare to SAS reported study ADRG (preferably the one from PHUSE ADRG WG - 2019)\nhttps://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf\nhttps://rpodcast.quarto.pub/pilot4-webassembly-adrg/#submission-of-programs\nhttps://github.com/ari-stotle-max/phuse-css-2023/tree/main\nshow current (PHUSE ADRG WG - 2019) ADRG template update for R: explain why a general statement of version of R and platform is not enough.\nNeed for updated approach that encompasses open-source practices"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#recap-background-and-context",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#recap-background-and-context",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Recap: Background and Context",
+    "text": "Recap: Background and Context\n\n\nADRG aids reviewers’ understanding of datasets & terminology\nProprietary software: version info in SAP & ADRG\nOpen-source languages challenges: dependencies, control, reproducibility\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#stakeholder-engagement",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#stakeholder-engagement",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Stakeholder Engagement",
+    "text": "Stakeholder Engagement\n\n\nOngoing discussions with R Consortium Submissions WG\nCollaboration with PHUSE Data Standards group\nIndustry input from R users in pharma companies\nGathering diverse perspectives on requirements\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#key-findings-from-consultations",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#key-findings-from-consultations",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Key Findings from Consultations",
+    "text": "Key Findings from Consultations\n\n\nNeed for systematic documentation of R packages and versions\nImportance of environment reproducibility\nGaps in existing ADRG template for R-specific metadata\n\nSee the existing completion guideline\n\nDesire for automated solutions to reduce manual documentation burden\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#key-adrg-sections-requiring-updates",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#key-adrg-sections-requiring-updates",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Key ADRG Sections Requiring Updates",
+    "text": "Key ADRG Sections Requiring Updates\n\n\nSection 7: Submissions of Programs\n\nADaM Programs\nAnalysis Output Programs\nMacro Programs\n\nNew section: R Environment Specifications\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#proposed-approach",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#proposed-approach",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Proposed Approach",
+    "text": "Proposed Approach\n\n\nCreate an ADRG R supplementary completion guideline\nCreate dedicated R package (ADRG) for standardized documentation\n\nAutomate extraction of R environment metadata\nGenerate standardized ADRG sections for R analyses\n\nEnsure compatibility with existing ADRG template\n\n\n\n\nCG\ndon’t forget to talk about ADRG LLM current work"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#ensuring-reproducibility",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#ensuring-reproducibility",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Ensuring Reproducibility",
+    "text": "Ensuring Reproducibility\n\n\nEnvironment snapshot creation\n\nPackage dependency tracking (renv integration)\nR version\nIDE used (Rstudio, Vscode, etc…)\n\nDocker container specifications (when applicable)\nPlatform independence considerations\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#recap-draft-guidelines",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#recap-draft-guidelines",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Recap: Draft Guidelines",
+    "text": "Recap: Draft Guidelines\n\n\nCreate a supplementary guideline for R deliverable\nR package development for sections in the ADRG\nCreate a supporting document for reproducing the R environment\n\n\n\n\nCG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#core-features-of-the-adrg-package",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#core-features-of-the-adrg-package",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "Core Features of the adrg Package",
+    "text": "Core Features of the adrg Package\n\n\n1.2 Study Data Standards and Dictionary Inventory\n\nPotential source: TS SDTM metadata\n\n3.1 Core Variables\n\nSource: define.xml specifications\n\n4.2 Data Dependencies\n\nCode scraping for ADaM programs.\n\n5.2 Analysis Datasets\n\nMetadata extraction from .xpts\n\n6.2 Issues Summary\n\nReport extraction from Pinnacle 21\n\n7.2 ADaM Programs\n\nMetadata extraction from .xpts\n\n7.3 Analysis Output Programs\n\nRead in folder that contains selected outputs\n\n7.4 & 7.5 R Packages\n\nCode utilizing SessionInfo() and {renv}\n\nExport in multiple formats (Word, PDF, HTML)\n\n\n\nTables in the Current ADRG for Automation - from the Pilot 3 ADRG\n\n\n\nCG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#vi.-next-steps-and-feedback",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#vi.-next-steps-and-feedback",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "VI. Next Steps and Feedback",
+    "text": "VI. Next Steps and Feedback\n\nCore work:\n\nOSDocuMeta Minutes\nCommunication of Version Metadata for Open-Source Languages\nDocumentation and Presentations\nPackage development\n\nCall for Input :\n\nEncourage thoughts and suggestions offline add a question here.\n\n\n\n\nLG"
+  },
+  {
+    "objectID": "dev/phuse_css2025/phuse_css2025-adrg.html#references",
+    "href": "dev/phuse_css2025/phuse_css2025-adrg.html#references",
+    "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
+    "section": "References",
+    "text": "References\n\nPilot 3 ADRG\nAnalysis Data Reviewer’s Guide (ADRG) Package\nU.S. Food & Drug Administration (FDA)\nStudy Data Technical Conformance Guide\nPMDA New Drug Review with Electronic Data\nR Consortium R Submission Working Group\n\n\n\nLG"
   }
 ]

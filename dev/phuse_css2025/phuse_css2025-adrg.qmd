@@ -26,11 +26,11 @@ format:
 
 ::: notes
 -   LG
-::: 
+:::
 
 # I. Introduction
 
-## Motivation & Goal 
+## Motivation & Goal
 
 ::: fragment
 Motivation:
@@ -51,7 +51,7 @@ Goal:
 
 ::: notes
 -   CG
-::: 
+:::
 
 ## Evolution of Statistical Programming in Clinical Trials
 
@@ -78,7 +78,7 @@ Goal:
 
 ::: notes
 -   CG
-::: 
+:::
 
 # II. Background and Context
 
@@ -114,7 +114,7 @@ Definition:
 
 ::: notes
 -   CG
-::: 
+:::
 
 ## ADRG Overview {.smaller}
 
@@ -147,7 +147,7 @@ The ADRG also has two optional sections:
 :::
 
 ::: notes
-- LG
+-   LG
 
 -   Show example of the ADRG template
 
@@ -188,7 +188,7 @@ For PROTOCOL, SAP, CSR - see page 8 of the document in folder references/sap-cdi
 
 ::: notes
 -   CG
-::: 
+:::
 
 ## Proprietary Statistical Programming Software
 
@@ -226,8 +226,8 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
+-   LG
 
-- LG
 -   Open Current R-based submissions and compare to SAS reported study ADRG (preferably the one from PHUSE ADRG WG - 2019)
 
 -   https://github.com/RConsortium/submissions-pilot3-adam-to-fda/blob/main/m5/datasets/rconsortiumpilot3/analysis/adam/datasets/adrg.pdf
@@ -251,7 +251,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 
 ::: notes
 -   LG
-::: 
+:::
 
 # Q & A
 
@@ -259,7 +259,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 
 ::: notes
 -   LG
-::: 
+:::
 
 ## Stakeholder Engagement
 
@@ -272,7 +272,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 
 ::: notes
 -   LG
-::: 
+:::
 
 ## Key Findings from Consultations
 
@@ -285,7 +285,7 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
-- LG
+-   LG
 :::
 
 # IV. Action Plan for R Deliverables Based on Consultations
@@ -301,9 +301,8 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
-- CG
+-   CG
 :::
-
 
 ## Proposed Approach
 
@@ -316,10 +315,9 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
-- CG
-- don't forget to talk about ADRG LLM current work
+-   CG
+-   don't forget to talk about ADRG LLM current work
 :::
-
 
 ## Ensuring Reproducibility
 
@@ -333,10 +331,8 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 :::
 
 ::: notes
-- CG
+-   CG
 :::
-
-
 
 ## Recap: Draft Guidelines
 
@@ -344,12 +340,11 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 -   Create a supplementary guideline for R deliverable
 -   R package development for sections in the ADRG
 -   Create a supporting document for reproducing the R environment
-
 :::
 
 ::: notes
 -   CG
-::: 
+:::
 
 # V. R Package Development
 
@@ -379,10 +374,9 @@ Open an example of ADRG (preferably the one from PHUSE ADRG WG - 2019) and highl
 Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 :::
 
-
 ::: notes
 -   CG
-::: 
+:::
 
 ## VI. Next Steps and Feedback
 
@@ -397,11 +391,9 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 
     -   Encourage thoughts and suggestions offline [add a question here](https://github.com/phuse-org/OSDocuMeta/issues/new/choose).
 
-
 ::: notes
 -   LG
-::: 
-
+:::
 
 # Questions and Feedbacks
 
@@ -416,5 +408,4 @@ Tables in the Current ADRG for Automation - from the Pilot 3 ADRG
 
 ::: notes
 -   LG
-
-::: 
+:::

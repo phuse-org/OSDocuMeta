@@ -22,7 +22,9 @@ PHUSE Working Group Request
 
 ### Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025
 
-<iframe src="dev/phuse_css2025/phuse_css2025-adrg.html" width="100%" height="600px" style="border:1px solid #ccc;"></iframe>
+<iframe src="/docs/dev/phuse_css2025/phuse_css2025-adrg.html" width="100%" height="600px" style="border:1px solid #ccc;">
+
+</iframe>
 
 ### PHUSE/FDA Quarterly meeting presentation. Presented on 16OCT2024.
 

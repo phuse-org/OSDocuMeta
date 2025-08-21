@@ -481,5 +481,26 @@
     "title": "Modernizing Documentation Standards for Open-Source Statistical Programming in Clinical Studies: PHUSE CSS 2025",
     "section": "References",
     "text": "References\n\nPilot 3 ADRG\nAnalysis Data Reviewer’s Guide (ADRG) Package\nU.S. Food & Drug Administration (FDA)\nStudy Data Technical Conformance Guide\nPMDA New Drug Review with Electronic Data\nR Consortium R Submission Working Group\n\n\n\nLG"
+  },
+  {
+    "objectID": "index.html#presentations",
+    "href": "index.html#presentations",
+    "title": "Welcome to the PHUSE Open-Source Metadata Documentation Working Group Site",
+    "section": "",
+    "text": "Github"
+  },
+  {
+    "objectID": "minutes.html#aug2025",
+    "href": "minutes.html#aug2025",
+    "title": "Minutes",
+    "section": "06Aug2025",
+    "text": "06Aug2025\nNo new topics."
+  },
+  {
+    "objectID": "minutes.html#aug2025-1",
+    "href": "minutes.html#aug2025-1",
+    "title": "Minutes",
+    "section": "20Aug2025",
+    "text": "20Aug2025\nAttendees: Joel Laxamana, Eric Nantz, Nicholas Masel\nAbsent*: Sam Parmar, Steven H., Lovemore Gakava\nGuest(s): N/A\nFacilitator: Joel Laxamana\n*Issues with Google meets.\n\nSummary\nEric Nantz reported that Gen AI Day had over 800 attendees, with recordings available for editing. Joel Laxamana provided an update on the ADRG example set submitted to the PHUSE data standards group and discussed plans for a finalized R example ADRG, an ADRG R completion guide, and an R package to aid ADRG R submissions. Joel Laxamana, Nicholas Masel, and Eric Nantz expressed interest in attending PHUSE US Connect, with Joel Laxamana proposing to present on the ADRG project’s history, the R consortium R submission working group, and the importance of the ADRG template. Nicholas Masel and Eric Nantz discussed regulatory feedback and submission formats, with Eric Nantz favoring HTML for its benefits over static PDF.\n\nDetails\n\nGen AI Day Eric Nantz reported that Gen AI Day, held yesterday, had a huge turnout with over 800 attendees. Eric Nantz also mentioned that they have the recordings ready for editing and that the domain never has a dull moment.\nADRG Template Update and Next Steps Joel Laxamana provided an update on the ADRG example set, which has been submitted to the PHUSE data standards group for feedback. Joel Laxamana outlined the three main pieces the group is trying to finalize: using the updated ADRG template for a finalized R example ADRG, which will be part of the new ADRG package for publication, and creating an ADRG R completion guide. Joel Laxamana also mentioned the creation of an R package to help populate information for ADRG R submissions.\nPHUSE US Connect Conference Planning Joel Laxamana expressed interest in participating in PHUSE US Connect in Texas and asked Nicholas Masel about the pavilion session. Nicholas Masel clarified that the pavilion session is like a CSS event, allowing for workshops or Q&A sessions, and would involve a smaller group of people, such as those from working groups or regulatory bodies. Joel Laxamana proposed discussing the history of the ADRG project, the R consortium R submission working group, and the importance of the ADRG template for smooth R submissions. Joel Laxamana also intends to share how the pilots have been used by those working on real studies in the industry and the plans for knowledge sharing, including the three documents and the R package being developed to help fill in metadata for R submission ADRGs.\nDiscussion on Regulatory Feedback and Format Nicholas Masel inquired whether regulatory bodies would want assistance in standardizing the unpacking of submissions on their end. Eric Nantz questioned the format of submissions, highlighting the benefits of HTML over static PDF for conveying information and ease of use, as demonstrated in their work for pilot 4. Joel Laxamana reiterated that the content of the R-based ADRG would be crucial for regulatory review, including instructions on reproducing the analysis environment.\nAttendance at PHUSE US Connect and Project Progress Nicholas Masel and Eric Nantz mentioned their interest in attending PHUSE US Connect but noted that they need management approval. Joel Laxamana stated that their attendance also depends on management approval, which is typically granted if their submission is accepted. Joel Laxamana acknowledged a slow pace in the working group due to internal changes and the high-profile industry changes, such as Michael Lawrence no longer being in their role. Joel Laxamana outlined plans to continue working on the R package functions and to start on the R completion guide while awaiting feedback from Christine.\n\n\n\n\nAction Items:\n\nJoel Laxamana will ping Christine again to check the status of the updated ADRG template.\nJoel Laxamana will work on the R package functions and start on the R completion guide for the ADRG.\nJoel Laxamana will send out new actions to the group and look into switching the meeting platform to Zoom."
   }
 ]

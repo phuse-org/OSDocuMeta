@@ -31,5 +31,3 @@ PHUSE Working Group Request
 ![](/references/Final%20-%20Enhancing%20Clinical%20Trials%20FDA%20Submission%20Documentation%20through%20the%20Power%20of%20Metadata%20-%20OSDocuMetaWG.pptx.pdf){width="100%" height="1000px"}
 
 [Github](https://phuse-org.github.io/OSDocuMeta/)
-
-## 

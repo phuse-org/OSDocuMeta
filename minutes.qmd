@@ -1144,3 +1144,437 @@ Eric Nantz reported that Gen AI Day had over 800 attendees, with recordings avai
 -   Joel Laxamana will work on the R package functions and start on the R completion guide for the ADRG.
 
 -   Joel Laxamana will send out new actions to the group and look into switching the meeting platform to Zoom.
+
+## 03Sep2025
+
+**Attendees:** Joel Laxamana, Lovemore Gakava
+
+**Absent:** Sam Parmar, Steven H., Nicholas Masel, Eric Nantz
+
+**Guest(s):** N/A
+
+**Facilitator:** Joel Laxamana
+
+#### **Summary**
+
+Joel Laxamana provided updates on the working group progress, noting that internal workload has limited his availability for package development. He highlighted that the group is waiting for feedback from Christine Rossin's standards group on the ADRG template before proceeding with significant work. The discussion emphasized the importance of prioritizing the ADRG completion guide alongside the R package development.
+
+The team discussed the strategic approach moving forward: creating a QMD shell/template based on expected template direction, developing functions to populate the ADRG, and drafting the completion guideline document. Lovemore Gakava demonstrated the "whirl" (W-H-I-R-L) package from Novo Nordisk, now available on CRAN and part of pharmaverse, which automatically generates detailed execution logs with session info, package dependencies (both direct and indirect), and can be used to extract metadata for ADRG sections.
+
+#### **Key Discussion Points**
+
+**Current Status and Priorities:**
+
+-   The working group has slowed due to back-and-forth with FDA and Christine's standards group on the ADRG template
+-   Limited feedback received from FDA quarterly meeting presentation
+-   Team members (Eric, Sam, Steven) are focused on Pilot 5 work in the R Consortium
+-   Need to establish stricter timelines and utilize GitHub issues for task assignment
+
+**Strategic Approach:**
+
+-   Create QMD shell based on anticipated template structure, with placeholders for uncertain sections
+-   Develop R package functions to populate ADRG sections
+-   Draft R completion guideline to accompany the example
+-   Work in parallel on these deliverables rather than waiting for final template
+
+**Key Deliverables Targeted for End of Year:**
+
+1.  Draft R completion guide
+2.  Full R example ADRG using Quarto
+3.  Core R package functions to generate ADRG content
+
+**Presentation Plans:**
+
+-   Joel submitted abstract for PHUSE US Connect in Texas to demonstrate progress
+-   Plans to demo Quarto-generated ADRG example and R package functions
+-   Aim to show how functions can read data and generate ADRG content
+
+**Technical Discussion:**
+
+-   Reviewed R package development best practices
+-   Discussed the "whirl" package capabilities for:
+    -   Running R, QMD, and Python scripts
+    -   Generating comprehensive execution logs
+    -   Capturing session info, package dependencies, environmental variables
+    -   Extracting metadata in machine-readable format for ADRG sections
+-   Discussed potential to leverage existing solutions like whirl for ADRG metadata needs
+-   Joel expressed interest in potentially using whirl for the function he's developing to list R programs and functions used
+
+**Working Approach:**
+
+-   Lovemore Gakava to draft initial QMD file based on pilot 3 work
+-   Technical experts can refine and optimize the code
+-   Focus on getting drafts in place rather than perfect solutions
+-   Joel working on R programs listing function and functions used within programs
+
+#### **Action Items:**
+
+-   **Lovemore Gakava** to take pilot 3 QMD file, align it with expected template direction, and have draft ready by next Wednesday (Sep 10) for team review before the following meeting (Sep 17)
+
+-   **Joel Laxamana** to update his R programs listing function to include column for functions used in those programs by next Friday (Sep 12)
+
+-   **Lovemore Gakava** and **Joel Laxamana** to organize a session next week to teach Joel how to source functions from the package and call it as a package (Cervan to join when back from holiday for deeper technical session)
+
+-   **Team** to review draft QMD file and provide input for next meeting
+
+-   **Team** to continue working on R package functions that can be plugged into the QMD template
+
+-   **Lovemore Gakava** to share whirl package link and documentation with Joel
+
+#### **Key Questions:**
+
+-   How can we best utilize team members who are currently focused on other priorities?
+
+    -   **Proposed answer:** Use GitHub issues to assign specific, manageable tasks with clear timelines
+
+-   Should we continue waiting for Christine's final template or proceed with our best understanding?
+
+    -   **Agreed approach:** Proceed with draft based on expected direction, with placeholders for uncertain sections
+
+-   How can we leverage existing tools like whirl for our ADRG metadata needs?
+
+    -   **Proposed answer:** Explore borrowing concepts like first/second level dependency extraction from whirl for our package
+
+## 17Sep2025
+
+**Attendees:** Lovemore Gakava, Cervan Girard, Steven Haesendonckx
+
+**Absent:** Joel Laxamana, Sam Parmar, Nicholas Masel, Eric Nantz
+
+**Guest(s):** N/A
+
+**Facilitator:** Lovemore Gakava
+
+#### **Summary**
+
+The meeting focused on repository maintenance and coordination while awaiting feedback from Christine Rossin on the generic ADRG template. Lovemore Gakava and Cervan Girard reviewed the status of pull requests and branches, identifying areas requiring cleanup and consolidation. The team discussed two separate branches containing functions to get package dependencies, agreeing to merge and refactor them for comparison. Joel Laxamana's update indicated he will present the working group's progress at PHUSE US Connect, similar to the CSS presentation. Repository maintenance included closing completed issues, cleaning up merged branches, and addressing workflow questions about the dev branch strategy.
+
+#### **Key Discussion Points**
+
+**ADRG Template Status:**
+
+-   Comments on the ADRG template have been submitted to Christine Rossin
+-   Christine will take comments to her standards group to design a generic template
+-   This remains a blocker for finalizing the example and full implementation
+-   Joel has chased Christine but no response yet
+-   Team agreed this is not a complete blocker - can continue creating functions for different sections
+
+**PHUSE US Connect Presentation:**
+
+-   Joel will present the working group's progress at PHUSE US Connect
+-   Presentation will be similar to the CSS presentation delivered earlier
+-   Joel provided update on his branch status preparation
+
+**Pull Requests and Branch Review:**
+
+-   Reviewed PR #24 (initial proposal) - contains script to get dependencies by scraping code
+-   Identified two separate branches with functions to get package list:
+    -   One branch with get_dependency script
+    -   Another branch (issue #12) with alternative approach using RL
+-   Both branches address same functionality but with different implementations
+-   Need to compare the two solutions and determine best approach or hybrid solution
+
+**Repository Maintenance:**
+
+-   Nine branches identified in total, requiring cleanup
+-   Closed completed issues including "transform the repo as an R package"
+-   Deleted branches that had already been merged
+-   GH-pages branch must be retained for package documentation publishing
+-   Question raised about Steven's branch (10 Adam progress) - no recent commits pushed
+-   Agreed to contact Steven via email or Slack to check on local work
+
+**Dev Branch Incident:**
+
+-   Dev branch was accidentally deleted during cleanup
+-   Successfully restored dev branch using GitHub's branch restoration feature
+-   Reopened pull request from dev to main
+-   Triggered discussion about whether to maintain dev branch or work directly from main
+
+**Workflow Strategy:**
+
+-   Discussion on maintaining dev branch vs. direct commits to main
+-   Dev branch currently three commits behind main
+-   Team to decide on Friday meeting whether to keep dev branch workflow
+-   Need to close pull requests targeting deleted dev branch
+
+**QMD Template Discussion:**
+
+-   Discussed creating a QMD shell/placeholder while waiting for final template from Christine
+-   Acknowledged the shell would need rework once official template is received
+-   Agreed to create proof of concept to demonstrate how functions might work conceptually
+-   Would provide tangible progress even while waiting for template approval
+
+**Communication Channels:**
+
+-   Confirmed working group has Slack channel available
+-   Discussed using GitHub discussions vs. email for contacting team members
+-   Agreed to use multiple channels as needed for different communication types
+
+#### **Action Items:**
+
+-   **Lovemore Gakava** and **Cervan Girard** to merge the two package dependency branches on Friday and refactor/compare solutions
+
+-   **Lovemore Gakava** to create issue to compare candidate functions for getting list of package dependencies, referencing both branches
+
+-   **Lovemore Gakava** to contact Steven (via email or Slack) about status of 10 Adam progress branch
+
+-   **Lovemore Gakava** and **Cervan Girard** to review Steven's PR and assess if it needs work
+
+-   **Team** to decide on Friday whether to maintain dev branch or work directly from main
+
+-   **Lovemore Gakava** to review core variables branch work for Friday session
+
+-   **Team** to consider creating QMD shell/proof of concept while waiting for final template
+
+-   **Lovemore Gakava** to link pull requests to corresponding issues for better tracking
+
+#### **Key Questions:**
+
+-   Should we maintain two separate functions for getting package dependencies or merge into one?
+
+    -   **Agreed approach:** Merge both branches, refactor, and compare results to determine best solution or hybrid approach
+
+-   Should we continue maintaining dev branch or work directly to main?
+
+    -   **Decision pending:** To be discussed and decided at Friday meeting
+
+-   Should we create QMD template now or wait for final template from Christine?
+
+    -   **Agreed approach:** Create proof of concept QMD shell to demonstrate functionality, with understanding it will need rework when official template arrives
+
+## 01Oct2025
+
+**Attendees:** Joel Laxamana, Lovemore Gakava, Eric Nantz, Sam Parmar
+
+**Absent:** Steven H., Nicholas Masel
+
+**Guest(s):** N/A
+
+**Facilitator:** Joel Laxamana
+
+#### **Summary**
+
+The meeting provided updates on ongoing development work for the adrgOS package and coordination with the PHUSE ADRG standards group. Lovemore Gakava and Cervan completed cleanup work on the package list function, creating a pull request that consolidates how package information is retrieved from loaded packages, base packages, and log files. Joel Laxamana confirmed he would review the enhancements offline before merging with his existing work on issue #12.
+
+Repository maintenance was discussed, including branch cleanup and workflow decisions regarding the dev branch strategy. Joel provided an update on Christine Rossin's review of the submitted ADRG example, noting he had just clarified the proposed changes. The team agreed to continue developing functions based on the current proposal while awaiting official approval from the standards working group. Eric Nantz reported progress on Pilot 5 installation testing and committed to drafting R installation instructions by end of October.
+
+#### **Key Discussion Points**
+
+**Package Development Progress:**
+
+-   Lovemore and Cervan reviewed and cleaned up the package list function
+-   Created pull request with main changes to how packages are retrieved (loaded, base, from log file)
+-   Plan to merge with Joel's issue #12 function work
+-   Repository branch cleanup completed to remove unused branches
+
+**R Programs and Functions Listing:**
+
+-   Joel continuing work on listing all R scripts (ADaM programs and tables)
+-   Working to add new column listing functions used within each program
+-   Requirement came from FDA and Christine's ADRG template review
+-   Steven has PR #24 with initial proposal to scrape R file contents
+-   Piotr (Pasza) may have done related work during his time with the group
+
+**GitHub Actions and Installation Instructions:**
+
+-   Eric working on R installation instructions as appendix to ADRG
+-   Plans to document standard text plus dynamic/study-specific parts
+-   Drawing from recent pilots for common installation patterns
+-   Lovemore successfully tested WSL installation instructions with no issues
+-   Target: Draft R installation instructions by end of October
+
+**Pilot 5 Status:**
+
+-   Near completion, resolving Pinnacle 21 issues
+-   Testing installation instructions internally
+-   Target submission: mid-October
+-   Ben Straub and Sam Parmar will present at PHUSE US Connect
+
+**ADRG Template Status:**
+
+-   Christine Rossin reviewing submitted ADRG example for templatization
+-   Joel clarified proposed changes with Christine
+-   Changes are enhancements/additions rather than major modifications
+-   Main focus: R package list and open-source metadata
+-   Group in "amber" status (slow progress) waiting for template approval
+
+**Development Workflow:**
+
+-   Discussion on dev branch vs. direct to main workflow
+-   Decided to maintain dev branch as protection strategy
+-   Practice aligns with industry standard workflows
+-   Team agreed to keep dev branch approach
+
+**QMD Template Strategy:**
+
+-   Lovemore suggested assembling QMD document at the end once functions are ready
+-   Joel advocated for front-loading one function at a time into QMD for early testing
+-   Agreement to add functions piece by piece as they become ready
+-   Helps catch issues earlier rather than big-bang approach
+
+**Timeline and Accountability:**
+
+-   Team acknowledged need for soft deadlines to maintain momentum
+-   Joel committed to adding analysis programs listing with functions column by next meeting
+-   Eric committed to draft R installation instructions by end of October
+-   Sam to review issue tracker for low-hanging fruit tasks
+-   Focus on working drafts rather than perfection initially
+
+**ADRG Completion Guide:**
+
+-   Discussion on starting R-specific completion guidance document
+-   Would be based on current ADRG completion guidance, modified for R
+-   Decision to track this in OSDocuMeta repository rather than adrgOS package
+-   More appropriate as documentation rather than code
+
+**Conference Updates:**
+
+-   Eric completed Posit Conference including R Submissions Summit
+-   Five days total: workshops, summit, main conference, presentations
+-   Sam and Ben presenting Pilot 5 at PHUSE US Connect
+-   Lovemore attended Basel conference, presented Connector package
+-   EMA representatives showed strong interest in ADRG and pilot work
+
+**EMA Collaboration Potential:**
+
+-   R Submissions Working Group has not yet had full EMA-based submission
+-   Need regular EMA reviewer contact similar to Paul/HyeSoo at FDA
+-   Time zone differences present challenges for participation
+-   Lovemore offered to connect team with interested EMA contacts from Utrecht presentation
+
+#### **Action Items:**
+
+-   **Joel Laxamana** to review pull request for package list function cleanup offline and merge with issue #12 work
+
+-   **Joel Laxamana** to push function for listing R programs/scripts with new column for functions used by next meeting (Oct 15)
+
+-   **Joel Laxamana** to follow up with Steven regarding PR #24 on scraping R file contents
+
+-   **Joel Laxamana** to create issue for R completion guidance document in OSDocuMeta repository
+
+-   **Eric Nantz** to draft R installation instructions for ADRG appendix by end of October
+
+-   **Eric Nantz** to disable some GitHub actions until team is ready for automated checks
+
+-   **Sam Parmar** to review issue tracker for tasks to pick up as bandwidth allows
+
+-   **Lovemore Gakava** to review Steven's PR and assess if work can be picked up
+
+-   **Lovemore Gakava** to provide EMA contact information from Utrecht presentation to Eric and Ning for potential collaboration
+
+-   **Team** to continue development on assigned issues with working drafts, focusing on functionality over perfection initially
+
+#### **Key Questions:**
+
+-   Should we maintain dev branch or work directly to main?
+
+    -   **Decision:** Maintain dev branch as protection and align with industry standard practice
+
+-   Should R completion guidance be in adrgOS package or OSDocuMeta repository?
+
+    -   **Decision:** OSDocuMeta repository since it's documentation rather than code
+
+-   Should QMD template be built incrementally or assembled at the end?
+
+    -   **Agreed approach:** Front-load functions one at a time into QMD for early testing and issue identification
+
+## 12Nov2025
+
+**Attendees:** Joel Laxamana, Eric Nantz
+
+**Absent:** Lovemore Gakava, Sam Parmar, Steven H., Nicholas Masel, Cervan Girard
+
+**Guest(s):** N/A
+
+**Facilitator:** Joel Laxamana
+
+#### **Summary**
+
+A brief meeting between Joel Laxamana and Eric Nantz to discuss current status and organizational challenges. Joel provided updates on organizational changes at Genentech affecting his availability for the working group, including potential need to step back from some commitments. Eric reported on Posit Pharma conference activities and shared news about FDA reviewer availability being impacted by government shutdown, putting Pilot 4 and Pilot 5 reviews on hold. Joel discussed plans to collaborate with Ning on AI approaches for ADRG generation and confirmed he had completed function updates awaiting Eric's review. The team continues to wait for updated ADRG template from Christine Rossin's standards group.
+
+#### **Key Discussion Points**
+
+**Organizational Changes and Capacity:**
+
+-   Joel experiencing significant workload increase due to organizational restructuring at Genentech
+-   Redistribution of work following staff departures affecting stats group, data scientists, and statistical programmers
+-   Joel questioning ability to attend PHUSE US Connect due to time constraints
+-   Considering need to step back from some working group commitments
+-   Plans to discuss formally with Lovemore about reduced involvement
+-   Joel balancing project lead responsibilities, PMing, clinical work, and non-project internal work
+
+**FDA Reviewer Status:**
+
+-   FDA reviewers unable to meet during government shutdown
+-   Pilot 4 and Pilot 5 reviews put on hold until shutdown resolved
+-   Expected availability potentially by November 21st (not confirmed)
+-   FDA reviewers unable to work on reviews even offline during shutdown
+-   Next working group meeting planned once reviewers become available
+
+**Ning's AI Initiative:**
+
+-   Ning wants to contribute AI front-end approach to ADRG generation
+-   Joel exploring collaboration to join forces rather than duplicate efforts
+-   Plans to invite Ning to next meeting after offline discussion
+-   May need formal PHUSE working group membership process through Alexandra
+-   Joel sees package approach complementing AI efforts - package functions could feed into AI prompts
+-   Ning's AI work could contribute functions to the package
+
+**Package Development Status:**
+
+-   Joel completed function updates and tagged Eric as reviewer
+-   Eric updated GitHub workflows for the package
+-   Joel behind on updating meeting minutes to website
+-   Lovemore working on a function (unable to provide update due to absence)
+-   Sam declined recent meetings, likely due to being busy
+-   No major package issues identified by Eric
+
+**ADRG Template Status:**
+
+-   Still waiting on standards group for official new ADRG template
+-   No second draft has been shared with working group
+-   Team remains on hold, continuing with current draft
+
+**Conference Activities:**
+
+-   Eric participated in Posit Pharma conference with significant prep work
+-   Admiral Neuro extension launched 4-5 months ago with strong community support
+-   Jian from Lilly and Eduardo leading Admiral Neuro efforts
+
+#### **Action Items:**
+
+-   **Joel Laxamana** to have formal discussion with Lovemore about potential reduction in working group involvement
+
+-   **Joel Laxamana** to discuss PHUSE US Connect attendance with Nick given capacity constraints
+
+-   **Joel Laxamana** to meet with Ning offline to discuss collaboration on AI approach for ADRG
+
+-   **Joel Laxamana** to invite Ning to next working group meeting
+
+-   **Joel Laxamana** to check with Alexandra about formal PHUSE working group membership process for Ning
+
+-   **Joel Laxamana** to update meeting minutes on website when time permits
+
+-   **Eric Nantz** to review Joel's latest pull request for function updates
+
+-   **Eric Nantz** to continue with workflow optimizations and lower-level package improvements
+
+-   **Team** to continue waiting for updated ADRG template from standards group
+
+#### **Key Questions:**
+
+-   Can Joel maintain current level of involvement given organizational changes and increased workload?
+
+    -   **Status:** Under consideration, formal discussion needed with Lovemore
+
+-   When will FDA reviewers be available to resume Pilot 4 and Pilot 5 reviews?
+
+    -   **Best estimate:** Potentially November 21st, but not confirmed - depends on government shutdown resolution
+
+-   Should we pursue separate AI approach or integrate with package development?
+
+    -   **Agreed approach:** Collaborate with Ning to join forces - package functions can feed into AI prompts, creating complementary solutions
+
+-   How can Ning formally join the PHUSE working group?
+
+    -   **Action required:** Check with Alexandra about membership process, though approach may be informal similar to R Submissions Working Group

@@ -8,7 +8,7 @@ This folder contains proposal documents related to the ADRG (Analysis Data Revie
 
 ### Current Working Document
 
-**Open-Source (i.e. R) ADRG submission Completion_Guideline.docx** (Latest) - The primary document being prepared for the ADRG PHUSE completion guideline - Will be presented to the ADRG PHUSE Working Group - Currently under review
+**Open-Source (i.e. R) ADRG submission CG.docx** (Latest) - The primary document being prepared for the ADRG PHUSE completion guideline - Will be presented to the ADRG PHUSE Working Group - Currently under review
 
 ### Background Documents
 
